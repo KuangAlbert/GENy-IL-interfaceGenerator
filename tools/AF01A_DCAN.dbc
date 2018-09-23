@@ -1,0 +1,2345 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: Gen AF01A
+VAL_TABLE_ Status_Bottom_HLB 3 "Invalid signal" 2 "defined by oncoming vehicle" 1 "defined by preceding vehicle" 0 "No object detected" ;
+
+
+BO_ 3221225472 VECTOR__INDEPENDENT_SIG_MSG: 0 Vector__XXX
+ SG_ CAN_TX_ACTIVE_FAULT_3 : 0|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_1961 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 0|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 0|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 0|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 0|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 0|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 0|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 0|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 0|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ CAN_TX_TRACK_STATUS : 0|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ CAN_TX_TRACK_STATUS : 0|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ CAN_TX_TRACK_STATUS : 0|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ CAN_TX_TRACK_STATUS : 0|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ CAN_TX_TRACK_STATUS : 0|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_1655 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 0|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 0|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 0|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 0|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 0|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 0|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 0|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 0|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 0|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 0|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 0|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_1548 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_1513 : 0|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_1502 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ CAN_TX_TRACK_RANGE_RATE : 0|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ CAN_TX_TRACK_RANGE_RATE : 0|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ CAN_TX_TRACK_RANGE_RATE : 0|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ CAN_TX_TRACK_RANGE_RATE : 0|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 0|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_1353 : 0|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 0|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 0|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 0|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 0|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ CAN_TX_TRACK_RANGE : 0|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ CAN_TX_TRACK_RANGE : 0|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ CAN_TX_TRACK_RANGE : 0|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ CAN_TX_TRACK_RANGE : 0|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_1169 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_1161 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ CAN_TX_TRACK_ONCOMING : 0|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_1037 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_1023 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_1013 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 0|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 0|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_792 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_791 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_790 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_789 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_788 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_787 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_786 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_785 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_784 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_783 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_782 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_781 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_780 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_779 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_778 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_777 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_776 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_775 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_774 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_773 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_772 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_771 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_770 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_769 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_768 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_767 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_766 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_765 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_764 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_763 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_762 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_761 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_760 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_759 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_758 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_757 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_756 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_755 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_754 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_753 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_752 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_751 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_750 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_749 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_748 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_747 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_746 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_745 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_744 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_743 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_742 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_741 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_740 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_739 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_738 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_737 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_736 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_735 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_734 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_733 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_732 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_731 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_730 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_729 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 0|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_663 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_662 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_661 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_660 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_659 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_658 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_657 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_656 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_655 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_654 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_653 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_652 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_651 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_650 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_649 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_648 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_647 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_646 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_645 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_644 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_643 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_642 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_641 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_640 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_639 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_638 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_637 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_636 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_635 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_634 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_633 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_632 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_631 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_630 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_629 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_628 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_627 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_626 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_625 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_624 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_623 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_622 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_621 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_620 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_619 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_618 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_617 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_616 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_615 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_614 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_613 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_612 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_611 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_610 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_609 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_608 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_607 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_606 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_605 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_604 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_603 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_602 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_601 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_600 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_599 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ CAN_TX_TRACK_ANGLE : 0|10@0- (0.1,0) [-51.2|51.1] "" Vector__XXX
+ SG_ LDW_OFF : 0|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ Error_code : 0|7@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_898 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_896 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_895 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_894 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_893 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_892 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_891 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_890 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_889 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_888 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_887 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_885 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_883 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_882 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_881 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_880 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_879 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_878 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_877 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_876 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_875 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_874 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_860 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_859 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ New_Signal_858 : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1512 ESR_Status9: 8 Vector__XXX
+ SG_ CAN_TX_SIDESLIP_ANGLE : 9|10@0- (0.125,0) [-64|63.875] "deg"  AF01A
+ SG_ CAN_TX_SERIAL_NUM_3RD_BYTE : 31|8@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_PATH_ID_ACC_3 : 63|8@0+ (1,0) [0|64] ""  AF01A
+ SG_ CAN_TX_PATH_ID_ACC_2 : 55|8@0+ (1,0) [0|64] ""  AF01A
+ SG_ CAN_TX_FILTERED_XOHP_ACC_CIPV : 32|9@0- (0.03125,0) [0|7.96875] ""  AF01A
+ SG_ CAN_TX_WATEG_SPRAY_TARGET_ID : 39|7@0+ (1,0) [0|64] ""  AF01A
+ SG_ CAN_TX_AVG_PWR_CWBLKG : 7|12@0+ (1,0) [0|0] ""  AF01A
+
+BO_ 1511 ESR_Status8: 8 Vector__XXX
+ SG_ CAN_TX_HISTORY_FAULT_7 : 63|8@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_HISTORY_FAULT_6 : 55|8@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_HISTORY_FAULT_5 : 47|8@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_HISTORY_FAULT_4 : 32|8@1- (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_HISTORY_FAULT_3 : 31|8@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_HISTORY_FAULT_2 : 23|8@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_HISTORY_FAULT_1 : 15|8@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_HISTORY_FAULT_0 : 7|8@0+ (1,0) [0|0] ""  AF01A
+
+BO_ 1510 ESR_Status7: 8 Vector__XXX
+ SG_ CAN_TX_ACTIVE_FAULT_7 : 63|8@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_ACTIVE_FAULT_6 : 55|8@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_ACTIVE_FAULT_5 : 47|8@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_ACTIVE_FAULT_4 : 39|8@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_ACTIVE_FAULT_3 : 31|8@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_ACTIVE_FAULT_2 : 23|8@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_ACTIVE_FAULT_1 : 15|8@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_ACTIVE_FAULT_0 : 7|8@0+ (1,0) [0|0] ""  AF01A
+
+BO_ 1509 ESR_Status6: 8 Vector__XXX
+ SG_ CAN_TX_WAVE_DIFF_A2D : 23|8@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_VERTICAL_MISALIGNMENT : 63|8@0- (0.0625,0) [0|6] ""  AF01A
+ SG_ CAN_TX_VERTICAL_ALIGN_UPDATED : 27|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_SYSTEM_POWER_MODE : 26|3@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_SW_VERSION_DSP_3RD_BYTE : 31|4@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_SUPPLY_N5V_A2D : 15|8@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_SUPPLY_1P8V_A2D : 7|8@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_SERV_ALIGN_UPDATES_DONE : 55|8@0+ (1,0) [0|255] ""  AF01A
+ SG_ CAN_TX_RECOMMEND_UNCONVERGE : 38|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_FOUND_TARGET : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_FACTORY_MISALIGNMENT : 47|8@0- (0.0625,0) [-5|5] ""  AF01A
+ SG_ CAN_TX_FACTORY_ALIGN_STATUS_2 : 34|3@0+ (1,0) [0|5] ""  AF01A
+ SG_ CAN_TX_FACTORY_ALIGN_STATUS_1 : 37|3@0+ (1,0) [0|5] ""  AF01A
+
+BO_ 1508 ESR_Status5: 8 Vector__XXX
+ SG_ CAN_TX_TEMP2_A2D : 31|8@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TEMP1_A2D : 23|8@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_SWBATT_A2D : 7|8@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_SUPPLY_5VDX_A2D : 47|8@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_SUPPLY_5VA_A2D : 39|8@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_SUPPLY_3P3V_A2D : 55|8@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_SUPPLY_10V_A2D : 63|8@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_IGNP_A2D : 15|8@0+ (1,0) [0|0] ""  AF01A
+
+BO_ 1343 ESR_Track64: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1342 ESR_Track63: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1341 ESR_Track62: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1340 ESR_Track61: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1339 ESR_Track60: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1338 ESR_Track59: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1337 ESR_Track58: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1336 ESR_Track57: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1335 ESR_Track56: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1334 ESR_Track55: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|-51.2] "deg"  AF01A
+
+BO_ 1333 ESR_Track54: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1332 ESR_Track53: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1331 ESR_Track52: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 2|6@1- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1330 ESR_Track51: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|-51.2] "deg"  AF01A
+
+BO_ 1329 ESR_Track50: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1328 ESR_Track49: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|0] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1327 ESR_Track48: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1326 ESR_Track47: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1325 ESR_Track46: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1324 ESR_Track45: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1323 ESR_Track44: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1322 ESR_Track43: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1321 ESR_Track42: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1320 ESR_Track41: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1319 ESR_Track40: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1318 ESR_Track39: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1317 ESR_Track38: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1316 ESR_Track37: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1315 ESR_Track36: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1314 ESR_Track35: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1313 ESR_Track34: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1312 ESR_Track33: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1311 ESR_Track32: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1310 ESR_Track31: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1309 ESR_Track30: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1308 ESR_Track29: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1307 ESR_Track28: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1306 ESR_Track27: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0- (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.91|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1305 ESR_Track26: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1304 ESR_Track25: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1303 ESR_Track24: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1302 ESR_Track23: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1301 ESR_Track22: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1300 ESR_Track21: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1299 ESR_Track20: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1298 ESR_Track19: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1297 ESR_Track18: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1296 ESR_Track17: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1295 ESR_Track16: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1294 ESR_Track15: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1293 ESR_Track14: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1292 ESR_Track13: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1291 ESR_Track12: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1290 ESR_Track11: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1289 ESR_Track10: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1288 ESR_Track09: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1287 ESR_Track08: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1286 ESR_Track07: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1285 ESR_Track06: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1284 ESR_Track05: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1283 ESR_Track04: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|0] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1282 ESR_Track03: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1281 ESR_Track02: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1280 ESR_Track01: 8 Vector__XXX
+ SG_ CAN_TX_TRACK_WIDTH : 37|4@0+ (0.5,0) [0|7.5] "m"  AF01A
+ SG_ CAN_TX_TRACK_STATUS : 15|3@0+ (1,0) [0|7] ""  AF01A
+ SG_ CAN_TX_TRACK_ROLLING_COUNT : 38|1@0+ (1,0) [0|1] ""  AF01A
+ SG_ CAN_TX_TRACK_RANGE_RATE : 53|14@0- (0.01,0) [-81.92|81.91] "m/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE_ACCEL : 33|10@0- (0.05,0) [-25.6|25.55] "m/s/s"  AF01A
+ SG_ CAN_TX_TRACK_RANGE : 18|11@0+ (0.1,0) [0|204.7] "m"  AF01A
+ SG_ CAN_TX_TRACK_ONCOMING : 0|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_MED_RANGE_MODE : 55|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_TRACK_LAT_RATE : 7|6@0- (0.25,0) [-8|7.75] ""  AF01A
+ SG_ CAN_TX_TRACK_GROUPING_CHANGED : 1|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_BRIDGE_OBJECT : 39|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_TRACK_ANGLE : 12|10@0- (0.1,0) [-51.2|51.1] "deg"  AF01A
+
+BO_ 1251 ESR_Status4: 8 Vector__XXX
+ SG_ CAN_TX_TRUCK_TARGET_DET : 7|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_SIDELIBE_BLOCKAGE : 5|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_ROLLING_COUNT_3 : 1|2@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_PATH_ID_FCW_STAT : 47|8@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_PATH_ID_FCW_MOVE : 39|8@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_PATH_ID_CMBB_STAT : 31|8@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_PATH_ID_CMBB_MOVE : 23|8@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_PATH_ID_ACC_STAT : 63|8@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_PATH_ID_ACC : 15|8@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_PARTIAL_BLOCKAGE : 4|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_MR_LR_MODE : 3|2@0+ (1,0) [0|3] ""  AF01A
+ SG_ CAN_TX_LR_ONLY_GRATING_LOBE_DET : 6|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_AUTO_ALIGE_ANGLE : 55|8@0- (0.0625,0) [-8|7.9375] ""  AF01A
+
+BO_ 1250 ESR_Status3: 8 Vector__XXX
+ SG_ CAN_TX_SW_VERSION_PLD : 63|8@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_SW_VERSION_HOST : 15|24@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_SERIAL_NUM : 39|24@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_INTERFACE_VERSION : 7|4@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_HW_VERSION : 3|4@0+ (1,0) [0|0] ""  AF01A
+
+BO_ 1249 ESR_Status2: 8 Vector__XXX
+ SG_ CAN_TX_ROLLING_COUNT_2 : 1|2@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_MAXIMUM_TRACKS_ACK : 7|6@0+ (1,0) [1|64] ""  AF01A
+ SG_ CAN_TX_RAW_DATA_MODE : 11|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_XCVR_OPERATIONAL : 12|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_INTERNAL_ERROR : 13|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_RANGE_PERF_ERROR : 14|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_OVERHEAT_ERROR : 15|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_STEERING_ANGLE_ACK : 10|11@0+ (1,0) [0|2047] "deg"  AF01A
+ SG_ CAN_TX_TEMPERATURE : 31|8@0- (1,0) [-128|127] "degC"  AF01A
+ SG_ CAN_TX_GROUPING_MODE : 33|2@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_VEH_SPD_COMP_FACTOR : 39|6@0- (0.001953125,1) [0.9375|1.060546875] ""  AF01A
+ SG_ CAN_TX_YAW_RATE_BIAS : 47|8@0- (0.125,0) [-16|15.875] ""  AF01A
+ SG_ CAN_TX_SW_VERSION_DSP : 55|16@0+ (1,0) [0|0] ""  AF01A
+
+BO_ 1248 ESR_Status1: 8 Vector__XXX
+ SG_ CAN_TX_SW_VERSION_DSP : 56|16@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ CAN_TX_VEHICLE_SPEED_CALC : 50|11@0+ (0.0625,0) [0|127.9375] "m/s"  AF01A
+ SG_ CAN_TX_YAW_RATE_CALC : 47|12@0- (0.0625,0) [-128|127.9375] "deg/s"  AF01A
+ SG_ CAN_TX_SCAN_INDEX : 31|16@0+ (1,0) [0|65535] ""  AF01A
+ SG_ CAN_TX_RADIUS_CURVATURE_CALC : 13|14@0- (1,0) [-8192|8191] "m"  AF01A
+ SG_ CAN_TX_DSP_TIMESTAMP : 5|7@0+ (2,0) [0|254] "ms"  AF01A
+ SG_ CAN_TX_COMM_ERROR : 14|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_ROLLING_COUNT_1 : 7|2@0+ (1,0) [0|0] ""  AF01A
+
+BO_ 1888 Car_Info: 8 AF01A
+ SG_ Speed : 16|8@1+ (1,0) [0|255] "km/h" Vector__XXX
+ SG_ Speed_Available : 15|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Wipers_available : 11|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ High_Beam : 5|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Low_Beam : 4|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ High_Beam_Available : 13|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Low_Beam_available : 12|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Wipers : 3|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Right_Signal : 2|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Left_Signal : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Brakes : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 1641 Detils_Lane: 8 AF01A
+ SG_ Distance_To_Right_Lane : 52|12@1- (0.02,0) [-40|40] "" Vector__XXX
+ SG_ Undocumented2 : 43|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ LDW_Availability_Right : 42|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Lane_Type_Right : 44|4@1+ (1,0) [0|15] "" Vector__XXX
+ SG_ Lane_Confidence_Right : 40|2@1+ (1,0) [0|3] "m" Vector__XXX
+ SG_ Distance_To_Left_Lane : 12|12@1- (0.02,0) [-40|40] "" Vector__XXX
+ SG_ Lane_Type_Left : 4|4@1+ (1,0) [0|15] "" Vector__XXX
+ SG_ Undocumented1 : 3|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ LDW_Availability_Left : 2|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Lane_Confidence_Left : 0|2@1+ (1,0) [0|3] "m" Vector__XXX
+
+BO_ 1915 Next_lane_Right_P: 4 AF01A
+ SG_ View_range_availability : 31|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ View_range : 16|15@1+ (0.0030625,0) [0|127.996] "meter" Vector__XXX
+ SG_ Heading_angle_Parameter_C1 : 0|16@1+ (0.0009765625,-31.999) [-0.357|0.357] "radians" Vector__XXX
+
+BO_ 1914 Next_lane_Right_O: 8 AF01A
+ SG_ Curvature_derivative_C3 : 40|16@1+ (3.72E-009,-0.00012206658) [-0.00012|0.00012] "n/a" Vector__XXX
+ SG_ Curvature_Parameter_C2 : 24|16@1+ (9.765625E-007,-0.031999) [-0.02|0.02] "n/a" Vector__XXX
+ SG_ Position_Parameter_C0 : 8|16@1- (0.00390625,0) [-127|128] "meter" Vector__XXX
+ SG_ Model_degree : 6|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ Quality : 4|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ Lane_type : 0|4@1+ (1,0) [0|15] "" Vector__XXX
+ SG_ Lane_mark_width : 56|8@1+ (0.01,0) [0|2.5] "m" Vector__XXX
+
+BO_ 1913 Next_lane_Left_N: 4 AF01A
+ SG_ View_range_availability : 31|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ View_range : 16|15@1+ (0.0030625,0) [0|127.996] "meter" Vector__XXX
+ SG_ Heading_angle_Parameter_C1 : 0|16@1+ (0.0009765625,-31.999) [-0.357|0.357] "radians" Vector__XXX
+
+BO_ 1912 Next_lane_Left_M: 8 AF01A
+ SG_ Curvature_derivative_C3 : 40|16@1+ (3.72E-009,-0.00012206658) [-0.00012|0.00012] "n/a" Vector__XXX
+ SG_ Curvature_Parameter_C2 : 24|16@1+ (9.765625E-007,-0.031999) [-0.02|0.02] "n/a" Vector__XXX
+ SG_ Position_Parameter_C0 : 8|16@1- (0.00390625,0) [-127|128] "meter" Vector__XXX
+ SG_ Model_degree : 6|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ Quality : 4|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ Lane_type : 0|4@1+ (1,0) [0|15] "" Vector__XXX
+ SG_ Lane_mark_width : 56|8@1+ (0.01,0) [0|2.5] "m" Vector__XXX
+
+BO_ 1909 Next_lane_Left_J: 4 AF01A
+ SG_ View_range_availability : 31|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ View_range : 16|15@1+ (0.0030625,0) [0|127.996] "meter" Vector__XXX
+ SG_ Heading_angle_Parameter_C1 : 0|16@1+ (0.0009765625,-31.999) [-0.357|0.357] "radians" Vector__XXX
+
+BO_ 1908 Next_lane_Left_I: 8 AF01A
+ SG_ Curvature_derivative_C3 : 40|16@1+ (3.72E-009,-0.00012206658) [-0.00012|0.00012] "n/a" Vector__XXX
+ SG_ Curvature_Parameter_C2 : 24|16@1+ (9.765625E-007,-0.031999) [-0.02|0.02] "n/a" Vector__XXX
+ SG_ Position_Parameter_C0 : 8|16@1- (0.00390625,0) [-127|128] "meter" Vector__XXX
+ SG_ Model_degree : 6|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ Quality : 4|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ Lane_type : 0|4@1+ (1,0) [0|15] "" Vector__XXX
+ SG_ Lane_mark_width : 56|8@1+ (0.01,0) [0|2.5] "m" Vector__XXX
+
+BO_ 1911 Next_lane_Right_L: 4 AF01A
+ SG_ View_range_availability : 31|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ View_range : 16|15@1+ (0.0030625,0) [0|127.996] "meter" Vector__XXX
+ SG_ Heading_angle_Parameter_C1 : 0|16@1+ (0.0009765625,-31.999) [-0.357|0.357] "radians" Vector__XXX
+
+BO_ 1910 Next_lane_Right_K: 8 AF01A
+ SG_ Curvature_derivative_C3 : 40|16@1+ (3.72E-009,-0.00012206658) [-0.00012|0.00012] "n/a" Vector__XXX
+ SG_ Curvature_Parameter_C2 : 24|16@1+ (9.765625E-007,-0.031999) [-0.02|0.02] "n/a" Vector__XXX
+ SG_ Position_Parameter_C0 : 8|16@1- (0.00390625,0) [-127|128] "meter" Vector__XXX
+ SG_ Model_degree : 6|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ Quality : 4|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ Lane_type : 0|4@1+ (1,0) [0|15] "" Vector__XXX
+ SG_ Lane_mark_width : 56|8@1+ (0.01,0) [0|2.5] "m" Vector__XXX
+
+BO_ 1907 Next_lane_Right_H: 4 AF01A
+ SG_ View_range_availability : 31|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ View_range : 16|15@1+ (0.0030625,0) [0|127.996] "meter" Vector__XXX
+ SG_ Heading_angle_Parameter_C1 : 0|16@1+ (0.0009765625,-31.999) [-0.357|0.357] "radians" Vector__XXX
+
+BO_ 1906 Next_lane_Right_G: 8 AF01A
+ SG_ Curvature_derivative_C3 : 40|16@1+ (3.72E-009,-0.00012206658) [-0.00012|0.00012] "n/a" Vector__XXX
+ SG_ Curvature_Parameter_C2 : 24|16@1+ (9.765625E-007,-0.031999) [-0.02|0.02] "n/a" Vector__XXX
+ SG_ Position_Parameter_C0 : 8|16@1- (0.00390625,0) [-127|128] "meter" Vector__XXX
+ SG_ Model_degree : 6|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ Quality : 4|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ Lane_type : 0|4@1+ (1,0) [0|15] "" Vector__XXX
+ SG_ Lane_mark_width : 56|8@1+ (0.01,0) [0|2.5] "m" Vector__XXX
+
+BO_ 1905 Next_lane_Left_F: 4 AF01A
+ SG_ View_range_availability : 31|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ View_range : 16|15@1+ (0.0030625,0) [0|127.996] "meter" Vector__XXX
+ SG_ Heading_angle_Parameter_C1 : 0|16@1+ (0.0009765625,-31.999) [-0.357|0.357] "radians" Vector__XXX
+
+BO_ 1904 Next_lane_Left_E: 8 AF01A
+ SG_ Curvature_derivative_C3 : 40|16@1+ (3.72E-009,-0.00012206658) [-0.00012|0.00012] "n/a" Vector__XXX
+ SG_ Curvature_Parameter_C2 : 24|16@1+ (9.765625E-007,-0.031999) [-0.02|0.02] "n/a" Vector__XXX
+ SG_ Position_Parameter_C0 : 8|16@1- (0.00390625,0) [-127|128] "meter" Vector__XXX
+ SG_ Model_degree : 6|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ Quality : 4|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ Lane_type : 0|4@1+ (1,0) [0|15] "" Vector__XXX
+ SG_ Lane_mark_width : 56|8@1+ (0.01,0) [0|2.5] "m" Vector__XXX
+
+BO_ 1903 Next_lane_Right_D: 4 AF01A
+ SG_ View_range_availability : 31|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ View_range : 16|15@1+ (0.0030625,0) [0|127.996] "meter" Vector__XXX
+ SG_ Heading_angle_Parameter_C1 : 0|16@1+ (0.0009765625,-31.999) [-0.357|0.357] "radians" Vector__XXX
+
+BO_ 1902 Next_lane_Right_C: 8 AF01A
+ SG_ Curvature_derivative_C3 : 40|16@1+ (3.72E-009,-0.00012206658) [-0.00012|0.00012] "n/a" Vector__XXX
+ SG_ Curvature_Parameter_C2 : 24|16@1+ (9.765625E-007,-0.031999) [-0.02|0.02] "n/a" Vector__XXX
+ SG_ Position_Parameter_C0 : 8|16@1- (0.00390625,0) [-127|128] "meter" Vector__XXX
+ SG_ Model_degree : 6|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ Quality : 4|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ Lane_type : 0|4@1+ (1,0) [0|15] "" Vector__XXX
+ SG_ Lane_mark_width : 56|8@1+ (0.01,0) [0|2.5] "m" Vector__XXX
+
+BO_ 1872 Obstacle_Data_X: 8 AF01A
+ SG_ Obstacle_Angle : 48|16@1- (0.01,0) [-327.68|327.68] "degree" Vector__XXX
+ SG_ Obstacle_Replaced : 44|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Object_Accel_X : 32|10@1- (0.03,0) [-14.97|14.97] "m/s^2" Vector__XXX
+ SG_ Obstacle_Scale_Change : 16|16@1- (0.0002,0) [-6.5532|6.5532] "pix/sec" Vector__XXX
+ SG_ Obstacle_Angle_Rate : 0|16@1- (0.01,0) [-327.68|327.68] "degree" Vector__XXX
+
+BO_ 1869 Obstacle_Data_U: 8 AF01A
+ SG_ Obstacle_Angle : 48|16@1- (0.01,0) [-327.68|327.68] "degree" Vector__XXX
+ SG_ Obstacle_Replaced : 44|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Object_Accel_X : 32|10@1- (0.03,0) [-14.97|14.97] "m/s^2" Vector__XXX
+ SG_ Obstacle_Scale_Change : 16|16@1- (0.0002,0) [-6.5532|6.5532] "pix/sec" Vector__XXX
+ SG_ Obstacle_Angle_Rate : 0|16@1- (0.01,0) [-327.68|327.68] "degree" Vector__XXX
+
+BO_ 1866 Obstacle_Data_R: 8 AF01A
+ SG_ Obstacle_Angle : 48|16@1- (0.01,0) [-327.68|327.68] "degree" Vector__XXX
+ SG_ Obstacle_Replaced : 44|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Object_Accel_X : 32|10@1- (0.03,0) [-14.97|14.97] "m/s^2" Vector__XXX
+ SG_ Obstacle_Scale_Change : 16|16@1- (0.0002,0) [-6.5532|6.5532] "pix/sec" Vector__XXX
+ SG_ Obstacle_Angle_Rate : 0|16@1- (0.01,0) [-327.68|327.68] "degree" Vector__XXX
+
+BO_ 1863 Obstacle_Data_O: 8 AF01A
+ SG_ Obstacle_Angle : 48|16@1- (0.01,0) [-327.68|327.68] "degree" Vector__XXX
+ SG_ Obstacle_Replaced : 44|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Object_Accel_X : 32|10@1- (0.03,0) [-14.97|14.97] "m/s^2" Vector__XXX
+ SG_ Obstacle_Scale_Change : 16|16@1- (0.0002,0) [-6.5532|6.5532] "pix/sec" Vector__XXX
+ SG_ Obstacle_Angle_Rate : 0|16@1- (0.01,0) [-327.68|327.68] "degree" Vector__XXX
+
+BO_ 1860 Obstacle_Data_L: 8 AF01A
+ SG_ Obstacle_Angle : 48|16@1- (0.01,0) [-327.68|327.68] "degree" Vector__XXX
+ SG_ Obstacle_Replaced : 44|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Object_Accel_X : 32|10@1- (0.03,0) [-14.97|14.97] "m/s^2" Vector__XXX
+ SG_ Obstacle_Scale_Change : 16|16@1- (0.0002,0) [-6.5532|6.5532] "pix/sec" Vector__XXX
+ SG_ Obstacle_Angle_Rate : 0|16@1- (0.01,0) [-327.68|327.68] "degree" Vector__XXX
+
+BO_ 1857 Obstacle_Data_I: 8 AF01A
+ SG_ Obstacle_Angle : 48|16@1- (0.01,0) [-327.68|327.68] "degree" Vector__XXX
+ SG_ Obstacle_Replaced : 44|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Object_Accel_X : 32|10@1- (0.03,0) [-14.97|14.97] "m/s^2" Vector__XXX
+ SG_ Obstacle_Scale_Change : 16|16@1- (0.0002,0) [-6.5532|6.5532] "pix/sec" Vector__XXX
+ SG_ Obstacle_Angle_Rate : 0|16@1- (0.01,0) [-327.68|327.68] "degree" Vector__XXX
+
+BO_ 1854 Obstacle_Data_F: 8 AF01A
+ SG_ Obstacle_Angle : 48|16@1- (0.01,0) [-327.68|327.68] "degree" Vector__XXX
+ SG_ Obstacle_Replaced : 44|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Object_Accel_X : 32|10@1- (0.03,0) [-14.97|14.97] "m/s^2" Vector__XXX
+ SG_ Obstacle_Scale_Change : 16|16@1- (0.0002,0) [-6.5532|6.5532] "pix/sec" Vector__XXX
+ SG_ Obstacle_Angle_Rate : 0|16@1- (0.01,0) [-327.68|327.68] "degree" Vector__XXX
+
+BO_ 1871 Obstacle_Data_W: 8 AF01A
+ SG_ Matched_Radar_ID : 56|7@1+ (1,0) [0|127] "" Vector__XXX
+ SG_ Radar_Match_Confidence : 52|3@1+ (1,0) [0.5|5] "" Vector__XXX
+ SG_ CIPV_Flag : 26|1@1+ (1,0) [0|1] "Enum" Vector__XXX
+ SG_ Obstacle_Lane : 24|2@1+ (1,0) [0|3] "Enum" Vector__XXX
+ SG_ Radar_Vel_X : 40|12@1- (0.0625,0) [-127.93|127.93] "meter/sec" Vector__XXX
+ SG_ Radar_Pos_X : 28|12@1+ (0.0625,0) [0|250] "meter" Vector__XXX
+ SG_ Obstacle_Age : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Obstacle_Width : 8|8@1+ (0.05,0) [0|12.5] "meter" Vector__XXX
+ SG_ Obstacle_Legnth : 0|8@1+ (0.5,0) [0|31] "meter" Vector__XXX
+
+BO_ 1868 Obstacle_Data_T: 8 AF01A
+ SG_ Matched_Radar_ID : 56|7@1+ (1,0) [0|127] "" Vector__XXX
+ SG_ Radar_Match_Confidence : 52|3@1+ (1,0) [0.5|5] "" Vector__XXX
+ SG_ CIPV_Flag : 26|1@1+ (1,0) [0|1] "Enum" Vector__XXX
+ SG_ Obstacle_Lane : 24|2@1+ (1,0) [0|3] "Enum" Vector__XXX
+ SG_ Radar_Vel_X : 40|12@1- (0.0625,0) [-127.93|127.93] "meter/sec" Vector__XXX
+ SG_ Radar_Pos_X : 28|12@1+ (0.0625,0) [0|250] "meter" Vector__XXX
+ SG_ Obstacle_Age : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Obstacle_Width : 8|8@1+ (0.05,0) [0|12.5] "meter" Vector__XXX
+ SG_ Obstacle_Legnth : 0|8@1+ (0.5,0) [0|31] "meter" Vector__XXX
+
+BO_ 1865 Obstacle_Data_Q: 8 AF01A
+ SG_ Matched_Radar_ID : 56|7@1+ (1,0) [0|127] "" Vector__XXX
+ SG_ Radar_Match_Confidence : 52|3@1+ (1,0) [0.5|5] "" Vector__XXX
+ SG_ CIPV_Flag : 26|1@1+ (1,0) [0|1] "Enum" Vector__XXX
+ SG_ Obstacle_Lane : 24|2@1+ (1,0) [0|3] "Enum" Vector__XXX
+ SG_ Radar_Vel_X : 40|12@1- (0.0625,0) [-127.93|127.93] "meter/sec" Vector__XXX
+ SG_ Radar_Pos_X : 28|12@1+ (0.0625,0) [0|250] "meter" Vector__XXX
+ SG_ Obstacle_Age : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Obstacle_Width : 8|8@1+ (0.05,0) [0|12.5] "meter" Vector__XXX
+ SG_ Obstacle_Legnth : 0|8@1+ (0.5,0) [0|31] "meter" Vector__XXX
+
+BO_ 1862 Obstacle_Data_N: 8 AF01A
+ SG_ Matched_Radar_ID : 56|7@1+ (1,0) [0|127] "" Vector__XXX
+ SG_ Radar_Match_Confidence : 52|3@1+ (1,0) [0.5|5] "" Vector__XXX
+ SG_ CIPV_Flag : 26|1@1+ (1,0) [0|1] "Enum" Vector__XXX
+ SG_ Obstacle_Lane : 24|2@1+ (1,0) [0|3] "Enum" Vector__XXX
+ SG_ Radar_Vel_X : 40|12@1- (0.0625,0) [-127.93|127.93] "meter/sec" Vector__XXX
+ SG_ Radar_Pos_X : 28|12@1+ (0.0625,0) [0|250] "meter" Vector__XXX
+ SG_ Obstacle_Age : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Obstacle_Width : 8|8@1+ (0.05,0) [0|12.5] "meter" Vector__XXX
+ SG_ Obstacle_Legnth : 0|8@1+ (0.5,0) [0|31] "meter" Vector__XXX
+
+BO_ 1859 Obstacle_Data_K: 8 AF01A
+ SG_ Matched_Radar_ID : 56|7@1+ (1,0) [0|127] "" Vector__XXX
+ SG_ Radar_Match_Confidence : 52|3@1+ (1,0) [0.5|5] "" Vector__XXX
+ SG_ CIPV_Flag : 26|1@1+ (1,0) [0|1] "Enum" Vector__XXX
+ SG_ Obstacle_Lane : 24|2@1+ (1,0) [0|3] "Enum" Vector__XXX
+ SG_ Radar_Vel_X : 40|12@1- (0.0625,0) [-127.93|127.93] "meter/sec" Vector__XXX
+ SG_ Radar_Pos_X : 28|12@1+ (0.0625,0) [0|250] "meter" Vector__XXX
+ SG_ Obstacle_Age : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Obstacle_Width : 8|8@1+ (0.05,0) [0|12.5] "meter" Vector__XXX
+ SG_ Obstacle_Legnth : 0|8@1+ (0.5,0) [0|31] "meter" Vector__XXX
+
+BO_ 1856 Obstacle_Data_H: 8 AF01A
+ SG_ Matched_Radar_ID : 56|7@1+ (1,0) [0|127] "" Vector__XXX
+ SG_ Radar_Match_Confidence : 52|3@1+ (1,0) [0.5|5] "" Vector__XXX
+ SG_ CIPV_Flag : 26|1@1+ (1,0) [0|1] "Enum" Vector__XXX
+ SG_ Obstacle_Lane : 24|2@1+ (1,0) [0|3] "Enum" Vector__XXX
+ SG_ Radar_Vel_X : 40|12@1- (0.0625,0) [-127.93|127.93] "meter/sec" Vector__XXX
+ SG_ Radar_Pos_X : 28|12@1+ (0.0625,0) [0|250] "meter" Vector__XXX
+ SG_ Obstacle_Age : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Obstacle_Width : 8|8@1+ (0.05,0) [0|12.5] "meter" Vector__XXX
+ SG_ Obstacle_Legnth : 0|8@1+ (0.5,0) [0|31] "meter" Vector__XXX
+
+BO_ 1853 Obstacle_Data_E: 8 AF01A
+ SG_ Matched_Radar_ID : 56|7@1+ (1,0) [0|127] "" Vector__XXX
+ SG_ Radar_Match_Confidence : 52|3@1+ (1,0) [0.5|5] "" Vector__XXX
+ SG_ CIPV_Flag : 26|1@1+ (1,0) [0|1] "Enum" Vector__XXX
+ SG_ Obstacle_Lane : 24|2@1+ (1,0) [0|3] "Enum" Vector__XXX
+ SG_ Radar_Vel_X : 40|12@1- (0.0625,0) [-127.93|127.93] "meter/sec" Vector__XXX
+ SG_ Radar_Pos_X : 28|12@1+ (0.0625,0) [0|250] "meter" Vector__XXX
+ SG_ Obstacle_Age : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Obstacle_Width : 8|8@1+ (0.05,0) [0|12.5] "meter" Vector__XXX
+ SG_ Obstacle_Legnth : 0|8@1+ (0.5,0) [0|31] "meter" Vector__XXX
+
+BO_ 1870 Obstacle_Data_V: 8 AF01A
+ SG_ Obstacle_Status : 56|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Obstacle_Brake_Light : 59|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Obstacle_Valid : 62|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ Obstacle_Type : 52|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Obstacle_Rel_Vel_X : 40|12@1- (0.0625,0) [-127.93|127.93] "meter/sec" Vector__XXX
+ SG_ Blinker_Info : 34|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Cut_in_and_out : 37|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Obstacle_Pos_Y : 24|10@1- (0.0625,0) [-31.93|31.93] "m" Vector__XXX
+ SG_ Obstacle_Pos_X : 8|12@1+ (0.0625,0) [0|250] "meter" Vector__XXX
+ SG_ Obstacle_ID : 0|8@1+ (1,0) [0|63] "" Vector__XXX
+
+BO_ 1867 Obstacle_Data_S: 8 AF01A
+ SG_ Obstacle_Status : 56|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Obstacle_Brake_Light : 59|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Obstacle_Valid : 62|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ Obstacle_Type : 52|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Obstacle_Rel_Vel_X : 40|12@1- (0.0625,0) [-127.93|127.93] "meter/sec" Vector__XXX
+ SG_ Blinker_Info : 34|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Cut_in_and_out : 37|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Obstacle_Pos_Y : 24|10@1- (0.0625,0) [-31.93|31.93] "m" Vector__XXX
+ SG_ Obstacle_Pos_X : 8|12@1+ (0.0625,0) [0|250] "meter" Vector__XXX
+ SG_ Obstacle_ID : 0|8@1+ (1,0) [0|63] "" Vector__XXX
+
+BO_ 1864 Obstacle_Data_P: 8 AF01A
+ SG_ Obstacle_Status : 56|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Obstacle_Brake_Light : 59|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Obstacle_Valid : 62|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ Obstacle_Type : 52|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Obstacle_Rel_Vel_X : 40|12@1- (0.0625,0) [-127.93|127.93] "meter/sec" Vector__XXX
+ SG_ Blinker_Info : 34|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Cut_in_and_out : 37|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Obstacle_Pos_Y : 24|10@1- (0.0625,0) [-31.93|31.93] "m" Vector__XXX
+ SG_ Obstacle_Pos_X : 8|12@1+ (0.0625,0) [0|250] "meter" Vector__XXX
+ SG_ Obstacle_ID : 0|8@1+ (1,0) [0|63] "" Vector__XXX
+
+BO_ 1861 Obstacle_Data_M: 8 AF01A
+ SG_ Obstacle_Status : 56|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Obstacle_Brake_Light : 59|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Obstacle_Valid : 62|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ Obstacle_Type : 52|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Obstacle_Rel_Vel_X : 40|12@1- (0.0625,0) [-127.93|127.93] "meter/sec" Vector__XXX
+ SG_ Blinker_Info : 34|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Cut_in_and_out : 37|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Obstacle_Pos_Y : 24|10@1- (0.0625,0) [-31.93|31.93] "m" Vector__XXX
+ SG_ Obstacle_Pos_X : 8|12@1+ (0.0625,0) [0|250] "meter" Vector__XXX
+ SG_ Obstacle_ID : 0|8@1+ (1,0) [0|63] "" Vector__XXX
+
+BO_ 1858 Obstacle_Data_J: 8 AF01A
+ SG_ Obstacle_Status : 56|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Obstacle_Brake_Light : 59|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Obstacle_Valid : 62|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ Obstacle_Type : 52|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Obstacle_Rel_Vel_X : 40|12@1- (0.0625,0) [-127.93|127.93] "meter/sec" Vector__XXX
+ SG_ Blinker_Info : 34|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Cut_in_and_out : 37|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Obstacle_Pos_Y : 24|10@1- (0.0625,0) [-31.93|31.93] "m" Vector__XXX
+ SG_ Obstacle_Pos_X : 8|12@1+ (0.0625,0) [0|250] "meter" Vector__XXX
+ SG_ Obstacle_ID : 0|8@1+ (1,0) [0|63] "" Vector__XXX
+
+BO_ 1855 Obstacle_Data_G: 8 AF01A
+ SG_ Obstacle_Status : 56|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Obstacle_Brake_Light : 59|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Obstacle_Valid : 62|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ Obstacle_Type : 52|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Obstacle_Rel_Vel_X : 40|12@1- (0.0625,0) [-127.93|127.93] "meter/sec" Vector__XXX
+ SG_ Blinker_Info : 34|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Cut_in_and_out : 37|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Obstacle_Pos_Y : 24|10@1- (0.0625,0) [-31.93|31.93] "m" Vector__XXX
+ SG_ Obstacle_Pos_X : 8|12@1+ (0.0625,0) [0|250] "meter" Vector__XXX
+ SG_ Obstacle_ID : 0|8@1+ (1,0) [0|63] "" Vector__XXX
+
+BO_ 1852 Obstacle_Data_D: 8 AF01A
+ SG_ Obstacle_Status : 56|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Obstacle_Brake_Light : 59|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Obstacle_Valid : 62|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ Obstacle_Type : 52|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Obstacle_Rel_Vel_X : 40|12@1- (0.0625,0) [-127.93|127.93] "meter/sec" Vector__XXX
+ SG_ Blinker_Info : 34|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Cut_in_and_out : 37|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Obstacle_Pos_Y : 24|10@1- (0.0625,0) [-31.93|31.93] "m" Vector__XXX
+ SG_ Obstacle_Pos_X : 8|12@1+ (0.0625,0) [0|250] "meter" Vector__XXX
+ SG_ Obstacle_ID : 0|8@1+ (1,0) [0|63] "" Vector__XXX
+
+BO_ 1830 TSR_message_G: 6 AF01A
+ SG_ Sign_Position_Z : 32|8@1- (0.5,0) [-16|16] "meter" Vector__XXX
+ SG_ Filter_Type : 40|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Sign_Position_Y : 24|8@1- (0.5,0) [-32|31] "meter" Vector__XXX
+ SG_ Sign_Position_X : 16|8@1+ (0.5,0) [0|122] "meter" Vector__XXX
+ SG_ Supplementary_Sign_Type : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Vision_only_Sign_Type : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1829 TSR_message_F: 6 AF01A
+ SG_ Sign_Position_Z : 32|8@1- (0.5,0) [-16|16] "meter" Vector__XXX
+ SG_ Filter_Type : 40|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Sign_Position_Y : 24|8@1- (0.5,0) [-32|31] "meter" Vector__XXX
+ SG_ Sign_Position_X : 16|8@1+ (0.5,0) [0|122] "meter" Vector__XXX
+ SG_ Supplementary_Sign_Type : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Vision_only_Sign_Type : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1828 TSR_message_E: 6 AF01A
+ SG_ Sign_Position_Z : 32|8@1- (0.5,0) [-16|16] "meter" Vector__XXX
+ SG_ Filter_Type : 40|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Sign_Position_Y : 24|8@1- (0.5,0) [-32|31] "meter" Vector__XXX
+ SG_ Sign_Position_X : 16|8@1+ (0.5,0) [0|122] "meter" Vector__XXX
+ SG_ Supplementary_Sign_Type : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Vision_only_Sign_Type : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1827 TSR_message_D: 6 AF01A
+ SG_ Sign_Position_Z : 32|8@1- (0.5,0) [-16|16] "meter" Vector__XXX
+ SG_ Filter_Type : 40|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Sign_Position_Y : 24|8@1- (0.5,0) [-32|31] "meter" Vector__XXX
+ SG_ Sign_Position_X : 16|8@1+ (0.5,0) [0|122] "meter" Vector__XXX
+ SG_ Supplementary_Sign_Type : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Vision_only_Sign_Type : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1826 TSR_message_C: 6 AF01A
+ SG_ Sign_Position_Z : 32|8@1- (0.5,0) [-16|16] "meter" Vector__XXX
+ SG_ Filter_Type : 40|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Sign_Position_Y : 24|8@1- (0.5,0) [-32|31] "meter" Vector__XXX
+ SG_ Sign_Position_X : 16|8@1+ (0.5,0) [0|122] "meter" Vector__XXX
+ SG_ Supplementary_Sign_Type : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Vision_only_Sign_Type : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1825 TSR_message_B: 6 AF01A
+ SG_ Sign_Position_Z : 32|8@1- (0.5,0) [-16|16] "meter" Vector__XXX
+ SG_ Filter_Type : 40|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Sign_Position_Y : 24|8@1- (0.5,0) [-32|31] "meter" Vector__XXX
+ SG_ Sign_Position_X : 16|8@1+ (0.5,0) [0|122] "meter" Vector__XXX
+ SG_ Supplementary_Sign_Type : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Vision_only_Sign_Type : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1898 Reference_points: 8 AF01A
+ SG_ Ref_point_2_validity : 63|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Ref_point_1_validity : 31|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Ref_point_2_Distance : 48|15@1+ (0.00390625,0) [0|127.99609376] "meters" Vector__XXX
+ SG_ Ref_point_2_Position : 32|16@1+ (0.00390625,-127.99609375) [-127.996|127.996] "meters" Vector__XXX
+ SG_ Ref_point_1_Distance : 16|15@1+ (0.00390625,0) [0|127.99609376] "meters" Vector__XXX
+ SG_ Ref_point_1_Position : 0|16@1+ (0.00390625,-127.99609376) [-127.996|127.996] "meters" Vector__XXX
+
+BO_ 1899 Numebr_of_next_lane: 1 AF01A
+ SG_ Number_lane_markers_reported : 0|8@1+ (1,0) [0|7] "" Vector__XXX
+
+BO_ 1901 Next_lane_Left_B: 4 AF01A
+ SG_ View_range_availability : 31|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ View_range : 16|15@1+ (0.0030625,0) [0|127.996] "meter" Vector__XXX
+ SG_ Heading_angle_Parameter_C1 : 0|16@1+ (0.0009765625,-31.999) [-0.357|0.357] "radians" Vector__XXX
+
+BO_ 1900 Next_lane_Left_A: 8 AF01A
+ SG_ Curvature_derivative_C3 : 40|16@1+ (3.72E-009,-0.00012206658) [-0.00012|0.00012] "n/a" Vector__XXX
+ SG_ Curvature_Parameter_C2 : 24|16@1+ (9.765625E-007,-0.031999) [-0.02|0.02] "n/a" Vector__XXX
+ SG_ Position_Parameter_C0 : 8|16@1- (0.00390625,0) [-127|128] "meter" Vector__XXX
+ SG_ Model_degree : 6|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ Quality : 4|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ Lane_type : 0|4@1+ (1,0) [0|15] "" Vector__XXX
+ SG_ Lane_mark_width : 56|8@1+ (0.01,0) [0|2.5] "m" Vector__XXX
+
+BO_ 1897 LKA_right_lane_B: 4 AF01A
+ SG_ View_range_availability : 31|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ View_range : 16|15@1+ (0.0030625,0) [0|127.996] "meter" Vector__XXX
+ SG_ Heading_angle_Parameter_C1 : 0|16@1+ (0.0009765625,-31.999) [-0.357|0.357] "radians" Vector__XXX
+
+BO_ 1896 LKA_right_lane_A: 8 AF01A
+ SG_ Curvature_derivative_C3 : 40|16@1+ (3.72E-009,-0.00012206658) [-0.00012|0.00012] "n/a" Vector__XXX
+ SG_ Curvature_Parameter_C2 : 24|16@1+ (9.765625E-007,-0.031999) [-0.02|0.02] "n/a" Vector__XXX
+ SG_ Position_Parameter_C0 : 8|16@1- (0.00390625,0) [-127|128] "meter" Vector__XXX
+ SG_ Model_degree : 6|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ Quality : 4|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ Lane_type : 0|4@1+ (1,0) [0|15] "" Vector__XXX
+ SG_ Width_right_marking : 56|8@1+ (0.01,0) [0|2.5] "m" Vector__XXX
+
+BO_ 1895 LKA_left_lane_B: 4 AF01A
+ SG_ Heading_angle_Parameter_C1 : 0|16@1+ (0.0009765625,-31.999) [-0.357|0.357] "radians" Vector__XXX
+ SG_ View_range_availability : 31|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ View_range : 16|15@1+ (0.0030625,0) [0|127.996] "meter" Vector__XXX
+
+BO_ 1894 LKA_left_lane_A: 8 AF01A
+ SG_ Curvature_Parameter_C2 : 24|16@1+ (9.765625E-007,-0.031999) [-0.02|0.02] "n/a" Vector__XXX
+ SG_ Width_left_marking : 56|8@1+ (0.01,0) [0|2.5] "m" Vector__XXX
+ SG_ Curvature_derivative_C3 : 40|16@1+ (3.72E-009,-0.00012206658) [-0.00012|0.00012] "n/a" Vector__XXX
+ SG_ Position_Parameter_C0 : 8|16@1- (0.00390625,0) [-127|128] "meter" Vector__XXX
+ SG_ Model_degree : 6|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ Quality : 4|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ Lane_type : 0|4@1+ (1,0) [0|15] "" Vector__XXX
+
+BO_ 1851 Obstacle_Data_C: 8 AF01A
+ SG_ Obstacle_Angle : 48|16@1- (0.01,0) [-327.68|327.68] "degree" Vector__XXX
+ SG_ Obstacle_Replaced : 44|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Object_Accel_X : 32|10@1- (0.03,0) [-14.97|14.97] "m/s^2" Vector__XXX
+ SG_ Obstacle_Scale_Change : 16|16@1- (0.0002,0) [-6.5532|6.5532] "pix/sec" Vector__XXX
+ SG_ Obstacle_Angle_Rate : 0|16@1- (0.01,0) [-327.68|327.68] "degree" Vector__XXX
+
+BO_ 1850 Obstacle_Data_B: 8 AF01A
+ SG_ Matched_Radar_ID : 56|7@1+ (1,0) [0|127] "" Vector__XXX
+ SG_ Radar_Match_Confidence : 52|3@1+ (1,0) [0.5|5] "" Vector__XXX
+ SG_ CIPV_Flag : 26|1@1+ (1,0) [0|1] "Enum" Vector__XXX
+ SG_ Obstacle_Lane : 24|2@1+ (1,0) [0|3] "Enum" Vector__XXX
+ SG_ Radar_Vel_X : 40|12@1- (0.0625,0) [-127.93|127.93] "meter/sec" Vector__XXX
+ SG_ Radar_Pos_X : 28|12@1+ (0.0625,0) [0|250] "meter" Vector__XXX
+ SG_ Obstacle_Age : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Obstacle_Width : 8|8@1+ (0.05,0) [0|12.5] "meter" Vector__XXX
+ SG_ Obstacle_Legnth : 0|8@1+ (0.5,0) [0|31] "meter" Vector__XXX
+
+BO_ 1849 Obstacle_Data_A: 8 AF01A
+ SG_ Obstacle_Status : 56|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Obstacle_Brake_Light : 59|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Obstacle_Valid : 62|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ Obstacle_Type : 52|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Obstacle_Rel_Vel_X : 40|12@1- (0.0625,0) [-127.93|127.93] "meter/sec" Vector__XXX
+ SG_ Blinker_Info : 34|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Cut_in_and_out : 37|3@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Obstacle_Pos_Y : 24|10@1- (0.0625,0) [-31.93|31.93] "m" Vector__XXX
+ SG_ Obstacle_Pos_X : 8|12@1+ (0.0625,0) [0|250] "meter" Vector__XXX
+ SG_ Obstacle_ID : 0|8@1+ (1,0) [0|63] "" Vector__XXX
+
+BO_ 1848 Obstacle_Status: 6 AF01A
+ SG_ Close_Car : 40|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Failsafe : 41|4@1+ (1,0) [0|7] "" Vector__XXX
+ SG_ Protocol_Version : 32|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Active_Version_Number_Section : 24|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ Left_close_rang_cut_in : 26|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Right_close_rang_cut_in : 27|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Go : 28|4@1+ (1,0) [0|15] "" Vector__XXX
+ SG_ Application_Version : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Timestamp : 8|8@1+ (1,0) [0|255] "ms" Vector__XXX
+ SG_ Num_Obstacles : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1847 Lane: 8 AF01A
+ SG_ Lane_Curvature : 0|16@1- (3.81E-006,0) [-0.12|0.12] "l/m" Vector__XXX
+ SG_ Pitch_Angle : 48|16@1+ (1.91E-006,-0.06249809) [-0.05|0.05] "radians" Vector__XXX
+ SG_ Yaw_Angle : 32|16@1+ (0.00097656,-31.999) [-31.999|31.9998596] "radians" Vector__XXX
+ SG_ CA : 28|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Right_LDW_Availability : 29|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Left_LDW_Availability : 30|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Lane_Heading : 16|12@1- (0.0005,0) [-1|1] "" Vector__XXX
+
+BO_ 1832 AHBC_high_low_beam: 3 AF01A
+ SG_ Reasons_for_switch_to_low_beam : 8|9@1+ (1,0) [0|511] "" Vector__XXX
+ SG_ Binary_high_low_beam_decision : 0|2@1+ (1,0) [0|3] "" Vector__XXX
+
+BO_ 1824 TSR_message_A: 6 AF01A
+ SG_ Sign_Position_Z : 32|8@1- (0.5,0) [-16|16] "meter" Vector__XXX
+ SG_ Filter_Type : 40|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Sign_Position_Y : 24|8@1- (0.5,0) [-32|31] "meter" Vector__XXX
+ SG_ Sign_Position_X : 16|8@1+ (0.5,0) [0|122] "meter" Vector__XXX
+ SG_ Supplementary_Sign_Type : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Vision_only_Sign_Type : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1831 Sign_Type: 8 AF01A
+ SG_ Supplementary_Sign_Type_Display4 : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Supplementary_Sign_Type_Display3 : 40|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Supplementary_Sign_Type_Display2 : 24|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Supplementary_Sign_Type_Display1 : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Vision_only_Sign_Type_Display4 : 48|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Vision_only_Sign_Type_Display3 : 32|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Vision_only_Sign_Type_Display2 : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+ SG_ Vision_only_Sign_Type_Display1 : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1616 Fixed_FOE: 8 AF01A
+ SG_ Fixed_Horizon : 32|32@1- (1,0) [-3.4E+038|3.4E+038] "" Vector__XXX
+ SG_ Fixed_Yaw : 0|32@1- (1,0) [-3.4E+038|3.4E+038] "" Vector__XXX
+
+BO_ 1792 C2_Display_and_warning: 8 AF01A
+ SG_ Right_Crossing : 37|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Left_Crossing : 36|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Lanes_On : 32|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Suppress : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Dusk_Time_Indicator : 3|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Night_Time_Indicator : 4|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Maintenanc : 38|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Headway_Warning_Level : 56|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ Peds_FCW : 41|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Peds_in_DZ : 42|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Left_LDW_ON : 33|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Right_LDW_ON : 34|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ FCW_on : 35|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Failsafe : 39|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Headway_valid : 16|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Headway_measurement : 17|7@1+ (0.1,0) [0|9.9] "s" Vector__XXX
+ SG_ Sound_type : 0|3@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 1833 AHBC_Gradual: 7 AF01A
+ SG_ Status_Object_Distance_HLB : 46|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ Status_Right_Hand_HLB : 44|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ Status_Left_Hand_HLB : 42|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ Status_Bottom_HLB : 40|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ Busy_Scene : 51|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Too_Many_Cars : 50|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Right_Target_Change : 49|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Left_Target_Change : 48|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Object_Distance_HLB : 32|8@1+ (2,0) [0|400] "m" Vector__XXX
+ SG_ Boundary_right_hand_HLB : 20|12@1+ (0.1,-20) [-20|20] "deg" Vector__XXX
+ SG_ Boundary_left_hand_HLB : 8|12@1+ (0.1,-20) [-20|20] "deg" Vector__XXX
+ SG_ Boundary_bottom_HLB : 0|8@1+ (0.1,-10) [-10|10] "deg" Vector__XXX
+
+BO_TX_BU_ 1888 : Gen,AF01A;
+BO_TX_BU_ 1641 : Gen,AF01A;
+BO_TX_BU_ 1915 : Gen,AF01A;
+BO_TX_BU_ 1914 : Gen,AF01A;
+BO_TX_BU_ 1913 : Gen,AF01A;
+BO_TX_BU_ 1912 : Gen,AF01A;
+BO_TX_BU_ 1909 : Gen,AF01A;
+BO_TX_BU_ 1908 : Gen,AF01A;
+BO_TX_BU_ 1911 : Gen,AF01A;
+BO_TX_BU_ 1910 : Gen,AF01A;
+BO_TX_BU_ 1907 : Gen,AF01A;
+BO_TX_BU_ 1906 : Gen,AF01A;
+BO_TX_BU_ 1905 : Gen,AF01A;
+BO_TX_BU_ 1904 : Gen,AF01A;
+BO_TX_BU_ 1903 : Gen,AF01A;
+BO_TX_BU_ 1902 : Gen,AF01A;
+BO_TX_BU_ 1872 : Gen,AF01A;
+BO_TX_BU_ 1869 : Gen,AF01A;
+BO_TX_BU_ 1866 : Gen,AF01A;
+BO_TX_BU_ 1863 : Gen,AF01A;
+BO_TX_BU_ 1860 : Gen,AF01A;
+BO_TX_BU_ 1857 : Gen,AF01A;
+BO_TX_BU_ 1854 : Gen,AF01A;
+BO_TX_BU_ 1871 : Gen,AF01A;
+BO_TX_BU_ 1868 : Gen,AF01A;
+BO_TX_BU_ 1865 : Gen,AF01A;
+BO_TX_BU_ 1862 : Gen,AF01A;
+BO_TX_BU_ 1859 : Gen,AF01A;
+BO_TX_BU_ 1856 : Gen,AF01A;
+BO_TX_BU_ 1853 : Gen,AF01A;
+BO_TX_BU_ 1870 : Gen,AF01A;
+BO_TX_BU_ 1867 : Gen,AF01A;
+BO_TX_BU_ 1864 : Gen,AF01A;
+BO_TX_BU_ 1861 : Gen,AF01A;
+BO_TX_BU_ 1858 : Gen,AF01A;
+BO_TX_BU_ 1855 : Gen,AF01A;
+BO_TX_BU_ 1852 : Gen,AF01A;
+BO_TX_BU_ 1830 : Gen,AF01A;
+BO_TX_BU_ 1829 : Gen,AF01A;
+BO_TX_BU_ 1828 : Gen,AF01A;
+BO_TX_BU_ 1827 : Gen,AF01A;
+BO_TX_BU_ 1826 : Gen,AF01A;
+BO_TX_BU_ 1825 : Gen,AF01A;
+BO_TX_BU_ 1898 : Gen,AF01A;
+BO_TX_BU_ 1899 : Gen,AF01A;
+BO_TX_BU_ 1901 : Gen,AF01A;
+BO_TX_BU_ 1900 : Gen,AF01A;
+BO_TX_BU_ 1897 : Gen,AF01A;
+BO_TX_BU_ 1896 : Gen,AF01A;
+BO_TX_BU_ 1895 : Gen,AF01A;
+BO_TX_BU_ 1894 : Gen,AF01A;
+BO_TX_BU_ 1851 : Gen,AF01A;
+BO_TX_BU_ 1850 : Gen,AF01A;
+BO_TX_BU_ 1849 : Gen,AF01A;
+BO_TX_BU_ 1848 : Gen,AF01A;
+BO_TX_BU_ 1847 : Gen,AF01A;
+BO_TX_BU_ 1832 : Gen,AF01A;
+BO_TX_BU_ 1824 : Gen,AF01A;
+BO_TX_BU_ 1831 : Gen,AF01A;
+BO_TX_BU_ 1616 : Gen,AF01A;
+BO_TX_BU_ 1792 : Gen,AF01A;
+BO_TX_BU_ 1833 : Gen,AF01A;
+
+
+CM_ BO_ 3221225472 "This is a message for not used signals, created by Vector CANdb++ DBC OLE DB Provider.";
+BA_DEF_ SG_  "GenSigSendType" ENUM  "Cyclic","OnWrite","OnWriteWithRepetition","OnChange","OnChangeWithRepetition","IfActive","IfActiveWithRepetition","NoSigSendType";
+BA_DEF_ SG_  "GenSigInactiveValue" INT 0 100000;
+BA_DEF_ BO_  "TpTxIndex" INT 0 255;
+BA_DEF_ BO_  "NmMessage" ENUM  "No","Yes";
+BA_DEF_ BO_  "GenMsgStartDelayTime" INT 0 100000;
+BA_DEF_ BO_  "GenMsgSendType" ENUM  "Cyclic","not_used","not_used","not_used","not_used","not_used","not_used","IfActive","NoMsgSendType";
+BA_DEF_ BO_  "GenMsgNrOfRepetition" INT 0 100;
+BA_DEF_ BO_  "GenMsgILSupport" ENUM  "No","Yes";
+BA_DEF_ BO_  "GenMsgFastOnStart" INT 0 65535;
+BA_DEF_ BO_  "GenMsgDelayTime" INT 0 1000;
+BA_DEF_ BO_  "GenMsgCycleTimeFast" INT 0 100000;
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 10000;
+BA_DEF_ BO_  "DiagState" ENUM  "No","Yes","vector_leerstring";
+BA_DEF_ BO_  "DiagResponse" ENUM  "No","Yes","vector_leerstring";
+BA_DEF_ BO_  "DiagRequest" ENUM  "No","Yes","vector_leerstring";
+BA_DEF_ BU_  "NmStationAddress" INT 0 63;
+BA_DEF_ BU_  "NmNodeType" ENUM  "kMaster","kSlave15","kSlave30","none";
+BA_DEF_ BU_  "NmNode" ENUM  "No","Yes";
+BA_DEF_ BU_  "ILUsed" ENUM  "No","Yes";
+BA_DEF_ BU_  "NodeLayerModules" STRING ;
+BA_DEF_ BU_  "ECU" STRING ;
+BA_DEF_ BU_  "CANoeJitterMax" INT 0 0;
+BA_DEF_ BU_  "CANoeJitterMin" INT 0 0;
+BA_DEF_ BU_  "CANoeDrift" INT 0 0;
+BA_DEF_ BU_  "CANoeStartDelay" INT 0 0;
+BA_DEF_  "BusType" STRING ;
+BA_DEF_  "NmType" STRING ;
+BA_DEF_  "NmMessageCount" INT 2 256;
+BA_DEF_  "NmBaseAddress" HEX 0 2047;
+BA_DEF_  "Manufacturer" STRING ;
+BA_DEF_REL_ BU_SG_REL_  "GenSigTimeoutTime" INT 0 65535;
+BA_DEF_DEF_  "GenSigSendType" "Cyclic";
+BA_DEF_DEF_  "GenSigInactiveValue" 0;
+BA_DEF_DEF_  "TpTxIndex" 0;
+BA_DEF_DEF_  "NmMessage" "No";
+BA_DEF_DEF_  "GenMsgStartDelayTime" 0;
+BA_DEF_DEF_  "GenMsgSendType" "Cyclic";
+BA_DEF_DEF_  "GenMsgNrOfRepetition" 0;
+BA_DEF_DEF_  "GenMsgILSupport" "Yes";
+BA_DEF_DEF_  "GenMsgFastOnStart" 0;
+BA_DEF_DEF_  "GenMsgDelayTime" 0;
+BA_DEF_DEF_  "GenMsgCycleTimeFast" 0;
+BA_DEF_DEF_  "GenMsgCycleTime" 0;
+BA_DEF_DEF_  "DiagState" "No";
+BA_DEF_DEF_  "DiagResponse" "No";
+BA_DEF_DEF_  "DiagRequest" "No";
+BA_DEF_DEF_  "NmStationAddress" 0;
+BA_DEF_DEF_  "NmNodeType" "none";
+BA_DEF_DEF_  "NmNode" "Yes";
+BA_DEF_DEF_  "ILUsed" "Yes";
+BA_DEF_DEF_  "NodeLayerModules" "";
+BA_DEF_DEF_  "ECU" "";
+BA_DEF_DEF_  "CANoeJitterMax" 0;
+BA_DEF_DEF_  "CANoeJitterMin" 0;
+BA_DEF_DEF_  "CANoeDrift" 0;
+BA_DEF_DEF_  "CANoeStartDelay" 0;
+BA_DEF_DEF_  "BusType" "";
+BA_DEF_DEF_  "NmType" "NmPwrTrainChery";
+BA_DEF_DEF_  "NmMessageCount" 64;
+BA_DEF_DEF_  "NmBaseAddress" 1024;
+BA_DEF_DEF_  "Manufacturer" "GAC";
+BA_DEF_DEF_REL_ "GenSigTimeoutTime" 0;
+BA_ "NmBaseAddress" 1024;
+BA_ "NmMessageCount" 256;
+BA_ "Manufacturer" "GAC";
+BA_ "NmType" "GAC-OSEK";
+BA_ "BusType" "CAN";
+BA_ "GenMsgCycleTime" BO_ 1888 20;
+BA_ "GenMsgCycleTime" BO_ 1641 20;
+BA_ "GenMsgCycleTime" BO_ 1915 20;
+BA_ "GenMsgCycleTime" BO_ 1914 20;
+BA_ "GenMsgCycleTime" BO_ 1913 20;
+BA_ "GenMsgCycleTime" BO_ 1912 20;
+BA_ "GenMsgCycleTime" BO_ 1909 20;
+BA_ "GenMsgCycleTime" BO_ 1908 20;
+BA_ "GenMsgCycleTime" BO_ 1911 20;
+BA_ "GenMsgCycleTime" BO_ 1910 20;
+BA_ "GenMsgCycleTime" BO_ 1907 20;
+BA_ "GenMsgCycleTime" BO_ 1906 20;
+BA_ "GenMsgCycleTime" BO_ 1905 20;
+BA_ "GenMsgCycleTime" BO_ 1904 20;
+BA_ "GenMsgCycleTime" BO_ 1903 20;
+BA_ "GenMsgCycleTime" BO_ 1902 20;
+BA_ "GenMsgCycleTime" BO_ 1872 20;
+BA_ "GenMsgCycleTime" BO_ 1869 20;
+BA_ "GenMsgCycleTime" BO_ 1866 20;
+BA_ "GenMsgCycleTime" BO_ 1863 20;
+BA_ "GenMsgCycleTime" BO_ 1860 20;
+BA_ "GenMsgCycleTime" BO_ 1857 20;
+BA_ "GenMsgCycleTime" BO_ 1854 20;
+BA_ "GenMsgCycleTime" BO_ 1871 20;
+BA_ "GenMsgCycleTime" BO_ 1868 20;
+BA_ "GenMsgCycleTime" BO_ 1865 20;
+BA_ "GenMsgCycleTime" BO_ 1862 20;
+BA_ "GenMsgCycleTime" BO_ 1859 20;
+BA_ "GenMsgCycleTime" BO_ 1856 20;
+BA_ "GenMsgCycleTime" BO_ 1853 20;
+BA_ "GenMsgCycleTime" BO_ 1870 20;
+BA_ "GenMsgCycleTime" BO_ 1867 20;
+BA_ "GenMsgCycleTime" BO_ 1864 20;
+BA_ "GenMsgCycleTime" BO_ 1861 20;
+BA_ "GenMsgCycleTime" BO_ 1858 20;
+BA_ "GenMsgCycleTime" BO_ 1855 20;
+BA_ "GenMsgCycleTime" BO_ 1852 20;
+BA_ "GenMsgCycleTime" BO_ 1830 20;
+BA_ "GenMsgCycleTime" BO_ 1829 20;
+BA_ "GenMsgCycleTime" BO_ 1828 20;
+BA_ "GenMsgCycleTime" BO_ 1827 20;
+BA_ "GenMsgCycleTime" BO_ 1826 20;
+BA_ "GenMsgCycleTime" BO_ 1825 20;
+BA_ "GenMsgCycleTime" BO_ 1898 20;
+BA_ "GenMsgCycleTime" BO_ 1899 20;
+BA_ "GenMsgCycleTime" BO_ 1901 20;
+BA_ "GenMsgCycleTime" BO_ 1900 20;
+BA_ "GenMsgCycleTime" BO_ 1897 20;
+BA_ "GenMsgCycleTime" BO_ 1896 20;
+BA_ "GenMsgCycleTime" BO_ 1895 20;
+BA_ "GenMsgCycleTime" BO_ 1894 20;
+BA_ "GenMsgCycleTime" BO_ 1851 20;
+BA_ "GenMsgCycleTime" BO_ 1850 20;
+BA_ "GenMsgCycleTime" BO_ 1849 20;
+BA_ "GenMsgCycleTime" BO_ 1848 20;
+BA_ "GenMsgCycleTime" BO_ 1847 20;
+BA_ "GenMsgCycleTime" BO_ 1832 20;
+BA_ "GenMsgCycleTime" BO_ 1824 20;
+BA_ "GenMsgCycleTime" BO_ 1831 20;
+BA_ "GenMsgCycleTime" BO_ 1616 20;
+BA_ "GenMsgCycleTime" BO_ 1792 20;
+BA_ "GenMsgCycleTime" BO_ 1833 20;
+BA_ "GenSigSendType" SG_ 1871 Obstacle_Age 1;
+BA_ "GenSigSendType" SG_ 1871 Obstacle_Width 1;
+BA_ "GenSigSendType" SG_ 1868 Obstacle_Age 1;
+BA_ "GenSigSendType" SG_ 1868 Obstacle_Width 1;
+BA_ "GenSigSendType" SG_ 1865 Obstacle_Age 1;
+BA_ "GenSigSendType" SG_ 1865 Obstacle_Width 1;
+BA_ "GenSigSendType" SG_ 1862 Obstacle_Age 1;
+BA_ "GenSigSendType" SG_ 1862 Obstacle_Width 1;
+BA_ "GenSigSendType" SG_ 1859 Obstacle_Age 1;
+BA_ "GenSigSendType" SG_ 1859 Obstacle_Width 1;
+BA_ "GenSigSendType" SG_ 1856 Obstacle_Age 1;
+BA_ "GenSigSendType" SG_ 1856 Obstacle_Width 1;
+BA_ "GenSigSendType" SG_ 1853 Obstacle_Age 1;
+BA_ "GenSigSendType" SG_ 1853 Obstacle_Width 1;
+BA_ "GenSigSendType" SG_ 1850 Obstacle_Age 1;
+BA_ "GenSigSendType" SG_ 1850 Obstacle_Width 1;
+BA_ "GenSigSendType" SG_ 1848 Failsafe 1;
+BA_ "GenSigSendType" SG_ 1616 Fixed_Yaw 1;
+BA_ "GenSigSendType" SG_ 1833 Object_Distance_HLB 1;
+VAL_ 1509 CAN_TX_VERTICAL_ALIGN_UPDATED 1 "Updated" 0 "Not_Updated" ;
+VAL_ 1509 CAN_TX_SYSTEM_POWER_MODE 7 "7invalid" 6 "TEST" 5 "HOST_SHUTDOWN" 4 "DSP_OFF'" 3 "DSP_SHUTDOWN" 2 "RADIATE_ON" 1 "RADIATE_OFF" 0 "DSP_INIT" ;
+VAL_ 1509 CAN_TX_FOUND_TARGET 1 "Found" 0 "Not_Found" ;
+VAL_ 1509 CAN_TX_FACTORY_ALIGN_STATUS_2 5 "FAIL_VAR_TOO_LARGE" 4 "FAIL_DEV_TOO_LARGE" 3 "FAIL_NO_TARGET" 2 "SUCCESS" 1 "BUSY" 0 "OFF" ;
+VAL_ 1509 CAN_TX_FACTORY_ALIGN_STATUS_1 5 "FAIL_VAR_TOO_LARGE" 4 "FAIL_DEV_TOO_LARGE" 3 "FAIL_NO_TARGET" 2 "SUCCESS" 1 "BUSY" 0 "OFF" ;
+VAL_ 1343 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1343 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1343 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1343 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1343 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1342 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1342 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1342 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1342 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1342 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1341 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1341 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1341 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1341 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1341 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1340 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1340 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1340 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1340 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1340 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1339 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1339 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1339 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1339 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1339 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1338 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1338 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1338 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1338 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1338 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1337 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1337 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1337 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1337 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1337 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1336 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1336 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1336 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1336 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1336 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1335 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1335 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1335 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1335 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1335 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1334 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1334 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1334 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1334 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1334 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1333 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1333 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1333 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1333 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1333 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1332 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1332 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1332 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1332 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1332 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1331 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1331 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1331 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1331 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1331 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1330 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1330 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1330 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1330 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1330 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1329 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1329 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1329 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1329 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1329 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1328 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1328 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1328 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1328 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1328 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1327 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1327 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1327 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1327 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1327 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1326 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1326 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1326 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1326 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1326 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1325 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1325 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1325 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1325 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1325 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1324 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1324 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1324 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1324 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1324 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1323 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1323 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1323 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1323 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1323 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1322 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1322 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1322 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1322 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1322 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1321 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1321 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1321 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1321 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1321 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1320 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1320 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1320 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1320 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1320 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1319 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1319 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1319 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1319 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1319 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1318 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1318 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1318 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1318 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1318 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1317 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1317 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1317 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1317 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1317 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1316 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1316 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1316 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1316 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1316 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1315 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1315 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1315 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1315 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1315 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1314 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1314 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1314 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1314 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1314 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1313 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1313 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1313 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1313 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1313 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1312 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1312 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1312 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1312 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1312 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1311 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1311 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1311 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1311 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1311 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1310 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1310 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1310 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1310 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1310 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1309 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1309 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1309 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1309 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1309 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1308 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1308 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1308 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1308 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1308 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1307 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1307 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1307 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1307 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1306 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1306 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1306 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1306 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1306 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1305 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1305 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1305 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1305 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1305 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1304 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1304 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1304 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1304 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1304 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1303 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1303 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1303 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1303 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1303 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1302 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1302 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1302 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1302 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1302 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1301 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1301 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1301 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1301 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1300 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1300 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1300 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1300 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1300 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1299 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1299 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1299 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1299 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1299 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1298 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1298 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1298 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1298 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1298 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1297 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1297 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1297 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1297 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1297 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1296 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1296 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1296 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1296 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1296 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1295 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1295 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1295 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1295 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1295 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1294 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1294 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1294 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1294 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1294 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1293 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1293 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1293 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1293 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1293 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1292 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1292 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1292 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1292 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1291 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1291 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1291 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1291 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1291 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1290 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1290 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1290 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1290 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1290 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1289 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1289 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1289 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1289 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1289 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1288 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1288 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1288 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1288 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1288 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1287 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1287 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1287 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1287 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1287 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1286 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1286 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1286 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1286 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1286 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1285 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1285 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1285 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1285 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1285 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1284 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1284 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1284 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1284 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1284 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1283 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1283 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1283 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1283 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1283 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1282 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1282 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1282 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1282 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1282 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1281 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1281 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1281 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1281 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1281 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1280 CAN_TX_TRACK_STATUS 7 "New_Coasted_Target" 6 "Invalid_Coasted_Target" 5 "Merged_Target" 4 "Coasted_Target" 3 "Updated_Target" 2 "New_Updated_Target" 1 "New_Target" 0 "No_Target" ;
+VAL_ 1280 CAN_TX_TRACK_ONCOMING 1 "Oncoming" 0 "NotOncoming" ;
+VAL_ 1280 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1 "MR_Update_Only" 0 "No_MR_LR_Update" ;
+VAL_ 1280 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
+VAL_ 1280 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
+VAL_ 1251 CAN_TX_TRUCK_TARGET_DET 1 "Detected" 0 "Not_Detected" ;
+VAL_ 1251 CAN_TX_SIDELIBE_BLOCKAGE 1 "On" 0 "Off" ;
+VAL_ 1251 CAN_TX_PARTIAL_BLOCKAGE 1 "Blocked" 0 "Not Blocked" ;
+VAL_ 1251 CAN_TX_MR_LR_MODE 3 "Output all medium-range and long" 2 "Output only long-range tracks" 1 "Output only medium-range tracks" 0 "Reserved" ;
+VAL_ 1251 CAN_TX_LR_ONLY_GRATING_LOBE_DET 1 "On" 0 "Off" ;
+VAL_ 1249 CAN_TX_RAW_DATA_MODE 1 "Raw" 0 "Filtered" ;
+VAL_ 1249 CAN_TX_XCVR_OPERATIONAL 1 "On" 0 "Off" ;
+VAL_ 1249 CAN_TX_INTERNAL_ERROR 1 "Failed" 0 "Not Failed" ;
+VAL_ 1249 CAN_TX_RANGE_PERF_ERROR 1 "Blocked" 0 "Not Blocked" ;
+VAL_ 1249 CAN_TX_OVERHEAT_ERROR 1 "OverTemp" 0 "Not OverTemp" ;
+VAL_ 1249 CAN_TX_GROUPING_MODE 3 "Group_Moving_Stationary" 2 "Group_Stationary_Only" 1 "Group_Moving_Only" 0 "No_Grouping" ;
+VAL_ 1833 Status_Object_Distance_HLB 3 "Invalid signal" 2 "defined by oncoming vehicle" 1 "defined by preceding vehicle" 0 "No object detected" ;
+VAL_ 1833 Status_Right_Hand_HLB 3 "Invalid signal" 2 "defined by oncoming vehicle" 1 "defined by preceding vehicle" 0 "No object detected" ;
+VAL_ 1833 Status_Left_Hand_HLB 3 "Invalid signal" 2 "defined by oncoming vehicle" 1 "defined by preceding vehicle" 0 "No object detected" ;
+VAL_ 1833 Status_Bottom_HLB 3 "Invalid signal" 2 "defined by oncoming vehicle" 1 "defined by preceding vehicle" 0 "No object detected" ;
+SIG_VALTYPE_ 1616 Fixed_Horizon : 1;
+SIG_VALTYPE_ 1616 Fixed_Yaw : 1;
+

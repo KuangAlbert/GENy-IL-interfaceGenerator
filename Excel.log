@@ -1,0 +1,3484 @@
+2018-09-23 20:11:59 [  1,A]	Signal name: Boundary_bottom_HLB
+2018-09-23 20:11:59 [  1,B]	Message name: AHBC_Gradual
+2018-09-23 20:11:59 [  1,D]	Signal len: 8
+2018-09-23 20:11:59 [  1,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [  1,G]	Signal Factor: 0.1
+2018-09-23 20:11:59 [  1,H]	Signal Offset: -10
+2018-09-23 20:11:59 [  1,I]	Signal min: -10
+2018-09-23 20:11:59 [  1,I]	Signal max: 10
+2018-09-23 20:11:59 [  2,A]	Signal name: Boundary_left_hand_HLB
+2018-09-23 20:11:59 [  2,B]	Message name: AHBC_Gradual
+2018-09-23 20:11:59 [  2,D]	Signal len: 12
+2018-09-23 20:11:59 [  2,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [  2,G]	Signal Factor: 0.1
+2018-09-23 20:11:59 [  2,H]	Signal Offset: -20
+2018-09-23 20:11:59 [  2,I]	Signal min: -20
+2018-09-23 20:11:59 [  2,I]	Signal max: 20
+2018-09-23 20:11:59 [  3,A]	Signal name: Boundary_right_hand_HLB
+2018-09-23 20:11:59 [  3,B]	Message name: AHBC_Gradual
+2018-09-23 20:11:59 [  3,D]	Signal len: 12
+2018-09-23 20:11:59 [  3,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [  3,G]	Signal Factor: 0.1
+2018-09-23 20:11:59 [  3,H]	Signal Offset: -20
+2018-09-23 20:11:59 [  3,I]	Signal min: -20
+2018-09-23 20:11:59 [  3,I]	Signal max: 20
+2018-09-23 20:11:59 [  4,A]	Signal name: Busy_Scene
+2018-09-23 20:11:59 [  4,B]	Message name: AHBC_Gradual
+2018-09-23 20:11:59 [  4,D]	Signal len: 1
+2018-09-23 20:11:59 [  4,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [  4,G]	Signal Factor: 1
+2018-09-23 20:11:59 [  4,H]	Signal Offset: 0
+2018-09-23 20:11:59 [  4,I]	Signal min: 0
+2018-09-23 20:11:59 [  4,I]	Signal max: 1
+2018-09-23 20:11:59 [  5,A]	Signal name: Left_Target_Change
+2018-09-23 20:11:59 [  5,B]	Message name: AHBC_Gradual
+2018-09-23 20:11:59 [  5,D]	Signal len: 1
+2018-09-23 20:11:59 [  5,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [  5,G]	Signal Factor: 1
+2018-09-23 20:11:59 [  5,H]	Signal Offset: 0
+2018-09-23 20:11:59 [  5,I]	Signal min: 0
+2018-09-23 20:11:59 [  5,I]	Signal max: 1
+2018-09-23 20:11:59 [  6,A]	Signal name: Object_Distance_HLB
+2018-09-23 20:11:59 [  6,B]	Message name: AHBC_Gradual
+2018-09-23 20:11:59 [  6,D]	Signal len: 8
+2018-09-23 20:11:59 [  6,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [  6,G]	Signal Factor: 2
+2018-09-23 20:11:59 [  6,H]	Signal Offset: 0
+2018-09-23 20:11:59 [  6,I]	Signal min: 0
+2018-09-23 20:11:59 [  6,I]	Signal max: 400
+2018-09-23 20:11:59 [  7,A]	Signal name: Right_Target_Change
+2018-09-23 20:11:59 [  7,B]	Message name: AHBC_Gradual
+2018-09-23 20:11:59 [  7,D]	Signal len: 1
+2018-09-23 20:11:59 [  7,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [  7,G]	Signal Factor: 1
+2018-09-23 20:11:59 [  7,H]	Signal Offset: 0
+2018-09-23 20:11:59 [  7,I]	Signal min: 0
+2018-09-23 20:11:59 [  7,I]	Signal max: 1
+2018-09-23 20:11:59 [  8,A]	Signal name: Status_Bottom_HLB
+2018-09-23 20:11:59 [  8,B]	Message name: AHBC_Gradual
+2018-09-23 20:11:59 [  8,D]	Signal len: 2
+2018-09-23 20:11:59 [  8,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [  8,G]	Signal Factor: 1
+2018-09-23 20:11:59 [  8,H]	Signal Offset: 0
+2018-09-23 20:11:59 [  8,I]	Signal min: 0
+2018-09-23 20:11:59 [  8,I]	Signal max: 3
+2018-09-23 20:11:59 [  9,A]	Signal name: Status_Left_Hand_HLB
+2018-09-23 20:11:59 [  9,B]	Message name: AHBC_Gradual
+2018-09-23 20:11:59 [  9,D]	Signal len: 2
+2018-09-23 20:11:59 [  9,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [  9,G]	Signal Factor: 1
+2018-09-23 20:11:59 [  9,H]	Signal Offset: 0
+2018-09-23 20:11:59 [  9,I]	Signal min: 0
+2018-09-23 20:11:59 [  9,I]	Signal max: 3
+2018-09-23 20:11:59 [ 10,A]	Signal name: Status_Object_Distance_HLB
+2018-09-23 20:11:59 [ 10,B]	Message name: AHBC_Gradual
+2018-09-23 20:11:59 [ 10,D]	Signal len: 2
+2018-09-23 20:11:59 [ 10,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 10,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 10,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 10,I]	Signal min: 0
+2018-09-23 20:11:59 [ 10,I]	Signal max: 3
+2018-09-23 20:11:59 [ 11,A]	Signal name: Status_Right_Hand_HLB
+2018-09-23 20:11:59 [ 11,B]	Message name: AHBC_Gradual
+2018-09-23 20:11:59 [ 11,D]	Signal len: 2
+2018-09-23 20:11:59 [ 11,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 11,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 11,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 11,I]	Signal min: 0
+2018-09-23 20:11:59 [ 11,I]	Signal max: 3
+2018-09-23 20:11:59 [ 12,A]	Signal name: Too_Many_Cars
+2018-09-23 20:11:59 [ 12,B]	Message name: AHBC_Gradual
+2018-09-23 20:11:59 [ 12,D]	Signal len: 1
+2018-09-23 20:11:59 [ 12,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 12,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 12,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 12,I]	Signal min: 0
+2018-09-23 20:11:59 [ 12,I]	Signal max: 1
+2018-09-23 20:11:59 [ 13,A]	Signal name: Binary_high_low_beam_decision
+2018-09-23 20:11:59 [ 13,B]	Message name: AHBC_high_low_beam
+2018-09-23 20:11:59 [ 13,D]	Signal len: 2
+2018-09-23 20:11:59 [ 13,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 13,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 13,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 13,I]	Signal min: 0
+2018-09-23 20:11:59 [ 13,I]	Signal max: 3
+2018-09-23 20:11:59 [ 14,A]	Signal name: Reasons_for_switch_to_low_beam
+2018-09-23 20:11:59 [ 14,B]	Message name: AHBC_high_low_beam
+2018-09-23 20:11:59 [ 14,D]	Signal len: 9
+2018-09-23 20:11:59 [ 14,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 14,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 14,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 14,I]	Signal min: 0
+2018-09-23 20:11:59 [ 14,I]	Signal max: 511
+2018-09-23 20:11:59 [ 15,A]	Signal name: Dusk_Time_Indicator
+2018-09-23 20:11:59 [ 15,B]	Message name: C2_Display_and_warning
+2018-09-23 20:11:59 [ 15,D]	Signal len: 1
+2018-09-23 20:11:59 [ 15,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 15,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 15,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 15,I]	Signal min: 0
+2018-09-23 20:11:59 [ 15,I]	Signal max: 1
+2018-09-23 20:11:59 [ 16,A]	Signal name: Failsafe
+2018-09-23 20:11:59 [ 16,B]	Message name: C2_Display_and_warning
+2018-09-23 20:11:59 [ 16,D]	Signal len: 1
+2018-09-23 20:11:59 [ 16,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 16,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 16,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 16,I]	Signal min: 0
+2018-09-23 20:11:59 [ 16,I]	Signal max: 1
+2018-09-23 20:11:59 [ 17,A]	Signal name: FCW_on
+2018-09-23 20:11:59 [ 17,B]	Message name: C2_Display_and_warning
+2018-09-23 20:11:59 [ 17,D]	Signal len: 1
+2018-09-23 20:11:59 [ 17,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 17,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 17,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 17,I]	Signal min: 0
+2018-09-23 20:11:59 [ 17,I]	Signal max: 1
+2018-09-23 20:11:59 [ 18,A]	Signal name: Headway_measurement
+2018-09-23 20:11:59 [ 18,B]	Message name: C2_Display_and_warning
+2018-09-23 20:11:59 [ 18,D]	Signal len: 7
+2018-09-23 20:11:59 [ 18,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 18,G]	Signal Factor: 0.1
+2018-09-23 20:11:59 [ 18,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 18,I]	Signal min: 0
+2018-09-23 20:11:59 [ 18,I]	Signal max: 9.9
+2018-09-23 20:11:59 [ 19,A]	Signal name: Headway_valid
+2018-09-23 20:11:59 [ 19,B]	Message name: C2_Display_and_warning
+2018-09-23 20:11:59 [ 19,D]	Signal len: 1
+2018-09-23 20:11:59 [ 19,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 19,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 19,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 19,I]	Signal min: 0
+2018-09-23 20:11:59 [ 19,I]	Signal max: 1
+2018-09-23 20:11:59 [ 20,A]	Signal name: Headway_Warning_Level
+2018-09-23 20:11:59 [ 20,B]	Message name: C2_Display_and_warning
+2018-09-23 20:11:59 [ 20,D]	Signal len: 2
+2018-09-23 20:11:59 [ 20,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 20,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 20,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 20,I]	Signal min: 0
+2018-09-23 20:11:59 [ 20,I]	Signal max: 3
+2018-09-23 20:11:59 [ 21,A]	Signal name: Lanes_On
+2018-09-23 20:11:59 [ 21,B]	Message name: C2_Display_and_warning
+2018-09-23 20:11:59 [ 21,D]	Signal len: 1
+2018-09-23 20:11:59 [ 21,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 21,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 21,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 21,I]	Signal min: 0
+2018-09-23 20:11:59 [ 21,I]	Signal max: 1
+2018-09-23 20:11:59 [ 22,A]	Signal name: Left_Crossing
+2018-09-23 20:11:59 [ 22,B]	Message name: C2_Display_and_warning
+2018-09-23 20:11:59 [ 22,D]	Signal len: 1
+2018-09-23 20:11:59 [ 22,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 22,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 22,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 22,I]	Signal min: 0
+2018-09-23 20:11:59 [ 22,I]	Signal max: 1
+2018-09-23 20:11:59 [ 23,A]	Signal name: Left_LDW_ON
+2018-09-23 20:11:59 [ 23,B]	Message name: C2_Display_and_warning
+2018-09-23 20:11:59 [ 23,D]	Signal len: 1
+2018-09-23 20:11:59 [ 23,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 23,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 23,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 23,I]	Signal min: 0
+2018-09-23 20:11:59 [ 23,I]	Signal max: 1
+2018-09-23 20:11:59 [ 24,A]	Signal name: Maintenanc
+2018-09-23 20:11:59 [ 24,B]	Message name: C2_Display_and_warning
+2018-09-23 20:11:59 [ 24,D]	Signal len: 1
+2018-09-23 20:11:59 [ 24,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 24,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 24,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 24,I]	Signal min: 0
+2018-09-23 20:11:59 [ 24,I]	Signal max: 1
+2018-09-23 20:11:59 [ 25,A]	Signal name: Night_Time_Indicator
+2018-09-23 20:11:59 [ 25,B]	Message name: C2_Display_and_warning
+2018-09-23 20:11:59 [ 25,D]	Signal len: 1
+2018-09-23 20:11:59 [ 25,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 25,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 25,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 25,I]	Signal min: 0
+2018-09-23 20:11:59 [ 25,I]	Signal max: 1
+2018-09-23 20:11:59 [ 26,A]	Signal name: Peds_FCW
+2018-09-23 20:11:59 [ 26,B]	Message name: C2_Display_and_warning
+2018-09-23 20:11:59 [ 26,D]	Signal len: 1
+2018-09-23 20:11:59 [ 26,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 26,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 26,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 26,I]	Signal min: 0
+2018-09-23 20:11:59 [ 26,I]	Signal max: 1
+2018-09-23 20:11:59 [ 27,A]	Signal name: Peds_in_DZ
+2018-09-23 20:11:59 [ 27,B]	Message name: C2_Display_and_warning
+2018-09-23 20:11:59 [ 27,D]	Signal len: 1
+2018-09-23 20:11:59 [ 27,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 27,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 27,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 27,I]	Signal min: 0
+2018-09-23 20:11:59 [ 27,I]	Signal max: 1
+2018-09-23 20:11:59 [ 28,A]	Signal name: Right_Crossing
+2018-09-23 20:11:59 [ 28,B]	Message name: C2_Display_and_warning
+2018-09-23 20:11:59 [ 28,D]	Signal len: 1
+2018-09-23 20:11:59 [ 28,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 28,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 28,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 28,I]	Signal min: 0
+2018-09-23 20:11:59 [ 28,I]	Signal max: 1
+2018-09-23 20:11:59 [ 29,A]	Signal name: Right_LDW_ON
+2018-09-23 20:11:59 [ 29,B]	Message name: C2_Display_and_warning
+2018-09-23 20:11:59 [ 29,D]	Signal len: 1
+2018-09-23 20:11:59 [ 29,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 29,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 29,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 29,I]	Signal min: 0
+2018-09-23 20:11:59 [ 29,I]	Signal max: 1
+2018-09-23 20:11:59 [ 30,A]	Signal name: Sound_type
+2018-09-23 20:11:59 [ 30,B]	Message name: C2_Display_and_warning
+2018-09-23 20:11:59 [ 30,D]	Signal len: 3
+2018-09-23 20:11:59 [ 30,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 30,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 30,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 30,I]	Signal min: 0
+2018-09-23 20:11:59 [ 30,I]	Signal max: 1
+2018-09-23 20:11:59 [ 31,A]	Signal name: Suppress
+2018-09-23 20:11:59 [ 31,B]	Message name: C2_Display_and_warning
+2018-09-23 20:11:59 [ 31,D]	Signal len: 1
+2018-09-23 20:11:59 [ 31,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 31,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 31,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 31,I]	Signal min: 0
+2018-09-23 20:11:59 [ 31,I]	Signal max: 1
+2018-09-23 20:11:59 [ 32,A]	Signal name: Brakes
+2018-09-23 20:11:59 [ 32,B]	Message name: Car_Info
+2018-09-23 20:11:59 [ 32,D]	Signal len: 1
+2018-09-23 20:11:59 [ 32,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 32,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 32,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 32,I]	Signal min: 0
+2018-09-23 20:11:59 [ 32,I]	Signal max: 1
+2018-09-23 20:11:59 [ 33,A]	Signal name: High_Beam
+2018-09-23 20:11:59 [ 33,B]	Message name: Car_Info
+2018-09-23 20:11:59 [ 33,D]	Signal len: 1
+2018-09-23 20:11:59 [ 33,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 33,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 33,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 33,I]	Signal min: 0
+2018-09-23 20:11:59 [ 33,I]	Signal max: 1
+2018-09-23 20:11:59 [ 34,A]	Signal name: High_Beam_Available
+2018-09-23 20:11:59 [ 34,B]	Message name: Car_Info
+2018-09-23 20:11:59 [ 34,D]	Signal len: 1
+2018-09-23 20:11:59 [ 34,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 34,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 34,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 34,I]	Signal min: 0
+2018-09-23 20:11:59 [ 34,I]	Signal max: 1
+2018-09-23 20:11:59 [ 35,A]	Signal name: Left_Signal
+2018-09-23 20:11:59 [ 35,B]	Message name: Car_Info
+2018-09-23 20:11:59 [ 35,D]	Signal len: 1
+2018-09-23 20:11:59 [ 35,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 35,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 35,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 35,I]	Signal min: 0
+2018-09-23 20:11:59 [ 35,I]	Signal max: 1
+2018-09-23 20:11:59 [ 36,A]	Signal name: Low_Beam
+2018-09-23 20:11:59 [ 36,B]	Message name: Car_Info
+2018-09-23 20:11:59 [ 36,D]	Signal len: 1
+2018-09-23 20:11:59 [ 36,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 36,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 36,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 36,I]	Signal min: 0
+2018-09-23 20:11:59 [ 36,I]	Signal max: 1
+2018-09-23 20:11:59 [ 37,A]	Signal name: Low_Beam_available
+2018-09-23 20:11:59 [ 37,B]	Message name: Car_Info
+2018-09-23 20:11:59 [ 37,D]	Signal len: 1
+2018-09-23 20:11:59 [ 37,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 37,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 37,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 37,I]	Signal min: 0
+2018-09-23 20:11:59 [ 37,I]	Signal max: 1
+2018-09-23 20:11:59 [ 38,A]	Signal name: Right_Signal
+2018-09-23 20:11:59 [ 38,B]	Message name: Car_Info
+2018-09-23 20:11:59 [ 38,D]	Signal len: 1
+2018-09-23 20:11:59 [ 38,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 38,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 38,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 38,I]	Signal min: 0
+2018-09-23 20:11:59 [ 38,I]	Signal max: 1
+2018-09-23 20:11:59 [ 39,A]	Signal name: Speed
+2018-09-23 20:11:59 [ 39,B]	Message name: Car_Info
+2018-09-23 20:11:59 [ 39,D]	Signal len: 8
+2018-09-23 20:11:59 [ 39,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 39,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 39,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 39,I]	Signal min: 0
+2018-09-23 20:11:59 [ 39,I]	Signal max: 255
+2018-09-23 20:11:59 [ 40,A]	Signal name: Speed_Available
+2018-09-23 20:11:59 [ 40,B]	Message name: Car_Info
+2018-09-23 20:11:59 [ 40,D]	Signal len: 1
+2018-09-23 20:11:59 [ 40,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 40,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 40,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 40,I]	Signal min: 0
+2018-09-23 20:11:59 [ 40,I]	Signal max: 1
+2018-09-23 20:11:59 [ 41,A]	Signal name: Wipers
+2018-09-23 20:11:59 [ 41,B]	Message name: Car_Info
+2018-09-23 20:11:59 [ 41,D]	Signal len: 1
+2018-09-23 20:11:59 [ 41,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 41,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 41,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 41,I]	Signal min: 0
+2018-09-23 20:11:59 [ 41,I]	Signal max: 1
+2018-09-23 20:11:59 [ 42,A]	Signal name: Wipers_available
+2018-09-23 20:11:59 [ 42,B]	Message name: Car_Info
+2018-09-23 20:11:59 [ 42,D]	Signal len: 1
+2018-09-23 20:11:59 [ 42,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 42,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 42,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 42,I]	Signal min: 0
+2018-09-23 20:11:59 [ 42,I]	Signal max: 1
+2018-09-23 20:11:59 [ 43,A]	Signal name: Distance_To_Left_Lane
+2018-09-23 20:11:59 [ 43,B]	Message name: Detils_Lane
+2018-09-23 20:11:59 [ 43,D]	Signal len: 12
+2018-09-23 20:11:59 [ 43,F]	Signal Type: Signed
+2018-09-23 20:11:59 [ 43,G]	Signal Factor: 0.02
+2018-09-23 20:11:59 [ 43,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 43,I]	Signal min: -40
+2018-09-23 20:11:59 [ 43,I]	Signal max: 40
+2018-09-23 20:11:59 [ 44,A]	Signal name: Distance_To_Right_Lane
+2018-09-23 20:11:59 [ 44,B]	Message name: Detils_Lane
+2018-09-23 20:11:59 [ 44,D]	Signal len: 12
+2018-09-23 20:11:59 [ 44,F]	Signal Type: Signed
+2018-09-23 20:11:59 [ 44,G]	Signal Factor: 0.02
+2018-09-23 20:11:59 [ 44,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 44,I]	Signal min: -40
+2018-09-23 20:11:59 [ 44,I]	Signal max: 40
+2018-09-23 20:11:59 [ 45,A]	Signal name: Lane_Confidence_Left
+2018-09-23 20:11:59 [ 45,B]	Message name: Detils_Lane
+2018-09-23 20:11:59 [ 45,D]	Signal len: 2
+2018-09-23 20:11:59 [ 45,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 45,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 45,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 45,I]	Signal min: 0
+2018-09-23 20:11:59 [ 45,I]	Signal max: 3
+2018-09-23 20:11:59 [ 46,A]	Signal name: Lane_Confidence_Right
+2018-09-23 20:11:59 [ 46,B]	Message name: Detils_Lane
+2018-09-23 20:11:59 [ 46,D]	Signal len: 2
+2018-09-23 20:11:59 [ 46,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 46,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 46,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 46,I]	Signal min: 0
+2018-09-23 20:11:59 [ 46,I]	Signal max: 3
+2018-09-23 20:11:59 [ 47,A]	Signal name: Lane_Type_Left
+2018-09-23 20:11:59 [ 47,B]	Message name: Detils_Lane
+2018-09-23 20:11:59 [ 47,D]	Signal len: 4
+2018-09-23 20:11:59 [ 47,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 47,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 47,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 47,I]	Signal min: 0
+2018-09-23 20:11:59 [ 47,I]	Signal max: 15
+2018-09-23 20:11:59 [ 48,A]	Signal name: Lane_Type_Right
+2018-09-23 20:11:59 [ 48,B]	Message name: Detils_Lane
+2018-09-23 20:11:59 [ 48,D]	Signal len: 4
+2018-09-23 20:11:59 [ 48,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 48,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 48,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 48,I]	Signal min: 0
+2018-09-23 20:11:59 [ 48,I]	Signal max: 15
+2018-09-23 20:11:59 [ 49,A]	Signal name: LDW_Availability_Left
+2018-09-23 20:11:59 [ 49,B]	Message name: Detils_Lane
+2018-09-23 20:11:59 [ 49,D]	Signal len: 1
+2018-09-23 20:11:59 [ 49,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 49,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 49,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 49,I]	Signal min: 0
+2018-09-23 20:11:59 [ 49,I]	Signal max: 1
+2018-09-23 20:11:59 [ 50,A]	Signal name: LDW_Availability_Right
+2018-09-23 20:11:59 [ 50,B]	Message name: Detils_Lane
+2018-09-23 20:11:59 [ 50,D]	Signal len: 1
+2018-09-23 20:11:59 [ 50,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 50,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 50,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 50,I]	Signal min: 0
+2018-09-23 20:11:59 [ 50,I]	Signal max: 1
+2018-09-23 20:11:59 [ 51,A]	Signal name: Undocumented1
+2018-09-23 20:11:59 [ 51,B]	Message name: Detils_Lane
+2018-09-23 20:11:59 [ 51,D]	Signal len: 1
+2018-09-23 20:11:59 [ 51,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 51,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 51,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 51,I]	Signal min: 0
+2018-09-23 20:11:59 [ 51,I]	Signal max: 1
+2018-09-23 20:11:59 [ 52,A]	Signal name: Undocumented2
+2018-09-23 20:11:59 [ 52,B]	Message name: Detils_Lane
+2018-09-23 20:11:59 [ 52,D]	Signal len: 1
+2018-09-23 20:11:59 [ 52,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 52,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 52,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 52,I]	Signal min: 0
+2018-09-23 20:11:59 [ 52,I]	Signal max: 1
+2018-09-23 20:11:59 [ 53,A]	Signal name: Fixed_Horizon
+2018-09-23 20:11:59 [ 53,B]	Message name: Fixed_FOE
+2018-09-23 20:11:59 [ 53,D]	Signal len: 32
+2018-09-23 20:11:59 [ 53,F]	Signal Type: IEEE Float
+2018-09-23 20:11:59 [ 53,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 53,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 53,I]	Signal min: -3.4E+38
+2018-09-23 20:11:59 [ 53,I]	Signal max: 3.4E+38
+2018-09-23 20:11:59 [ 54,A]	Signal name: Fixed_Yaw
+2018-09-23 20:11:59 [ 54,B]	Message name: Fixed_FOE
+2018-09-23 20:11:59 [ 54,D]	Signal len: 32
+2018-09-23 20:11:59 [ 54,F]	Signal Type: IEEE Float
+2018-09-23 20:11:59 [ 54,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 54,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 54,I]	Signal min: -3.4E+38
+2018-09-23 20:11:59 [ 54,I]	Signal max: 3.4E+38
+2018-09-23 20:11:59 [ 55,A]	Signal name: CA
+2018-09-23 20:11:59 [ 55,B]	Message name: Lane
+2018-09-23 20:11:59 [ 55,D]	Signal len: 1
+2018-09-23 20:11:59 [ 55,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 55,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 55,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 55,I]	Signal min: 0
+2018-09-23 20:11:59 [ 55,I]	Signal max: 1
+2018-09-23 20:11:59 [ 56,A]	Signal name: Lane_Curvature
+2018-09-23 20:11:59 [ 56,B]	Message name: Lane
+2018-09-23 20:11:59 [ 56,D]	Signal len: 16
+2018-09-23 20:11:59 [ 56,F]	Signal Type: Signed
+2018-09-23 20:11:59 [ 56,G]	Signal Factor: 3.8099999999999999E-6
+2018-09-23 20:11:59 [ 56,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 56,I]	Signal min: -0.12
+2018-09-23 20:11:59 [ 56,I]	Signal max: 0.12
+2018-09-23 20:11:59 [ 57,A]	Signal name: Lane_Heading
+2018-09-23 20:11:59 [ 57,B]	Message name: Lane
+2018-09-23 20:11:59 [ 57,D]	Signal len: 12
+2018-09-23 20:11:59 [ 57,F]	Signal Type: Signed
+2018-09-23 20:11:59 [ 57,G]	Signal Factor: 5.0000000000000001E-4
+2018-09-23 20:11:59 [ 57,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 57,I]	Signal min: -1
+2018-09-23 20:11:59 [ 57,I]	Signal max: 1
+2018-09-23 20:11:59 [ 58,A]	Signal name: Left_LDW_Availability
+2018-09-23 20:11:59 [ 58,B]	Message name: Lane
+2018-09-23 20:11:59 [ 58,D]	Signal len: 1
+2018-09-23 20:11:59 [ 58,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 58,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 58,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 58,I]	Signal min: 0
+2018-09-23 20:11:59 [ 58,I]	Signal max: 1
+2018-09-23 20:11:59 [ 59,A]	Signal name: Pitch_Angle
+2018-09-23 20:11:59 [ 59,B]	Message name: Lane
+2018-09-23 20:11:59 [ 59,D]	Signal len: 16
+2018-09-23 20:11:59 [ 59,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 59,G]	Signal Factor: 1.9099999999999999E-6
+2018-09-23 20:11:59 [ 59,H]	Signal Offset: -6.2498100000000001E-2
+2018-09-23 20:11:59 [ 59,I]	Signal min: -0.05
+2018-09-23 20:11:59 [ 59,I]	Signal max: 0.05
+2018-09-23 20:11:59 [ 60,A]	Signal name: Right_LDW_Availability
+2018-09-23 20:11:59 [ 60,B]	Message name: Lane
+2018-09-23 20:11:59 [ 60,D]	Signal len: 1
+2018-09-23 20:11:59 [ 60,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 60,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 60,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 60,I]	Signal min: 0
+2018-09-23 20:11:59 [ 60,I]	Signal max: 1
+2018-09-23 20:11:59 [ 61,A]	Signal name: Yaw_Angle
+2018-09-23 20:11:59 [ 61,B]	Message name: Lane
+2018-09-23 20:11:59 [ 61,D]	Signal len: 16
+2018-09-23 20:11:59 [ 61,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 61,G]	Signal Factor: 9.7656000000000001E-4
+2018-09-23 20:11:59 [ 61,H]	Signal Offset: -31.998999999999999
+2018-09-23 20:11:59 [ 61,I]	Signal min: -31.998999999999999
+2018-09-23 20:11:59 [ 61,I]	Signal max: 31.9999
+2018-09-23 20:11:59 [ 62,A]	Signal name: Curvature_derivative_C3
+2018-09-23 20:11:59 [ 62,B]	Message name: LKA_left_lane_A
+2018-09-23 20:11:59 [ 62,D]	Signal len: 16
+2018-09-23 20:11:59 [ 62,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 62,G]	Signal Factor: 3.72E-9
+2018-09-23 20:11:59 [ 62,H]	Signal Offset: -1.22067E-4
+2018-09-23 20:11:59 [ 62,I]	Signal min: -1.2E-4
+2018-09-23 20:11:59 [ 62,I]	Signal max: 1.2E-4
+2018-09-23 20:11:59 [ 63,A]	Signal name: Curvature_Parameter_C2
+2018-09-23 20:11:59 [ 63,B]	Message name: LKA_left_lane_A
+2018-09-23 20:11:59 [ 63,D]	Signal len: 16
+2018-09-23 20:11:59 [ 63,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 63,G]	Signal Factor: 9.7656299999999993E-7
+2018-09-23 20:11:59 [ 63,H]	Signal Offset: -3.1999E-2
+2018-09-23 20:11:59 [ 63,I]	Signal min: -0.02
+2018-09-23 20:11:59 [ 63,I]	Signal max: 0.02
+2018-09-23 20:11:59 [ 64,A]	Signal name: Lane_type
+2018-09-23 20:11:59 [ 64,B]	Message name: LKA_left_lane_A
+2018-09-23 20:11:59 [ 64,D]	Signal len: 4
+2018-09-23 20:11:59 [ 64,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 64,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 64,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 64,I]	Signal min: 0
+2018-09-23 20:11:59 [ 64,I]	Signal max: 15
+2018-09-23 20:11:59 [ 65,A]	Signal name: Model_degree
+2018-09-23 20:11:59 [ 65,B]	Message name: LKA_left_lane_A
+2018-09-23 20:11:59 [ 65,D]	Signal len: 2
+2018-09-23 20:11:59 [ 65,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 65,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 65,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 65,I]	Signal min: 0
+2018-09-23 20:11:59 [ 65,I]	Signal max: 3
+2018-09-23 20:11:59 [ 66,A]	Signal name: Position_Parameter_C0
+2018-09-23 20:11:59 [ 66,B]	Message name: LKA_left_lane_A
+2018-09-23 20:11:59 [ 66,D]	Signal len: 16
+2018-09-23 20:11:59 [ 66,F]	Signal Type: Signed
+2018-09-23 20:11:59 [ 66,G]	Signal Factor: 3.90625E-3
+2018-09-23 20:11:59 [ 66,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 66,I]	Signal min: -127
+2018-09-23 20:11:59 [ 66,I]	Signal max: 128
+2018-09-23 20:11:59 [ 67,A]	Signal name: Quality
+2018-09-23 20:11:59 [ 67,B]	Message name: LKA_left_lane_A
+2018-09-23 20:11:59 [ 67,D]	Signal len: 2
+2018-09-23 20:11:59 [ 67,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 67,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 67,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 67,I]	Signal min: 0
+2018-09-23 20:11:59 [ 67,I]	Signal max: 3
+2018-09-23 20:11:59 [ 68,A]	Signal name: Width_left_marking
+2018-09-23 20:11:59 [ 68,B]	Message name: LKA_left_lane_A
+2018-09-23 20:11:59 [ 68,D]	Signal len: 8
+2018-09-23 20:11:59 [ 68,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 68,G]	Signal Factor: 0.01
+2018-09-23 20:11:59 [ 68,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 68,I]	Signal min: 0
+2018-09-23 20:11:59 [ 68,I]	Signal max: 2.5
+2018-09-23 20:11:59 [ 69,A]	Signal name: Heading_angle_Parameter_C1
+2018-09-23 20:11:59 [ 69,B]	Message name: LKA_left_lane_B
+2018-09-23 20:11:59 [ 69,D]	Signal len: 16
+2018-09-23 20:11:59 [ 69,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 69,G]	Signal Factor: 9.7656299999999995E-4
+2018-09-23 20:11:59 [ 69,H]	Signal Offset: -31.998999999999999
+2018-09-23 20:11:59 [ 69,I]	Signal min: -0.35699999999999998
+2018-09-23 20:11:59 [ 69,I]	Signal max: 0.35699999999999998
+2018-09-23 20:11:59 [ 70,A]	Signal name: View_range
+2018-09-23 20:11:59 [ 70,B]	Message name: LKA_left_lane_B
+2018-09-23 20:11:59 [ 70,D]	Signal len: 15
+2018-09-23 20:11:59 [ 70,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 70,G]	Signal Factor: 3.0625000000000001E-3
+2018-09-23 20:11:59 [ 70,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 70,I]	Signal min: 0
+2018-09-23 20:11:59 [ 70,I]	Signal max: 127.996
+2018-09-23 20:11:59 [ 71,A]	Signal name: View_range_availability
+2018-09-23 20:11:59 [ 71,B]	Message name: LKA_left_lane_B
+2018-09-23 20:11:59 [ 71,D]	Signal len: 1
+2018-09-23 20:11:59 [ 71,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 71,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 71,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 71,I]	Signal min: 0
+2018-09-23 20:11:59 [ 71,I]	Signal max: 1
+2018-09-23 20:11:59 [ 72,A]	Signal name: Curvature_derivative_C3
+2018-09-23 20:11:59 [ 72,B]	Message name: LKA_right_lane_A
+2018-09-23 20:11:59 [ 72,D]	Signal len: 16
+2018-09-23 20:11:59 [ 72,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 72,G]	Signal Factor: 3.72E-9
+2018-09-23 20:11:59 [ 72,H]	Signal Offset: -1.22067E-4
+2018-09-23 20:11:59 [ 72,I]	Signal min: -1.2E-4
+2018-09-23 20:11:59 [ 72,I]	Signal max: 1.2E-4
+2018-09-23 20:11:59 [ 73,A]	Signal name: Curvature_Parameter_C2
+2018-09-23 20:11:59 [ 73,B]	Message name: LKA_right_lane_A
+2018-09-23 20:11:59 [ 73,D]	Signal len: 16
+2018-09-23 20:11:59 [ 73,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 73,G]	Signal Factor: 9.7656299999999993E-7
+2018-09-23 20:11:59 [ 73,H]	Signal Offset: -3.1999E-2
+2018-09-23 20:11:59 [ 73,I]	Signal min: -0.02
+2018-09-23 20:11:59 [ 73,I]	Signal max: 0.02
+2018-09-23 20:11:59 [ 74,A]	Signal name: Lane_type
+2018-09-23 20:11:59 [ 74,B]	Message name: LKA_right_lane_A
+2018-09-23 20:11:59 [ 74,D]	Signal len: 4
+2018-09-23 20:11:59 [ 74,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 74,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 74,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 74,I]	Signal min: 0
+2018-09-23 20:11:59 [ 74,I]	Signal max: 15
+2018-09-23 20:11:59 [ 75,A]	Signal name: Model_degree
+2018-09-23 20:11:59 [ 75,B]	Message name: LKA_right_lane_A
+2018-09-23 20:11:59 [ 75,D]	Signal len: 2
+2018-09-23 20:11:59 [ 75,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 75,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 75,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 75,I]	Signal min: 0
+2018-09-23 20:11:59 [ 75,I]	Signal max: 3
+2018-09-23 20:11:59 [ 76,A]	Signal name: Position_Parameter_C0
+2018-09-23 20:11:59 [ 76,B]	Message name: LKA_right_lane_A
+2018-09-23 20:11:59 [ 76,D]	Signal len: 16
+2018-09-23 20:11:59 [ 76,F]	Signal Type: Signed
+2018-09-23 20:11:59 [ 76,G]	Signal Factor: 3.90625E-3
+2018-09-23 20:11:59 [ 76,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 76,I]	Signal min: -127
+2018-09-23 20:11:59 [ 76,I]	Signal max: 128
+2018-09-23 20:11:59 [ 77,A]	Signal name: Quality
+2018-09-23 20:11:59 [ 77,B]	Message name: LKA_right_lane_A
+2018-09-23 20:11:59 [ 77,D]	Signal len: 2
+2018-09-23 20:11:59 [ 77,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 77,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 77,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 77,I]	Signal min: 0
+2018-09-23 20:11:59 [ 77,I]	Signal max: 3
+2018-09-23 20:11:59 [ 78,A]	Signal name: Width_right_marking
+2018-09-23 20:11:59 [ 78,B]	Message name: LKA_right_lane_A
+2018-09-23 20:11:59 [ 78,D]	Signal len: 8
+2018-09-23 20:11:59 [ 78,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 78,G]	Signal Factor: 0.01
+2018-09-23 20:11:59 [ 78,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 78,I]	Signal min: 0
+2018-09-23 20:11:59 [ 78,I]	Signal max: 2.5
+2018-09-23 20:11:59 [ 79,A]	Signal name: Heading_angle_Parameter_C1
+2018-09-23 20:11:59 [ 79,B]	Message name: LKA_right_lane_B
+2018-09-23 20:11:59 [ 79,D]	Signal len: 16
+2018-09-23 20:11:59 [ 79,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 79,G]	Signal Factor: 9.7656299999999995E-4
+2018-09-23 20:11:59 [ 79,H]	Signal Offset: -31.998999999999999
+2018-09-23 20:11:59 [ 79,I]	Signal min: -0.35699999999999998
+2018-09-23 20:11:59 [ 79,I]	Signal max: 0.35699999999999998
+2018-09-23 20:11:59 [ 80,A]	Signal name: View_range
+2018-09-23 20:11:59 [ 80,B]	Message name: LKA_right_lane_B
+2018-09-23 20:11:59 [ 80,D]	Signal len: 15
+2018-09-23 20:11:59 [ 80,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 80,G]	Signal Factor: 3.0625000000000001E-3
+2018-09-23 20:11:59 [ 80,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 80,I]	Signal min: 0
+2018-09-23 20:11:59 [ 80,I]	Signal max: 127.996
+2018-09-23 20:11:59 [ 81,A]	Signal name: View_range_availability
+2018-09-23 20:11:59 [ 81,B]	Message name: LKA_right_lane_B
+2018-09-23 20:11:59 [ 81,D]	Signal len: 1
+2018-09-23 20:11:59 [ 81,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 81,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 81,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 81,I]	Signal min: 0
+2018-09-23 20:11:59 [ 81,I]	Signal max: 1
+2018-09-23 20:11:59 [ 82,A]	Signal name: Curvature_derivative_C3
+2018-09-23 20:11:59 [ 82,B]	Message name: Next_lane_Left_A
+2018-09-23 20:11:59 [ 82,D]	Signal len: 16
+2018-09-23 20:11:59 [ 82,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 82,G]	Signal Factor: 3.72E-9
+2018-09-23 20:11:59 [ 82,H]	Signal Offset: -1.22067E-4
+2018-09-23 20:11:59 [ 82,I]	Signal min: -1.2E-4
+2018-09-23 20:11:59 [ 82,I]	Signal max: 1.2E-4
+2018-09-23 20:11:59 [ 83,A]	Signal name: Curvature_Parameter_C2
+2018-09-23 20:11:59 [ 83,B]	Message name: Next_lane_Left_A
+2018-09-23 20:11:59 [ 83,D]	Signal len: 16
+2018-09-23 20:11:59 [ 83,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 83,G]	Signal Factor: 9.7656299999999993E-7
+2018-09-23 20:11:59 [ 83,H]	Signal Offset: -3.1999E-2
+2018-09-23 20:11:59 [ 83,I]	Signal min: -0.02
+2018-09-23 20:11:59 [ 83,I]	Signal max: 0.02
+2018-09-23 20:11:59 [ 84,A]	Signal name: Lane_mark_width
+2018-09-23 20:11:59 [ 84,B]	Message name: Next_lane_Left_A
+2018-09-23 20:11:59 [ 84,D]	Signal len: 8
+2018-09-23 20:11:59 [ 84,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 84,G]	Signal Factor: 0.01
+2018-09-23 20:11:59 [ 84,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 84,I]	Signal min: 0
+2018-09-23 20:11:59 [ 84,I]	Signal max: 2.5
+2018-09-23 20:11:59 [ 85,A]	Signal name: Lane_type
+2018-09-23 20:11:59 [ 85,B]	Message name: Next_lane_Left_A
+2018-09-23 20:11:59 [ 85,D]	Signal len: 4
+2018-09-23 20:11:59 [ 85,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 85,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 85,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 85,I]	Signal min: 0
+2018-09-23 20:11:59 [ 85,I]	Signal max: 15
+2018-09-23 20:11:59 [ 86,A]	Signal name: Model_degree
+2018-09-23 20:11:59 [ 86,B]	Message name: Next_lane_Left_A
+2018-09-23 20:11:59 [ 86,D]	Signal len: 2
+2018-09-23 20:11:59 [ 86,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 86,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 86,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 86,I]	Signal min: 0
+2018-09-23 20:11:59 [ 86,I]	Signal max: 3
+2018-09-23 20:11:59 [ 87,A]	Signal name: Position_Parameter_C0
+2018-09-23 20:11:59 [ 87,B]	Message name: Next_lane_Left_A
+2018-09-23 20:11:59 [ 87,D]	Signal len: 16
+2018-09-23 20:11:59 [ 87,F]	Signal Type: Signed
+2018-09-23 20:11:59 [ 87,G]	Signal Factor: 3.90625E-3
+2018-09-23 20:11:59 [ 87,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 87,I]	Signal min: -127
+2018-09-23 20:11:59 [ 87,I]	Signal max: 128
+2018-09-23 20:11:59 [ 88,A]	Signal name: Quality
+2018-09-23 20:11:59 [ 88,B]	Message name: Next_lane_Left_A
+2018-09-23 20:11:59 [ 88,D]	Signal len: 2
+2018-09-23 20:11:59 [ 88,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 88,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 88,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 88,I]	Signal min: 0
+2018-09-23 20:11:59 [ 88,I]	Signal max: 3
+2018-09-23 20:11:59 [ 89,A]	Signal name: Heading_angle_Parameter_C1
+2018-09-23 20:11:59 [ 89,B]	Message name: Next_lane_Left_B
+2018-09-23 20:11:59 [ 89,D]	Signal len: 16
+2018-09-23 20:11:59 [ 89,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 89,G]	Signal Factor: 9.7656299999999995E-4
+2018-09-23 20:11:59 [ 89,H]	Signal Offset: -31.998999999999999
+2018-09-23 20:11:59 [ 89,I]	Signal min: -0.35699999999999998
+2018-09-23 20:11:59 [ 89,I]	Signal max: 0.35699999999999998
+2018-09-23 20:11:59 [ 90,A]	Signal name: View_range
+2018-09-23 20:11:59 [ 90,B]	Message name: Next_lane_Left_B
+2018-09-23 20:11:59 [ 90,D]	Signal len: 15
+2018-09-23 20:11:59 [ 90,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 90,G]	Signal Factor: 3.0625000000000001E-3
+2018-09-23 20:11:59 [ 90,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 90,I]	Signal min: 0
+2018-09-23 20:11:59 [ 90,I]	Signal max: 127.996
+2018-09-23 20:11:59 [ 91,A]	Signal name: View_range_availability
+2018-09-23 20:11:59 [ 91,B]	Message name: Next_lane_Left_B
+2018-09-23 20:11:59 [ 91,D]	Signal len: 1
+2018-09-23 20:11:59 [ 91,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 91,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 91,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 91,I]	Signal min: 0
+2018-09-23 20:11:59 [ 91,I]	Signal max: 1
+2018-09-23 20:11:59 [ 92,A]	Signal name: Curvature_derivative_C3
+2018-09-23 20:11:59 [ 92,B]	Message name: Next_lane_Left_E
+2018-09-23 20:11:59 [ 92,D]	Signal len: 16
+2018-09-23 20:11:59 [ 92,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 92,G]	Signal Factor: 3.72E-9
+2018-09-23 20:11:59 [ 92,H]	Signal Offset: -1.22067E-4
+2018-09-23 20:11:59 [ 92,I]	Signal min: -1.2E-4
+2018-09-23 20:11:59 [ 92,I]	Signal max: 1.2E-4
+2018-09-23 20:11:59 [ 93,A]	Signal name: Curvature_Parameter_C2
+2018-09-23 20:11:59 [ 93,B]	Message name: Next_lane_Left_E
+2018-09-23 20:11:59 [ 93,D]	Signal len: 16
+2018-09-23 20:11:59 [ 93,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 93,G]	Signal Factor: 9.7656299999999993E-7
+2018-09-23 20:11:59 [ 93,H]	Signal Offset: -3.1999E-2
+2018-09-23 20:11:59 [ 93,I]	Signal min: -0.02
+2018-09-23 20:11:59 [ 93,I]	Signal max: 0.02
+2018-09-23 20:11:59 [ 94,A]	Signal name: Lane_mark_width
+2018-09-23 20:11:59 [ 94,B]	Message name: Next_lane_Left_E
+2018-09-23 20:11:59 [ 94,D]	Signal len: 8
+2018-09-23 20:11:59 [ 94,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 94,G]	Signal Factor: 0.01
+2018-09-23 20:11:59 [ 94,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 94,I]	Signal min: 0
+2018-09-23 20:11:59 [ 94,I]	Signal max: 2.5
+2018-09-23 20:11:59 [ 95,A]	Signal name: Lane_type
+2018-09-23 20:11:59 [ 95,B]	Message name: Next_lane_Left_E
+2018-09-23 20:11:59 [ 95,D]	Signal len: 4
+2018-09-23 20:11:59 [ 95,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 95,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 95,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 95,I]	Signal min: 0
+2018-09-23 20:11:59 [ 95,I]	Signal max: 15
+2018-09-23 20:11:59 [ 96,A]	Signal name: Model_degree
+2018-09-23 20:11:59 [ 96,B]	Message name: Next_lane_Left_E
+2018-09-23 20:11:59 [ 96,D]	Signal len: 2
+2018-09-23 20:11:59 [ 96,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 96,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 96,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 96,I]	Signal min: 0
+2018-09-23 20:11:59 [ 96,I]	Signal max: 3
+2018-09-23 20:11:59 [ 97,A]	Signal name: Position_Parameter_C0
+2018-09-23 20:11:59 [ 97,B]	Message name: Next_lane_Left_E
+2018-09-23 20:11:59 [ 97,D]	Signal len: 16
+2018-09-23 20:11:59 [ 97,F]	Signal Type: Signed
+2018-09-23 20:11:59 [ 97,G]	Signal Factor: 3.90625E-3
+2018-09-23 20:11:59 [ 97,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 97,I]	Signal min: -127
+2018-09-23 20:11:59 [ 97,I]	Signal max: 128
+2018-09-23 20:11:59 [ 98,A]	Signal name: Quality
+2018-09-23 20:11:59 [ 98,B]	Message name: Next_lane_Left_E
+2018-09-23 20:11:59 [ 98,D]	Signal len: 2
+2018-09-23 20:11:59 [ 98,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 98,G]	Signal Factor: 1
+2018-09-23 20:11:59 [ 98,H]	Signal Offset: 0
+2018-09-23 20:11:59 [ 98,I]	Signal min: 0
+2018-09-23 20:11:59 [ 98,I]	Signal max: 3
+2018-09-23 20:11:59 [ 99,A]	Signal name: Heading_angle_Parameter_C1
+2018-09-23 20:11:59 [ 99,B]	Message name: Next_lane_Left_F
+2018-09-23 20:11:59 [ 99,D]	Signal len: 16
+2018-09-23 20:11:59 [ 99,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [ 99,G]	Signal Factor: 9.7656299999999995E-4
+2018-09-23 20:11:59 [ 99,H]	Signal Offset: -31.998999999999999
+2018-09-23 20:11:59 [ 99,I]	Signal min: -0.35699999999999998
+2018-09-23 20:11:59 [ 99,I]	Signal max: 0.35699999999999998
+2018-09-23 20:11:59 [100,A]	Signal name: View_range
+2018-09-23 20:11:59 [100,B]	Message name: Next_lane_Left_F
+2018-09-23 20:11:59 [100,D]	Signal len: 15
+2018-09-23 20:11:59 [100,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [100,G]	Signal Factor: 3.0625000000000001E-3
+2018-09-23 20:11:59 [100,H]	Signal Offset: 0
+2018-09-23 20:11:59 [100,I]	Signal min: 0
+2018-09-23 20:11:59 [100,I]	Signal max: 127.996
+2018-09-23 20:11:59 [101,A]	Signal name: View_range_availability
+2018-09-23 20:11:59 [101,B]	Message name: Next_lane_Left_F
+2018-09-23 20:11:59 [101,D]	Signal len: 1
+2018-09-23 20:11:59 [101,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [101,G]	Signal Factor: 1
+2018-09-23 20:11:59 [101,H]	Signal Offset: 0
+2018-09-23 20:11:59 [101,I]	Signal min: 0
+2018-09-23 20:11:59 [101,I]	Signal max: 1
+2018-09-23 20:11:59 [102,A]	Signal name: Curvature_derivative_C3
+2018-09-23 20:11:59 [102,B]	Message name: Next_lane_Left_I
+2018-09-23 20:11:59 [102,D]	Signal len: 16
+2018-09-23 20:11:59 [102,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [102,G]	Signal Factor: 3.72E-9
+2018-09-23 20:11:59 [102,H]	Signal Offset: -1.22067E-4
+2018-09-23 20:11:59 [102,I]	Signal min: -1.2E-4
+2018-09-23 20:11:59 [102,I]	Signal max: 1.2E-4
+2018-09-23 20:11:59 [103,A]	Signal name: Curvature_Parameter_C2
+2018-09-23 20:11:59 [103,B]	Message name: Next_lane_Left_I
+2018-09-23 20:11:59 [103,D]	Signal len: 16
+2018-09-23 20:11:59 [103,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [103,G]	Signal Factor: 9.7656299999999993E-7
+2018-09-23 20:11:59 [103,H]	Signal Offset: -3.1999E-2
+2018-09-23 20:11:59 [103,I]	Signal min: -0.02
+2018-09-23 20:11:59 [103,I]	Signal max: 0.02
+2018-09-23 20:11:59 [104,A]	Signal name: Lane_mark_width
+2018-09-23 20:11:59 [104,B]	Message name: Next_lane_Left_I
+2018-09-23 20:11:59 [104,D]	Signal len: 8
+2018-09-23 20:11:59 [104,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [104,G]	Signal Factor: 0.01
+2018-09-23 20:11:59 [104,H]	Signal Offset: 0
+2018-09-23 20:11:59 [104,I]	Signal min: 0
+2018-09-23 20:11:59 [104,I]	Signal max: 2.5
+2018-09-23 20:11:59 [105,A]	Signal name: Lane_type
+2018-09-23 20:11:59 [105,B]	Message name: Next_lane_Left_I
+2018-09-23 20:11:59 [105,D]	Signal len: 4
+2018-09-23 20:11:59 [105,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [105,G]	Signal Factor: 1
+2018-09-23 20:11:59 [105,H]	Signal Offset: 0
+2018-09-23 20:11:59 [105,I]	Signal min: 0
+2018-09-23 20:11:59 [105,I]	Signal max: 15
+2018-09-23 20:11:59 [106,A]	Signal name: Model_degree
+2018-09-23 20:11:59 [106,B]	Message name: Next_lane_Left_I
+2018-09-23 20:11:59 [106,D]	Signal len: 2
+2018-09-23 20:11:59 [106,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [106,G]	Signal Factor: 1
+2018-09-23 20:11:59 [106,H]	Signal Offset: 0
+2018-09-23 20:11:59 [106,I]	Signal min: 0
+2018-09-23 20:11:59 [106,I]	Signal max: 3
+2018-09-23 20:11:59 [107,A]	Signal name: Position_Parameter_C0
+2018-09-23 20:11:59 [107,B]	Message name: Next_lane_Left_I
+2018-09-23 20:11:59 [107,D]	Signal len: 16
+2018-09-23 20:11:59 [107,F]	Signal Type: Signed
+2018-09-23 20:11:59 [107,G]	Signal Factor: 3.90625E-3
+2018-09-23 20:11:59 [107,H]	Signal Offset: 0
+2018-09-23 20:11:59 [107,I]	Signal min: -127
+2018-09-23 20:11:59 [107,I]	Signal max: 128
+2018-09-23 20:11:59 [108,A]	Signal name: Quality
+2018-09-23 20:11:59 [108,B]	Message name: Next_lane_Left_I
+2018-09-23 20:11:59 [108,D]	Signal len: 2
+2018-09-23 20:11:59 [108,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [108,G]	Signal Factor: 1
+2018-09-23 20:11:59 [108,H]	Signal Offset: 0
+2018-09-23 20:11:59 [108,I]	Signal min: 0
+2018-09-23 20:11:59 [108,I]	Signal max: 3
+2018-09-23 20:11:59 [109,A]	Signal name: Heading_angle_Parameter_C1
+2018-09-23 20:11:59 [109,B]	Message name: Next_lane_Left_J
+2018-09-23 20:11:59 [109,D]	Signal len: 16
+2018-09-23 20:11:59 [109,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [109,G]	Signal Factor: 9.7656299999999995E-4
+2018-09-23 20:11:59 [109,H]	Signal Offset: -31.998999999999999
+2018-09-23 20:11:59 [109,I]	Signal min: -0.35699999999999998
+2018-09-23 20:11:59 [109,I]	Signal max: 0.35699999999999998
+2018-09-23 20:11:59 [110,A]	Signal name: View_range
+2018-09-23 20:11:59 [110,B]	Message name: Next_lane_Left_J
+2018-09-23 20:11:59 [110,D]	Signal len: 15
+2018-09-23 20:11:59 [110,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [110,G]	Signal Factor: 3.0625000000000001E-3
+2018-09-23 20:11:59 [110,H]	Signal Offset: 0
+2018-09-23 20:11:59 [110,I]	Signal min: 0
+2018-09-23 20:11:59 [110,I]	Signal max: 127.996
+2018-09-23 20:11:59 [111,A]	Signal name: View_range_availability
+2018-09-23 20:11:59 [111,B]	Message name: Next_lane_Left_J
+2018-09-23 20:11:59 [111,D]	Signal len: 1
+2018-09-23 20:11:59 [111,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [111,G]	Signal Factor: 1
+2018-09-23 20:11:59 [111,H]	Signal Offset: 0
+2018-09-23 20:11:59 [111,I]	Signal min: 0
+2018-09-23 20:11:59 [111,I]	Signal max: 1
+2018-09-23 20:11:59 [112,A]	Signal name: Curvature_derivative_C3
+2018-09-23 20:11:59 [112,B]	Message name: Next_lane_Left_M
+2018-09-23 20:11:59 [112,D]	Signal len: 16
+2018-09-23 20:11:59 [112,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [112,G]	Signal Factor: 3.72E-9
+2018-09-23 20:11:59 [112,H]	Signal Offset: -1.22067E-4
+2018-09-23 20:11:59 [112,I]	Signal min: -1.2E-4
+2018-09-23 20:11:59 [112,I]	Signal max: 1.2E-4
+2018-09-23 20:11:59 [113,A]	Signal name: Curvature_Parameter_C2
+2018-09-23 20:11:59 [113,B]	Message name: Next_lane_Left_M
+2018-09-23 20:11:59 [113,D]	Signal len: 16
+2018-09-23 20:11:59 [113,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [113,G]	Signal Factor: 9.7656299999999993E-7
+2018-09-23 20:11:59 [113,H]	Signal Offset: -3.1999E-2
+2018-09-23 20:11:59 [113,I]	Signal min: -0.02
+2018-09-23 20:11:59 [113,I]	Signal max: 0.02
+2018-09-23 20:11:59 [114,A]	Signal name: Lane_mark_width
+2018-09-23 20:11:59 [114,B]	Message name: Next_lane_Left_M
+2018-09-23 20:11:59 [114,D]	Signal len: 8
+2018-09-23 20:11:59 [114,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [114,G]	Signal Factor: 0.01
+2018-09-23 20:11:59 [114,H]	Signal Offset: 0
+2018-09-23 20:11:59 [114,I]	Signal min: 0
+2018-09-23 20:11:59 [114,I]	Signal max: 2.5
+2018-09-23 20:11:59 [115,A]	Signal name: Lane_type
+2018-09-23 20:11:59 [115,B]	Message name: Next_lane_Left_M
+2018-09-23 20:11:59 [115,D]	Signal len: 4
+2018-09-23 20:11:59 [115,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [115,G]	Signal Factor: 1
+2018-09-23 20:11:59 [115,H]	Signal Offset: 0
+2018-09-23 20:11:59 [115,I]	Signal min: 0
+2018-09-23 20:11:59 [115,I]	Signal max: 15
+2018-09-23 20:11:59 [116,A]	Signal name: Model_degree
+2018-09-23 20:11:59 [116,B]	Message name: Next_lane_Left_M
+2018-09-23 20:11:59 [116,D]	Signal len: 2
+2018-09-23 20:11:59 [116,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [116,G]	Signal Factor: 1
+2018-09-23 20:11:59 [116,H]	Signal Offset: 0
+2018-09-23 20:11:59 [116,I]	Signal min: 0
+2018-09-23 20:11:59 [116,I]	Signal max: 3
+2018-09-23 20:11:59 [117,A]	Signal name: Position_Parameter_C0
+2018-09-23 20:11:59 [117,B]	Message name: Next_lane_Left_M
+2018-09-23 20:11:59 [117,D]	Signal len: 16
+2018-09-23 20:11:59 [117,F]	Signal Type: Signed
+2018-09-23 20:11:59 [117,G]	Signal Factor: 3.90625E-3
+2018-09-23 20:11:59 [117,H]	Signal Offset: 0
+2018-09-23 20:11:59 [117,I]	Signal min: -127
+2018-09-23 20:11:59 [117,I]	Signal max: 128
+2018-09-23 20:11:59 [118,A]	Signal name: Quality
+2018-09-23 20:11:59 [118,B]	Message name: Next_lane_Left_M
+2018-09-23 20:11:59 [118,D]	Signal len: 2
+2018-09-23 20:11:59 [118,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [118,G]	Signal Factor: 1
+2018-09-23 20:11:59 [118,H]	Signal Offset: 0
+2018-09-23 20:11:59 [118,I]	Signal min: 0
+2018-09-23 20:11:59 [118,I]	Signal max: 3
+2018-09-23 20:11:59 [119,A]	Signal name: Heading_angle_Parameter_C1
+2018-09-23 20:11:59 [119,B]	Message name: Next_lane_Left_N
+2018-09-23 20:11:59 [119,D]	Signal len: 16
+2018-09-23 20:11:59 [119,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [119,G]	Signal Factor: 9.7656299999999995E-4
+2018-09-23 20:11:59 [119,H]	Signal Offset: -31.998999999999999
+2018-09-23 20:11:59 [119,I]	Signal min: -0.35699999999999998
+2018-09-23 20:11:59 [119,I]	Signal max: 0.35699999999999998
+2018-09-23 20:11:59 [120,A]	Signal name: View_range
+2018-09-23 20:11:59 [120,B]	Message name: Next_lane_Left_N
+2018-09-23 20:11:59 [120,D]	Signal len: 15
+2018-09-23 20:11:59 [120,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [120,G]	Signal Factor: 3.0625000000000001E-3
+2018-09-23 20:11:59 [120,H]	Signal Offset: 0
+2018-09-23 20:11:59 [120,I]	Signal min: 0
+2018-09-23 20:11:59 [120,I]	Signal max: 127.996
+2018-09-23 20:11:59 [121,A]	Signal name: View_range_availability
+2018-09-23 20:11:59 [121,B]	Message name: Next_lane_Left_N
+2018-09-23 20:11:59 [121,D]	Signal len: 1
+2018-09-23 20:11:59 [121,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [121,G]	Signal Factor: 1
+2018-09-23 20:11:59 [121,H]	Signal Offset: 0
+2018-09-23 20:11:59 [121,I]	Signal min: 0
+2018-09-23 20:11:59 [121,I]	Signal max: 1
+2018-09-23 20:11:59 [122,A]	Signal name: Curvature_derivative_C3
+2018-09-23 20:11:59 [122,B]	Message name: Next_lane_Right_C
+2018-09-23 20:11:59 [122,D]	Signal len: 16
+2018-09-23 20:11:59 [122,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [122,G]	Signal Factor: 3.72E-9
+2018-09-23 20:11:59 [122,H]	Signal Offset: -1.22067E-4
+2018-09-23 20:11:59 [122,I]	Signal min: -1.2E-4
+2018-09-23 20:11:59 [122,I]	Signal max: 1.2E-4
+2018-09-23 20:11:59 [123,A]	Signal name: Curvature_Parameter_C2
+2018-09-23 20:11:59 [123,B]	Message name: Next_lane_Right_C
+2018-09-23 20:11:59 [123,D]	Signal len: 16
+2018-09-23 20:11:59 [123,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [123,G]	Signal Factor: 9.7656299999999993E-7
+2018-09-23 20:11:59 [123,H]	Signal Offset: -3.1999E-2
+2018-09-23 20:11:59 [123,I]	Signal min: -0.02
+2018-09-23 20:11:59 [123,I]	Signal max: 0.02
+2018-09-23 20:11:59 [124,A]	Signal name: Lane_mark_width
+2018-09-23 20:11:59 [124,B]	Message name: Next_lane_Right_C
+2018-09-23 20:11:59 [124,D]	Signal len: 8
+2018-09-23 20:11:59 [124,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [124,G]	Signal Factor: 0.01
+2018-09-23 20:11:59 [124,H]	Signal Offset: 0
+2018-09-23 20:11:59 [124,I]	Signal min: 0
+2018-09-23 20:11:59 [124,I]	Signal max: 2.5
+2018-09-23 20:11:59 [125,A]	Signal name: Lane_type
+2018-09-23 20:11:59 [125,B]	Message name: Next_lane_Right_C
+2018-09-23 20:11:59 [125,D]	Signal len: 4
+2018-09-23 20:11:59 [125,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [125,G]	Signal Factor: 1
+2018-09-23 20:11:59 [125,H]	Signal Offset: 0
+2018-09-23 20:11:59 [125,I]	Signal min: 0
+2018-09-23 20:11:59 [125,I]	Signal max: 15
+2018-09-23 20:11:59 [126,A]	Signal name: Model_degree
+2018-09-23 20:11:59 [126,B]	Message name: Next_lane_Right_C
+2018-09-23 20:11:59 [126,D]	Signal len: 2
+2018-09-23 20:11:59 [126,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [126,G]	Signal Factor: 1
+2018-09-23 20:11:59 [126,H]	Signal Offset: 0
+2018-09-23 20:11:59 [126,I]	Signal min: 0
+2018-09-23 20:11:59 [126,I]	Signal max: 3
+2018-09-23 20:11:59 [127,A]	Signal name: Position_Parameter_C0
+2018-09-23 20:11:59 [127,B]	Message name: Next_lane_Right_C
+2018-09-23 20:11:59 [127,D]	Signal len: 16
+2018-09-23 20:11:59 [127,F]	Signal Type: Signed
+2018-09-23 20:11:59 [127,G]	Signal Factor: 3.90625E-3
+2018-09-23 20:11:59 [127,H]	Signal Offset: 0
+2018-09-23 20:11:59 [127,I]	Signal min: -127
+2018-09-23 20:11:59 [127,I]	Signal max: 128
+2018-09-23 20:11:59 [128,A]	Signal name: Quality
+2018-09-23 20:11:59 [128,B]	Message name: Next_lane_Right_C
+2018-09-23 20:11:59 [128,D]	Signal len: 2
+2018-09-23 20:11:59 [128,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [128,G]	Signal Factor: 1
+2018-09-23 20:11:59 [128,H]	Signal Offset: 0
+2018-09-23 20:11:59 [128,I]	Signal min: 0
+2018-09-23 20:11:59 [128,I]	Signal max: 3
+2018-09-23 20:11:59 [129,A]	Signal name: Heading_angle_Parameter_C1
+2018-09-23 20:11:59 [129,B]	Message name: Next_lane_Right_D
+2018-09-23 20:11:59 [129,D]	Signal len: 16
+2018-09-23 20:11:59 [129,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [129,G]	Signal Factor: 9.7656299999999995E-4
+2018-09-23 20:11:59 [129,H]	Signal Offset: -31.998999999999999
+2018-09-23 20:11:59 [129,I]	Signal min: -0.35699999999999998
+2018-09-23 20:11:59 [129,I]	Signal max: 0.35699999999999998
+2018-09-23 20:11:59 [130,A]	Signal name: View_range
+2018-09-23 20:11:59 [130,B]	Message name: Next_lane_Right_D
+2018-09-23 20:11:59 [130,D]	Signal len: 15
+2018-09-23 20:11:59 [130,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [130,G]	Signal Factor: 3.0625000000000001E-3
+2018-09-23 20:11:59 [130,H]	Signal Offset: 0
+2018-09-23 20:11:59 [130,I]	Signal min: 0
+2018-09-23 20:11:59 [130,I]	Signal max: 127.996
+2018-09-23 20:11:59 [131,A]	Signal name: View_range_availability
+2018-09-23 20:11:59 [131,B]	Message name: Next_lane_Right_D
+2018-09-23 20:11:59 [131,D]	Signal len: 1
+2018-09-23 20:11:59 [131,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [131,G]	Signal Factor: 1
+2018-09-23 20:11:59 [131,H]	Signal Offset: 0
+2018-09-23 20:11:59 [131,I]	Signal min: 0
+2018-09-23 20:11:59 [131,I]	Signal max: 1
+2018-09-23 20:11:59 [132,A]	Signal name: Curvature_derivative_C3
+2018-09-23 20:11:59 [132,B]	Message name: Next_lane_Right_G
+2018-09-23 20:11:59 [132,D]	Signal len: 16
+2018-09-23 20:11:59 [132,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [132,G]	Signal Factor: 3.72E-9
+2018-09-23 20:11:59 [132,H]	Signal Offset: -1.22067E-4
+2018-09-23 20:11:59 [132,I]	Signal min: -1.2E-4
+2018-09-23 20:11:59 [132,I]	Signal max: 1.2E-4
+2018-09-23 20:11:59 [133,A]	Signal name: Curvature_Parameter_C2
+2018-09-23 20:11:59 [133,B]	Message name: Next_lane_Right_G
+2018-09-23 20:11:59 [133,D]	Signal len: 16
+2018-09-23 20:11:59 [133,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [133,G]	Signal Factor: 9.7656299999999993E-7
+2018-09-23 20:11:59 [133,H]	Signal Offset: -3.1999E-2
+2018-09-23 20:11:59 [133,I]	Signal min: -0.02
+2018-09-23 20:11:59 [133,I]	Signal max: 0.02
+2018-09-23 20:11:59 [134,A]	Signal name: Lane_mark_width
+2018-09-23 20:11:59 [134,B]	Message name: Next_lane_Right_G
+2018-09-23 20:11:59 [134,D]	Signal len: 8
+2018-09-23 20:11:59 [134,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [134,G]	Signal Factor: 0.01
+2018-09-23 20:11:59 [134,H]	Signal Offset: 0
+2018-09-23 20:11:59 [134,I]	Signal min: 0
+2018-09-23 20:11:59 [134,I]	Signal max: 2.5
+2018-09-23 20:11:59 [135,A]	Signal name: Lane_type
+2018-09-23 20:11:59 [135,B]	Message name: Next_lane_Right_G
+2018-09-23 20:11:59 [135,D]	Signal len: 4
+2018-09-23 20:11:59 [135,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [135,G]	Signal Factor: 1
+2018-09-23 20:11:59 [135,H]	Signal Offset: 0
+2018-09-23 20:11:59 [135,I]	Signal min: 0
+2018-09-23 20:11:59 [135,I]	Signal max: 15
+2018-09-23 20:11:59 [136,A]	Signal name: Model_degree
+2018-09-23 20:11:59 [136,B]	Message name: Next_lane_Right_G
+2018-09-23 20:11:59 [136,D]	Signal len: 2
+2018-09-23 20:11:59 [136,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [136,G]	Signal Factor: 1
+2018-09-23 20:11:59 [136,H]	Signal Offset: 0
+2018-09-23 20:11:59 [136,I]	Signal min: 0
+2018-09-23 20:11:59 [136,I]	Signal max: 3
+2018-09-23 20:11:59 [137,A]	Signal name: Position_Parameter_C0
+2018-09-23 20:11:59 [137,B]	Message name: Next_lane_Right_G
+2018-09-23 20:11:59 [137,D]	Signal len: 16
+2018-09-23 20:11:59 [137,F]	Signal Type: Signed
+2018-09-23 20:11:59 [137,G]	Signal Factor: 3.90625E-3
+2018-09-23 20:11:59 [137,H]	Signal Offset: 0
+2018-09-23 20:11:59 [137,I]	Signal min: -127
+2018-09-23 20:11:59 [137,I]	Signal max: 128
+2018-09-23 20:11:59 [138,A]	Signal name: Quality
+2018-09-23 20:11:59 [138,B]	Message name: Next_lane_Right_G
+2018-09-23 20:11:59 [138,D]	Signal len: 2
+2018-09-23 20:11:59 [138,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [138,G]	Signal Factor: 1
+2018-09-23 20:11:59 [138,H]	Signal Offset: 0
+2018-09-23 20:11:59 [138,I]	Signal min: 0
+2018-09-23 20:11:59 [138,I]	Signal max: 3
+2018-09-23 20:11:59 [139,A]	Signal name: Heading_angle_Parameter_C1
+2018-09-23 20:11:59 [139,B]	Message name: Next_lane_Right_H
+2018-09-23 20:11:59 [139,D]	Signal len: 16
+2018-09-23 20:11:59 [139,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [139,G]	Signal Factor: 9.7656299999999995E-4
+2018-09-23 20:11:59 [139,H]	Signal Offset: -31.998999999999999
+2018-09-23 20:11:59 [139,I]	Signal min: -0.35699999999999998
+2018-09-23 20:11:59 [139,I]	Signal max: 0.35699999999999998
+2018-09-23 20:11:59 [140,A]	Signal name: View_range
+2018-09-23 20:11:59 [140,B]	Message name: Next_lane_Right_H
+2018-09-23 20:11:59 [140,D]	Signal len: 15
+2018-09-23 20:11:59 [140,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [140,G]	Signal Factor: 3.0625000000000001E-3
+2018-09-23 20:11:59 [140,H]	Signal Offset: 0
+2018-09-23 20:11:59 [140,I]	Signal min: 0
+2018-09-23 20:11:59 [140,I]	Signal max: 127.996
+2018-09-23 20:11:59 [141,A]	Signal name: View_range_availability
+2018-09-23 20:11:59 [141,B]	Message name: Next_lane_Right_H
+2018-09-23 20:11:59 [141,D]	Signal len: 1
+2018-09-23 20:11:59 [141,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [141,G]	Signal Factor: 1
+2018-09-23 20:11:59 [141,H]	Signal Offset: 0
+2018-09-23 20:11:59 [141,I]	Signal min: 0
+2018-09-23 20:11:59 [141,I]	Signal max: 1
+2018-09-23 20:11:59 [142,A]	Signal name: Curvature_derivative_C3
+2018-09-23 20:11:59 [142,B]	Message name: Next_lane_Right_K
+2018-09-23 20:11:59 [142,D]	Signal len: 16
+2018-09-23 20:11:59 [142,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [142,G]	Signal Factor: 3.72E-9
+2018-09-23 20:11:59 [142,H]	Signal Offset: -1.22067E-4
+2018-09-23 20:11:59 [142,I]	Signal min: -1.2E-4
+2018-09-23 20:11:59 [142,I]	Signal max: 1.2E-4
+2018-09-23 20:11:59 [143,A]	Signal name: Curvature_Parameter_C2
+2018-09-23 20:11:59 [143,B]	Message name: Next_lane_Right_K
+2018-09-23 20:11:59 [143,D]	Signal len: 16
+2018-09-23 20:11:59 [143,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [143,G]	Signal Factor: 9.7656299999999993E-7
+2018-09-23 20:11:59 [143,H]	Signal Offset: -3.1999E-2
+2018-09-23 20:11:59 [143,I]	Signal min: -0.02
+2018-09-23 20:11:59 [143,I]	Signal max: 0.02
+2018-09-23 20:11:59 [144,A]	Signal name: Lane_mark_width
+2018-09-23 20:11:59 [144,B]	Message name: Next_lane_Right_K
+2018-09-23 20:11:59 [144,D]	Signal len: 8
+2018-09-23 20:11:59 [144,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [144,G]	Signal Factor: 0.01
+2018-09-23 20:11:59 [144,H]	Signal Offset: 0
+2018-09-23 20:11:59 [144,I]	Signal min: 0
+2018-09-23 20:11:59 [144,I]	Signal max: 2.5
+2018-09-23 20:11:59 [145,A]	Signal name: Lane_type
+2018-09-23 20:11:59 [145,B]	Message name: Next_lane_Right_K
+2018-09-23 20:11:59 [145,D]	Signal len: 4
+2018-09-23 20:11:59 [145,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [145,G]	Signal Factor: 1
+2018-09-23 20:11:59 [145,H]	Signal Offset: 0
+2018-09-23 20:11:59 [145,I]	Signal min: 0
+2018-09-23 20:11:59 [145,I]	Signal max: 15
+2018-09-23 20:11:59 [146,A]	Signal name: Model_degree
+2018-09-23 20:11:59 [146,B]	Message name: Next_lane_Right_K
+2018-09-23 20:11:59 [146,D]	Signal len: 2
+2018-09-23 20:11:59 [146,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [146,G]	Signal Factor: 1
+2018-09-23 20:11:59 [146,H]	Signal Offset: 0
+2018-09-23 20:11:59 [146,I]	Signal min: 0
+2018-09-23 20:11:59 [146,I]	Signal max: 3
+2018-09-23 20:11:59 [147,A]	Signal name: Position_Parameter_C0
+2018-09-23 20:11:59 [147,B]	Message name: Next_lane_Right_K
+2018-09-23 20:11:59 [147,D]	Signal len: 16
+2018-09-23 20:11:59 [147,F]	Signal Type: Signed
+2018-09-23 20:11:59 [147,G]	Signal Factor: 3.90625E-3
+2018-09-23 20:11:59 [147,H]	Signal Offset: 0
+2018-09-23 20:11:59 [147,I]	Signal min: -127
+2018-09-23 20:11:59 [147,I]	Signal max: 128
+2018-09-23 20:11:59 [148,A]	Signal name: Quality
+2018-09-23 20:11:59 [148,B]	Message name: Next_lane_Right_K
+2018-09-23 20:11:59 [148,D]	Signal len: 2
+2018-09-23 20:11:59 [148,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [148,G]	Signal Factor: 1
+2018-09-23 20:11:59 [148,H]	Signal Offset: 0
+2018-09-23 20:11:59 [148,I]	Signal min: 0
+2018-09-23 20:11:59 [148,I]	Signal max: 3
+2018-09-23 20:11:59 [149,A]	Signal name: Heading_angle_Parameter_C1
+2018-09-23 20:11:59 [149,B]	Message name: Next_lane_Right_L
+2018-09-23 20:11:59 [149,D]	Signal len: 16
+2018-09-23 20:11:59 [149,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [149,G]	Signal Factor: 9.7656299999999995E-4
+2018-09-23 20:11:59 [149,H]	Signal Offset: -31.998999999999999
+2018-09-23 20:11:59 [149,I]	Signal min: -0.35699999999999998
+2018-09-23 20:11:59 [149,I]	Signal max: 0.35699999999999998
+2018-09-23 20:11:59 [150,A]	Signal name: View_range
+2018-09-23 20:11:59 [150,B]	Message name: Next_lane_Right_L
+2018-09-23 20:11:59 [150,D]	Signal len: 15
+2018-09-23 20:11:59 [150,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [150,G]	Signal Factor: 3.0625000000000001E-3
+2018-09-23 20:11:59 [150,H]	Signal Offset: 0
+2018-09-23 20:11:59 [150,I]	Signal min: 0
+2018-09-23 20:11:59 [150,I]	Signal max: 127.996
+2018-09-23 20:11:59 [151,A]	Signal name: View_range_availability
+2018-09-23 20:11:59 [151,B]	Message name: Next_lane_Right_L
+2018-09-23 20:11:59 [151,D]	Signal len: 1
+2018-09-23 20:11:59 [151,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [151,G]	Signal Factor: 1
+2018-09-23 20:11:59 [151,H]	Signal Offset: 0
+2018-09-23 20:11:59 [151,I]	Signal min: 0
+2018-09-23 20:11:59 [151,I]	Signal max: 1
+2018-09-23 20:11:59 [152,A]	Signal name: Curvature_derivative_C3
+2018-09-23 20:11:59 [152,B]	Message name: Next_lane_Right_O
+2018-09-23 20:11:59 [152,D]	Signal len: 16
+2018-09-23 20:11:59 [152,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [152,G]	Signal Factor: 3.72E-9
+2018-09-23 20:11:59 [152,H]	Signal Offset: -1.22067E-4
+2018-09-23 20:11:59 [152,I]	Signal min: -1.2E-4
+2018-09-23 20:11:59 [152,I]	Signal max: 1.2E-4
+2018-09-23 20:11:59 [153,A]	Signal name: Curvature_Parameter_C2
+2018-09-23 20:11:59 [153,B]	Message name: Next_lane_Right_O
+2018-09-23 20:11:59 [153,D]	Signal len: 16
+2018-09-23 20:11:59 [153,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [153,G]	Signal Factor: 9.7656299999999993E-7
+2018-09-23 20:11:59 [153,H]	Signal Offset: -3.1999E-2
+2018-09-23 20:11:59 [153,I]	Signal min: -0.02
+2018-09-23 20:11:59 [153,I]	Signal max: 0.02
+2018-09-23 20:11:59 [154,A]	Signal name: Lane_mark_width
+2018-09-23 20:11:59 [154,B]	Message name: Next_lane_Right_O
+2018-09-23 20:11:59 [154,D]	Signal len: 8
+2018-09-23 20:11:59 [154,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [154,G]	Signal Factor: 0.01
+2018-09-23 20:11:59 [154,H]	Signal Offset: 0
+2018-09-23 20:11:59 [154,I]	Signal min: 0
+2018-09-23 20:11:59 [154,I]	Signal max: 2.5
+2018-09-23 20:11:59 [155,A]	Signal name: Lane_type
+2018-09-23 20:11:59 [155,B]	Message name: Next_lane_Right_O
+2018-09-23 20:11:59 [155,D]	Signal len: 4
+2018-09-23 20:11:59 [155,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [155,G]	Signal Factor: 1
+2018-09-23 20:11:59 [155,H]	Signal Offset: 0
+2018-09-23 20:11:59 [155,I]	Signal min: 0
+2018-09-23 20:11:59 [155,I]	Signal max: 15
+2018-09-23 20:11:59 [156,A]	Signal name: Model_degree
+2018-09-23 20:11:59 [156,B]	Message name: Next_lane_Right_O
+2018-09-23 20:11:59 [156,D]	Signal len: 2
+2018-09-23 20:11:59 [156,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [156,G]	Signal Factor: 1
+2018-09-23 20:11:59 [156,H]	Signal Offset: 0
+2018-09-23 20:11:59 [156,I]	Signal min: 0
+2018-09-23 20:11:59 [156,I]	Signal max: 3
+2018-09-23 20:11:59 [157,A]	Signal name: Position_Parameter_C0
+2018-09-23 20:11:59 [157,B]	Message name: Next_lane_Right_O
+2018-09-23 20:11:59 [157,D]	Signal len: 16
+2018-09-23 20:11:59 [157,F]	Signal Type: Signed
+2018-09-23 20:11:59 [157,G]	Signal Factor: 3.90625E-3
+2018-09-23 20:11:59 [157,H]	Signal Offset: 0
+2018-09-23 20:11:59 [157,I]	Signal min: -127
+2018-09-23 20:11:59 [157,I]	Signal max: 128
+2018-09-23 20:11:59 [158,A]	Signal name: Quality
+2018-09-23 20:11:59 [158,B]	Message name: Next_lane_Right_O
+2018-09-23 20:11:59 [158,D]	Signal len: 2
+2018-09-23 20:11:59 [158,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [158,G]	Signal Factor: 1
+2018-09-23 20:11:59 [158,H]	Signal Offset: 0
+2018-09-23 20:11:59 [158,I]	Signal min: 0
+2018-09-23 20:11:59 [158,I]	Signal max: 3
+2018-09-23 20:11:59 [159,A]	Signal name: Heading_angle_Parameter_C1
+2018-09-23 20:11:59 [159,B]	Message name: Next_lane_Right_P
+2018-09-23 20:11:59 [159,D]	Signal len: 16
+2018-09-23 20:11:59 [159,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [159,G]	Signal Factor: 9.7656299999999995E-4
+2018-09-23 20:11:59 [159,H]	Signal Offset: -31.998999999999999
+2018-09-23 20:11:59 [159,I]	Signal min: -0.35699999999999998
+2018-09-23 20:11:59 [159,I]	Signal max: 0.35699999999999998
+2018-09-23 20:11:59 [160,A]	Signal name: View_range
+2018-09-23 20:11:59 [160,B]	Message name: Next_lane_Right_P
+2018-09-23 20:11:59 [160,D]	Signal len: 15
+2018-09-23 20:11:59 [160,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [160,G]	Signal Factor: 3.0625000000000001E-3
+2018-09-23 20:11:59 [160,H]	Signal Offset: 0
+2018-09-23 20:11:59 [160,I]	Signal min: 0
+2018-09-23 20:11:59 [160,I]	Signal max: 127.996
+2018-09-23 20:11:59 [161,A]	Signal name: View_range_availability
+2018-09-23 20:11:59 [161,B]	Message name: Next_lane_Right_P
+2018-09-23 20:11:59 [161,D]	Signal len: 1
+2018-09-23 20:11:59 [161,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [161,G]	Signal Factor: 1
+2018-09-23 20:11:59 [161,H]	Signal Offset: 0
+2018-09-23 20:11:59 [161,I]	Signal min: 0
+2018-09-23 20:11:59 [161,I]	Signal max: 1
+2018-09-23 20:11:59 [162,A]	Signal name: Number_lane_markers_reported
+2018-09-23 20:11:59 [162,B]	Message name: Numebr_of_next_lane
+2018-09-23 20:11:59 [162,D]	Signal len: 8
+2018-09-23 20:11:59 [162,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [162,G]	Signal Factor: 1
+2018-09-23 20:11:59 [162,H]	Signal Offset: 0
+2018-09-23 20:11:59 [162,I]	Signal min: 0
+2018-09-23 20:11:59 [162,I]	Signal max: 7
+2018-09-23 20:11:59 [163,A]	Signal name: Blinker_Info
+2018-09-23 20:11:59 [163,B]	Message name: Obstacle_Data_A
+2018-09-23 20:11:59 [163,D]	Signal len: 3
+2018-09-23 20:11:59 [163,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [163,G]	Signal Factor: 1
+2018-09-23 20:11:59 [163,H]	Signal Offset: 0
+2018-09-23 20:11:59 [163,I]	Signal min: 0
+2018-09-23 20:11:59 [163,I]	Signal max: 7
+2018-09-23 20:11:59 [164,A]	Signal name: Cut_in_and_out
+2018-09-23 20:11:59 [164,B]	Message name: Obstacle_Data_A
+2018-09-23 20:11:59 [164,D]	Signal len: 3
+2018-09-23 20:11:59 [164,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [164,G]	Signal Factor: 1
+2018-09-23 20:11:59 [164,H]	Signal Offset: 0
+2018-09-23 20:11:59 [164,I]	Signal min: 0
+2018-09-23 20:11:59 [164,I]	Signal max: 7
+2018-09-23 20:11:59 [165,A]	Signal name: Obstacle_Brake_Light
+2018-09-23 20:11:59 [165,B]	Message name: Obstacle_Data_A
+2018-09-23 20:11:59 [165,D]	Signal len: 1
+2018-09-23 20:11:59 [165,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [165,G]	Signal Factor: 1
+2018-09-23 20:11:59 [165,H]	Signal Offset: 0
+2018-09-23 20:11:59 [165,I]	Signal min: 0
+2018-09-23 20:11:59 [165,I]	Signal max: 1
+2018-09-23 20:11:59 [166,A]	Signal name: Obstacle_ID
+2018-09-23 20:11:59 [166,B]	Message name: Obstacle_Data_A
+2018-09-23 20:11:59 [166,D]	Signal len: 8
+2018-09-23 20:11:59 [166,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [166,G]	Signal Factor: 1
+2018-09-23 20:11:59 [166,H]	Signal Offset: 0
+2018-09-23 20:11:59 [166,I]	Signal min: 0
+2018-09-23 20:11:59 [166,I]	Signal max: 63
+2018-09-23 20:11:59 [167,A]	Signal name: Obstacle_Pos_X
+2018-09-23 20:11:59 [167,B]	Message name: Obstacle_Data_A
+2018-09-23 20:11:59 [167,D]	Signal len: 12
+2018-09-23 20:11:59 [167,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [167,G]	Signal Factor: 6.25E-2
+2018-09-23 20:11:59 [167,H]	Signal Offset: 0
+2018-09-23 20:11:59 [167,I]	Signal min: 0
+2018-09-23 20:11:59 [167,I]	Signal max: 250
+2018-09-23 20:11:59 [168,A]	Signal name: Obstacle_Pos_Y
+2018-09-23 20:11:59 [168,B]	Message name: Obstacle_Data_A
+2018-09-23 20:11:59 [168,D]	Signal len: 10
+2018-09-23 20:11:59 [168,F]	Signal Type: Signed
+2018-09-23 20:11:59 [168,G]	Signal Factor: 6.25E-2
+2018-09-23 20:11:59 [168,H]	Signal Offset: 0
+2018-09-23 20:11:59 [168,I]	Signal min: -31.93
+2018-09-23 20:11:59 [168,I]	Signal max: 31.93
+2018-09-23 20:11:59 [169,A]	Signal name: Obstacle_Rel_Vel_X
+2018-09-23 20:11:59 [169,B]	Message name: Obstacle_Data_A
+2018-09-23 20:11:59 [169,D]	Signal len: 12
+2018-09-23 20:11:59 [169,F]	Signal Type: Signed
+2018-09-23 20:11:59 [169,G]	Signal Factor: 6.25E-2
+2018-09-23 20:11:59 [169,H]	Signal Offset: 0
+2018-09-23 20:11:59 [169,I]	Signal min: -127.93
+2018-09-23 20:11:59 [169,I]	Signal max: 127.93
+2018-09-23 20:11:59 [170,A]	Signal name: Obstacle_Status
+2018-09-23 20:11:59 [170,B]	Message name: Obstacle_Data_A
+2018-09-23 20:11:59 [170,D]	Signal len: 3
+2018-09-23 20:11:59 [170,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [170,G]	Signal Factor: 1
+2018-09-23 20:11:59 [170,H]	Signal Offset: 0
+2018-09-23 20:11:59 [170,I]	Signal min: 0
+2018-09-23 20:11:59 [170,I]	Signal max: 7
+2018-09-23 20:11:59 [171,A]	Signal name: Obstacle_Type
+2018-09-23 20:11:59 [171,B]	Message name: Obstacle_Data_A
+2018-09-23 20:11:59 [171,D]	Signal len: 3
+2018-09-23 20:11:59 [171,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [171,G]	Signal Factor: 1
+2018-09-23 20:11:59 [171,H]	Signal Offset: 0
+2018-09-23 20:11:59 [171,I]	Signal min: 0
+2018-09-23 20:11:59 [171,I]	Signal max: 7
+2018-09-23 20:11:59 [172,A]	Signal name: Obstacle_Valid
+2018-09-23 20:11:59 [172,B]	Message name: Obstacle_Data_A
+2018-09-23 20:11:59 [172,D]	Signal len: 2
+2018-09-23 20:11:59 [172,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [172,G]	Signal Factor: 1
+2018-09-23 20:11:59 [172,H]	Signal Offset: 0
+2018-09-23 20:11:59 [172,I]	Signal min: 0
+2018-09-23 20:11:59 [172,I]	Signal max: 3
+2018-09-23 20:11:59 [173,A]	Signal name: CIPV_Flag
+2018-09-23 20:11:59 [173,B]	Message name: Obstacle_Data_B
+2018-09-23 20:11:59 [173,D]	Signal len: 1
+2018-09-23 20:11:59 [173,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [173,G]	Signal Factor: 1
+2018-09-23 20:11:59 [173,H]	Signal Offset: 0
+2018-09-23 20:11:59 [173,I]	Signal min: 0
+2018-09-23 20:11:59 [173,I]	Signal max: 1
+2018-09-23 20:11:59 [174,A]	Signal name: Matched_Radar_ID
+2018-09-23 20:11:59 [174,B]	Message name: Obstacle_Data_B
+2018-09-23 20:11:59 [174,D]	Signal len: 7
+2018-09-23 20:11:59 [174,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [174,G]	Signal Factor: 1
+2018-09-23 20:11:59 [174,H]	Signal Offset: 0
+2018-09-23 20:11:59 [174,I]	Signal min: 0
+2018-09-23 20:11:59 [174,I]	Signal max: 127
+2018-09-23 20:11:59 [175,A]	Signal name: Obstacle_Age
+2018-09-23 20:11:59 [175,B]	Message name: Obstacle_Data_B
+2018-09-23 20:11:59 [175,D]	Signal len: 8
+2018-09-23 20:11:59 [175,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [175,G]	Signal Factor: 1
+2018-09-23 20:11:59 [175,H]	Signal Offset: 0
+2018-09-23 20:11:59 [175,I]	Signal min: 0
+2018-09-23 20:11:59 [175,I]	Signal max: 255
+2018-09-23 20:11:59 [176,A]	Signal name: Obstacle_Lane
+2018-09-23 20:11:59 [176,B]	Message name: Obstacle_Data_B
+2018-09-23 20:11:59 [176,D]	Signal len: 2
+2018-09-23 20:11:59 [176,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [176,G]	Signal Factor: 1
+2018-09-23 20:11:59 [176,H]	Signal Offset: 0
+2018-09-23 20:11:59 [176,I]	Signal min: 0
+2018-09-23 20:11:59 [176,I]	Signal max: 3
+2018-09-23 20:11:59 [177,A]	Signal name: Obstacle_Legnth
+2018-09-23 20:11:59 [177,B]	Message name: Obstacle_Data_B
+2018-09-23 20:11:59 [177,D]	Signal len: 8
+2018-09-23 20:11:59 [177,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [177,G]	Signal Factor: 0.5
+2018-09-23 20:11:59 [177,H]	Signal Offset: 0
+2018-09-23 20:11:59 [177,I]	Signal min: 0
+2018-09-23 20:11:59 [177,I]	Signal max: 31
+2018-09-23 20:11:59 [178,A]	Signal name: Obstacle_Width
+2018-09-23 20:11:59 [178,B]	Message name: Obstacle_Data_B
+2018-09-23 20:11:59 [178,D]	Signal len: 8
+2018-09-23 20:11:59 [178,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [178,G]	Signal Factor: 0.05
+2018-09-23 20:11:59 [178,H]	Signal Offset: 0
+2018-09-23 20:11:59 [178,I]	Signal min: 0
+2018-09-23 20:11:59 [178,I]	Signal max: 12.5
+2018-09-23 20:11:59 [179,A]	Signal name: Radar_Match_Confidence
+2018-09-23 20:11:59 [179,B]	Message name: Obstacle_Data_B
+2018-09-23 20:11:59 [179,D]	Signal len: 3
+2018-09-23 20:11:59 [179,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [179,G]	Signal Factor: 1
+2018-09-23 20:11:59 [179,H]	Signal Offset: 0
+2018-09-23 20:11:59 [179,I]	Signal min: 0.5
+2018-09-23 20:11:59 [179,I]	Signal max: 5
+2018-09-23 20:11:59 [180,A]	Signal name: Radar_Pos_X
+2018-09-23 20:11:59 [180,B]	Message name: Obstacle_Data_B
+2018-09-23 20:11:59 [180,D]	Signal len: 12
+2018-09-23 20:11:59 [180,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [180,G]	Signal Factor: 6.25E-2
+2018-09-23 20:11:59 [180,H]	Signal Offset: 0
+2018-09-23 20:11:59 [180,I]	Signal min: 0
+2018-09-23 20:11:59 [180,I]	Signal max: 250
+2018-09-23 20:11:59 [181,A]	Signal name: Radar_Vel_X
+2018-09-23 20:11:59 [181,B]	Message name: Obstacle_Data_B
+2018-09-23 20:11:59 [181,D]	Signal len: 12
+2018-09-23 20:11:59 [181,F]	Signal Type: Signed
+2018-09-23 20:11:59 [181,G]	Signal Factor: 6.25E-2
+2018-09-23 20:11:59 [181,H]	Signal Offset: 0
+2018-09-23 20:11:59 [181,I]	Signal min: -127.93
+2018-09-23 20:11:59 [181,I]	Signal max: 127.93
+2018-09-23 20:11:59 [182,A]	Signal name: Object_Accel_X
+2018-09-23 20:11:59 [182,B]	Message name: Obstacle_Data_C
+2018-09-23 20:11:59 [182,D]	Signal len: 10
+2018-09-23 20:11:59 [182,F]	Signal Type: Signed
+2018-09-23 20:11:59 [182,G]	Signal Factor: 0.03
+2018-09-23 20:11:59 [182,H]	Signal Offset: 0
+2018-09-23 20:11:59 [182,I]	Signal min: -14.97
+2018-09-23 20:11:59 [182,I]	Signal max: 14.97
+2018-09-23 20:11:59 [183,A]	Signal name: Obstacle_Angle
+2018-09-23 20:11:59 [183,B]	Message name: Obstacle_Data_C
+2018-09-23 20:11:59 [183,D]	Signal len: 16
+2018-09-23 20:11:59 [183,F]	Signal Type: Signed
+2018-09-23 20:11:59 [183,G]	Signal Factor: 0.01
+2018-09-23 20:11:59 [183,H]	Signal Offset: 0
+2018-09-23 20:11:59 [183,I]	Signal min: -327.68
+2018-09-23 20:11:59 [183,I]	Signal max: 327.68
+2018-09-23 20:11:59 [184,A]	Signal name: Obstacle_Angle_Rate
+2018-09-23 20:11:59 [184,B]	Message name: Obstacle_Data_C
+2018-09-23 20:11:59 [184,D]	Signal len: 16
+2018-09-23 20:11:59 [184,F]	Signal Type: Signed
+2018-09-23 20:11:59 [184,G]	Signal Factor: 0.01
+2018-09-23 20:11:59 [184,H]	Signal Offset: 0
+2018-09-23 20:11:59 [184,I]	Signal min: -327.68
+2018-09-23 20:11:59 [184,I]	Signal max: 327.68
+2018-09-23 20:11:59 [185,A]	Signal name: Obstacle_Replaced
+2018-09-23 20:11:59 [185,B]	Message name: Obstacle_Data_C
+2018-09-23 20:11:59 [185,D]	Signal len: 1
+2018-09-23 20:11:59 [185,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [185,G]	Signal Factor: 1
+2018-09-23 20:11:59 [185,H]	Signal Offset: 0
+2018-09-23 20:11:59 [185,I]	Signal min: 0
+2018-09-23 20:11:59 [185,I]	Signal max: 1
+2018-09-23 20:11:59 [186,A]	Signal name: Obstacle_Scale_Change
+2018-09-23 20:11:59 [186,B]	Message name: Obstacle_Data_C
+2018-09-23 20:11:59 [186,D]	Signal len: 16
+2018-09-23 20:11:59 [186,F]	Signal Type: Signed
+2018-09-23 20:11:59 [186,G]	Signal Factor: 2.0000000000000001E-4
+2018-09-23 20:11:59 [186,H]	Signal Offset: 0
+2018-09-23 20:11:59 [186,I]	Signal min: -6.5532000000000004
+2018-09-23 20:11:59 [186,I]	Signal max: 6.5532000000000004
+2018-09-23 20:11:59 [187,A]	Signal name: Blinker_Info
+2018-09-23 20:11:59 [187,B]	Message name: Obstacle_Data_D
+2018-09-23 20:11:59 [187,D]	Signal len: 3
+2018-09-23 20:11:59 [187,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [187,G]	Signal Factor: 1
+2018-09-23 20:11:59 [187,H]	Signal Offset: 0
+2018-09-23 20:11:59 [187,I]	Signal min: 0
+2018-09-23 20:11:59 [187,I]	Signal max: 7
+2018-09-23 20:11:59 [188,A]	Signal name: Cut_in_and_out
+2018-09-23 20:11:59 [188,B]	Message name: Obstacle_Data_D
+2018-09-23 20:11:59 [188,D]	Signal len: 3
+2018-09-23 20:11:59 [188,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [188,G]	Signal Factor: 1
+2018-09-23 20:11:59 [188,H]	Signal Offset: 0
+2018-09-23 20:11:59 [188,I]	Signal min: 0
+2018-09-23 20:11:59 [188,I]	Signal max: 7
+2018-09-23 20:11:59 [189,A]	Signal name: Obstacle_Brake_Light
+2018-09-23 20:11:59 [189,B]	Message name: Obstacle_Data_D
+2018-09-23 20:11:59 [189,D]	Signal len: 1
+2018-09-23 20:11:59 [189,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [189,G]	Signal Factor: 1
+2018-09-23 20:11:59 [189,H]	Signal Offset: 0
+2018-09-23 20:11:59 [189,I]	Signal min: 0
+2018-09-23 20:11:59 [189,I]	Signal max: 1
+2018-09-23 20:11:59 [190,A]	Signal name: Obstacle_ID
+2018-09-23 20:11:59 [190,B]	Message name: Obstacle_Data_D
+2018-09-23 20:11:59 [190,D]	Signal len: 8
+2018-09-23 20:11:59 [190,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [190,G]	Signal Factor: 1
+2018-09-23 20:11:59 [190,H]	Signal Offset: 0
+2018-09-23 20:11:59 [190,I]	Signal min: 0
+2018-09-23 20:11:59 [190,I]	Signal max: 63
+2018-09-23 20:11:59 [191,A]	Signal name: Obstacle_Pos_X
+2018-09-23 20:11:59 [191,B]	Message name: Obstacle_Data_D
+2018-09-23 20:11:59 [191,D]	Signal len: 12
+2018-09-23 20:11:59 [191,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [191,G]	Signal Factor: 6.25E-2
+2018-09-23 20:11:59 [191,H]	Signal Offset: 0
+2018-09-23 20:11:59 [191,I]	Signal min: 0
+2018-09-23 20:11:59 [191,I]	Signal max: 250
+2018-09-23 20:11:59 [192,A]	Signal name: Obstacle_Pos_Y
+2018-09-23 20:11:59 [192,B]	Message name: Obstacle_Data_D
+2018-09-23 20:11:59 [192,D]	Signal len: 10
+2018-09-23 20:11:59 [192,F]	Signal Type: Signed
+2018-09-23 20:11:59 [192,G]	Signal Factor: 6.25E-2
+2018-09-23 20:11:59 [192,H]	Signal Offset: 0
+2018-09-23 20:11:59 [192,I]	Signal min: -31.93
+2018-09-23 20:11:59 [192,I]	Signal max: 31.93
+2018-09-23 20:11:59 [193,A]	Signal name: Obstacle_Rel_Vel_X
+2018-09-23 20:11:59 [193,B]	Message name: Obstacle_Data_D
+2018-09-23 20:11:59 [193,D]	Signal len: 12
+2018-09-23 20:11:59 [193,F]	Signal Type: Signed
+2018-09-23 20:11:59 [193,G]	Signal Factor: 6.25E-2
+2018-09-23 20:11:59 [193,H]	Signal Offset: 0
+2018-09-23 20:11:59 [193,I]	Signal min: -127.93
+2018-09-23 20:11:59 [193,I]	Signal max: 127.93
+2018-09-23 20:11:59 [194,A]	Signal name: Obstacle_Status
+2018-09-23 20:11:59 [194,B]	Message name: Obstacle_Data_D
+2018-09-23 20:11:59 [194,D]	Signal len: 3
+2018-09-23 20:11:59 [194,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [194,G]	Signal Factor: 1
+2018-09-23 20:11:59 [194,H]	Signal Offset: 0
+2018-09-23 20:11:59 [194,I]	Signal min: 0
+2018-09-23 20:11:59 [194,I]	Signal max: 7
+2018-09-23 20:11:59 [195,A]	Signal name: Obstacle_Type
+2018-09-23 20:11:59 [195,B]	Message name: Obstacle_Data_D
+2018-09-23 20:11:59 [195,D]	Signal len: 3
+2018-09-23 20:11:59 [195,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [195,G]	Signal Factor: 1
+2018-09-23 20:11:59 [195,H]	Signal Offset: 0
+2018-09-23 20:11:59 [195,I]	Signal min: 0
+2018-09-23 20:11:59 [195,I]	Signal max: 7
+2018-09-23 20:11:59 [196,A]	Signal name: Obstacle_Valid
+2018-09-23 20:11:59 [196,B]	Message name: Obstacle_Data_D
+2018-09-23 20:11:59 [196,D]	Signal len: 2
+2018-09-23 20:11:59 [196,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [196,G]	Signal Factor: 1
+2018-09-23 20:11:59 [196,H]	Signal Offset: 0
+2018-09-23 20:11:59 [196,I]	Signal min: 0
+2018-09-23 20:11:59 [196,I]	Signal max: 3
+2018-09-23 20:11:59 [197,A]	Signal name: CIPV_Flag
+2018-09-23 20:11:59 [197,B]	Message name: Obstacle_Data_E
+2018-09-23 20:11:59 [197,D]	Signal len: 1
+2018-09-23 20:11:59 [197,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [197,G]	Signal Factor: 1
+2018-09-23 20:11:59 [197,H]	Signal Offset: 0
+2018-09-23 20:11:59 [197,I]	Signal min: 0
+2018-09-23 20:11:59 [197,I]	Signal max: 1
+2018-09-23 20:11:59 [198,A]	Signal name: Matched_Radar_ID
+2018-09-23 20:11:59 [198,B]	Message name: Obstacle_Data_E
+2018-09-23 20:11:59 [198,D]	Signal len: 7
+2018-09-23 20:11:59 [198,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [198,G]	Signal Factor: 1
+2018-09-23 20:11:59 [198,H]	Signal Offset: 0
+2018-09-23 20:11:59 [198,I]	Signal min: 0
+2018-09-23 20:11:59 [198,I]	Signal max: 127
+2018-09-23 20:11:59 [199,A]	Signal name: Obstacle_Age
+2018-09-23 20:11:59 [199,B]	Message name: Obstacle_Data_E
+2018-09-23 20:11:59 [199,D]	Signal len: 8
+2018-09-23 20:11:59 [199,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [199,G]	Signal Factor: 1
+2018-09-23 20:11:59 [199,H]	Signal Offset: 0
+2018-09-23 20:11:59 [199,I]	Signal min: 0
+2018-09-23 20:11:59 [199,I]	Signal max: 255
+2018-09-23 20:11:59 [200,A]	Signal name: Obstacle_Lane
+2018-09-23 20:11:59 [200,B]	Message name: Obstacle_Data_E
+2018-09-23 20:11:59 [200,D]	Signal len: 2
+2018-09-23 20:11:59 [200,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [200,G]	Signal Factor: 1
+2018-09-23 20:11:59 [200,H]	Signal Offset: 0
+2018-09-23 20:11:59 [200,I]	Signal min: 0
+2018-09-23 20:11:59 [200,I]	Signal max: 3
+2018-09-23 20:11:59 [201,A]	Signal name: Obstacle_Legnth
+2018-09-23 20:11:59 [201,B]	Message name: Obstacle_Data_E
+2018-09-23 20:11:59 [201,D]	Signal len: 8
+2018-09-23 20:11:59 [201,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [201,G]	Signal Factor: 0.5
+2018-09-23 20:11:59 [201,H]	Signal Offset: 0
+2018-09-23 20:11:59 [201,I]	Signal min: 0
+2018-09-23 20:11:59 [201,I]	Signal max: 31
+2018-09-23 20:11:59 [202,A]	Signal name: Obstacle_Width
+2018-09-23 20:11:59 [202,B]	Message name: Obstacle_Data_E
+2018-09-23 20:11:59 [202,D]	Signal len: 8
+2018-09-23 20:11:59 [202,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [202,G]	Signal Factor: 0.05
+2018-09-23 20:11:59 [202,H]	Signal Offset: 0
+2018-09-23 20:11:59 [202,I]	Signal min: 0
+2018-09-23 20:11:59 [202,I]	Signal max: 12.5
+2018-09-23 20:11:59 [203,A]	Signal name: Radar_Match_Confidence
+2018-09-23 20:11:59 [203,B]	Message name: Obstacle_Data_E
+2018-09-23 20:11:59 [203,D]	Signal len: 3
+2018-09-23 20:11:59 [203,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [203,G]	Signal Factor: 1
+2018-09-23 20:11:59 [203,H]	Signal Offset: 0
+2018-09-23 20:11:59 [203,I]	Signal min: 0.5
+2018-09-23 20:11:59 [203,I]	Signal max: 5
+2018-09-23 20:11:59 [204,A]	Signal name: Radar_Pos_X
+2018-09-23 20:11:59 [204,B]	Message name: Obstacle_Data_E
+2018-09-23 20:11:59 [204,D]	Signal len: 12
+2018-09-23 20:11:59 [204,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [204,G]	Signal Factor: 6.25E-2
+2018-09-23 20:11:59 [204,H]	Signal Offset: 0
+2018-09-23 20:11:59 [204,I]	Signal min: 0
+2018-09-23 20:11:59 [204,I]	Signal max: 250
+2018-09-23 20:11:59 [205,A]	Signal name: Radar_Vel_X
+2018-09-23 20:11:59 [205,B]	Message name: Obstacle_Data_E
+2018-09-23 20:11:59 [205,D]	Signal len: 12
+2018-09-23 20:11:59 [205,F]	Signal Type: Signed
+2018-09-23 20:11:59 [205,G]	Signal Factor: 6.25E-2
+2018-09-23 20:11:59 [205,H]	Signal Offset: 0
+2018-09-23 20:11:59 [205,I]	Signal min: -127.93
+2018-09-23 20:11:59 [205,I]	Signal max: 127.93
+2018-09-23 20:11:59 [206,A]	Signal name: Object_Accel_X
+2018-09-23 20:11:59 [206,B]	Message name: Obstacle_Data_F
+2018-09-23 20:11:59 [206,D]	Signal len: 10
+2018-09-23 20:11:59 [206,F]	Signal Type: Signed
+2018-09-23 20:11:59 [206,G]	Signal Factor: 0.03
+2018-09-23 20:11:59 [206,H]	Signal Offset: 0
+2018-09-23 20:11:59 [206,I]	Signal min: -14.97
+2018-09-23 20:11:59 [206,I]	Signal max: 14.97
+2018-09-23 20:11:59 [207,A]	Signal name: Obstacle_Angle
+2018-09-23 20:11:59 [207,B]	Message name: Obstacle_Data_F
+2018-09-23 20:11:59 [207,D]	Signal len: 16
+2018-09-23 20:11:59 [207,F]	Signal Type: Signed
+2018-09-23 20:11:59 [207,G]	Signal Factor: 0.01
+2018-09-23 20:11:59 [207,H]	Signal Offset: 0
+2018-09-23 20:11:59 [207,I]	Signal min: -327.68
+2018-09-23 20:11:59 [207,I]	Signal max: 327.68
+2018-09-23 20:11:59 [208,A]	Signal name: Obstacle_Angle_Rate
+2018-09-23 20:11:59 [208,B]	Message name: Obstacle_Data_F
+2018-09-23 20:11:59 [208,D]	Signal len: 16
+2018-09-23 20:11:59 [208,F]	Signal Type: Signed
+2018-09-23 20:11:59 [208,G]	Signal Factor: 0.01
+2018-09-23 20:11:59 [208,H]	Signal Offset: 0
+2018-09-23 20:11:59 [208,I]	Signal min: -327.68
+2018-09-23 20:11:59 [208,I]	Signal max: 327.68
+2018-09-23 20:11:59 [209,A]	Signal name: Obstacle_Replaced
+2018-09-23 20:11:59 [209,B]	Message name: Obstacle_Data_F
+2018-09-23 20:11:59 [209,D]	Signal len: 1
+2018-09-23 20:11:59 [209,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [209,G]	Signal Factor: 1
+2018-09-23 20:11:59 [209,H]	Signal Offset: 0
+2018-09-23 20:11:59 [209,I]	Signal min: 0
+2018-09-23 20:11:59 [209,I]	Signal max: 1
+2018-09-23 20:11:59 [210,A]	Signal name: Obstacle_Scale_Change
+2018-09-23 20:11:59 [210,B]	Message name: Obstacle_Data_F
+2018-09-23 20:11:59 [210,D]	Signal len: 16
+2018-09-23 20:11:59 [210,F]	Signal Type: Signed
+2018-09-23 20:11:59 [210,G]	Signal Factor: 2.0000000000000001E-4
+2018-09-23 20:11:59 [210,H]	Signal Offset: 0
+2018-09-23 20:11:59 [210,I]	Signal min: -6.5532000000000004
+2018-09-23 20:11:59 [210,I]	Signal max: 6.5532000000000004
+2018-09-23 20:11:59 [211,A]	Signal name: Blinker_Info
+2018-09-23 20:11:59 [211,B]	Message name: Obstacle_Data_G
+2018-09-23 20:11:59 [211,D]	Signal len: 3
+2018-09-23 20:11:59 [211,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [211,G]	Signal Factor: 1
+2018-09-23 20:11:59 [211,H]	Signal Offset: 0
+2018-09-23 20:11:59 [211,I]	Signal min: 0
+2018-09-23 20:11:59 [211,I]	Signal max: 7
+2018-09-23 20:11:59 [212,A]	Signal name: Cut_in_and_out
+2018-09-23 20:11:59 [212,B]	Message name: Obstacle_Data_G
+2018-09-23 20:11:59 [212,D]	Signal len: 3
+2018-09-23 20:11:59 [212,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [212,G]	Signal Factor: 1
+2018-09-23 20:11:59 [212,H]	Signal Offset: 0
+2018-09-23 20:11:59 [212,I]	Signal min: 0
+2018-09-23 20:11:59 [212,I]	Signal max: 7
+2018-09-23 20:11:59 [213,A]	Signal name: Obstacle_Brake_Light
+2018-09-23 20:11:59 [213,B]	Message name: Obstacle_Data_G
+2018-09-23 20:11:59 [213,D]	Signal len: 1
+2018-09-23 20:11:59 [213,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [213,G]	Signal Factor: 1
+2018-09-23 20:11:59 [213,H]	Signal Offset: 0
+2018-09-23 20:11:59 [213,I]	Signal min: 0
+2018-09-23 20:11:59 [213,I]	Signal max: 1
+2018-09-23 20:11:59 [214,A]	Signal name: Obstacle_ID
+2018-09-23 20:11:59 [214,B]	Message name: Obstacle_Data_G
+2018-09-23 20:11:59 [214,D]	Signal len: 8
+2018-09-23 20:11:59 [214,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [214,G]	Signal Factor: 1
+2018-09-23 20:11:59 [214,H]	Signal Offset: 0
+2018-09-23 20:11:59 [214,I]	Signal min: 0
+2018-09-23 20:11:59 [214,I]	Signal max: 63
+2018-09-23 20:11:59 [215,A]	Signal name: Obstacle_Pos_X
+2018-09-23 20:11:59 [215,B]	Message name: Obstacle_Data_G
+2018-09-23 20:11:59 [215,D]	Signal len: 12
+2018-09-23 20:11:59 [215,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [215,G]	Signal Factor: 6.25E-2
+2018-09-23 20:11:59 [215,H]	Signal Offset: 0
+2018-09-23 20:11:59 [215,I]	Signal min: 0
+2018-09-23 20:11:59 [215,I]	Signal max: 250
+2018-09-23 20:11:59 [216,A]	Signal name: Obstacle_Pos_Y
+2018-09-23 20:11:59 [216,B]	Message name: Obstacle_Data_G
+2018-09-23 20:11:59 [216,D]	Signal len: 10
+2018-09-23 20:11:59 [216,F]	Signal Type: Signed
+2018-09-23 20:11:59 [216,G]	Signal Factor: 6.25E-2
+2018-09-23 20:11:59 [216,H]	Signal Offset: 0
+2018-09-23 20:11:59 [216,I]	Signal min: -31.93
+2018-09-23 20:11:59 [216,I]	Signal max: 31.93
+2018-09-23 20:11:59 [217,A]	Signal name: Obstacle_Rel_Vel_X
+2018-09-23 20:11:59 [217,B]	Message name: Obstacle_Data_G
+2018-09-23 20:11:59 [217,D]	Signal len: 12
+2018-09-23 20:11:59 [217,F]	Signal Type: Signed
+2018-09-23 20:11:59 [217,G]	Signal Factor: 6.25E-2
+2018-09-23 20:11:59 [217,H]	Signal Offset: 0
+2018-09-23 20:11:59 [217,I]	Signal min: -127.93
+2018-09-23 20:11:59 [217,I]	Signal max: 127.93
+2018-09-23 20:11:59 [218,A]	Signal name: Obstacle_Status
+2018-09-23 20:11:59 [218,B]	Message name: Obstacle_Data_G
+2018-09-23 20:11:59 [218,D]	Signal len: 3
+2018-09-23 20:11:59 [218,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [218,G]	Signal Factor: 1
+2018-09-23 20:11:59 [218,H]	Signal Offset: 0
+2018-09-23 20:11:59 [218,I]	Signal min: 0
+2018-09-23 20:11:59 [218,I]	Signal max: 7
+2018-09-23 20:11:59 [219,A]	Signal name: Obstacle_Type
+2018-09-23 20:11:59 [219,B]	Message name: Obstacle_Data_G
+2018-09-23 20:11:59 [219,D]	Signal len: 3
+2018-09-23 20:11:59 [219,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [219,G]	Signal Factor: 1
+2018-09-23 20:11:59 [219,H]	Signal Offset: 0
+2018-09-23 20:11:59 [219,I]	Signal min: 0
+2018-09-23 20:11:59 [219,I]	Signal max: 7
+2018-09-23 20:11:59 [220,A]	Signal name: Obstacle_Valid
+2018-09-23 20:11:59 [220,B]	Message name: Obstacle_Data_G
+2018-09-23 20:11:59 [220,D]	Signal len: 2
+2018-09-23 20:11:59 [220,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [220,G]	Signal Factor: 1
+2018-09-23 20:11:59 [220,H]	Signal Offset: 0
+2018-09-23 20:11:59 [220,I]	Signal min: 0
+2018-09-23 20:11:59 [220,I]	Signal max: 3
+2018-09-23 20:11:59 [221,A]	Signal name: CIPV_Flag
+2018-09-23 20:11:59 [221,B]	Message name: Obstacle_Data_H
+2018-09-23 20:11:59 [221,D]	Signal len: 1
+2018-09-23 20:11:59 [221,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [221,G]	Signal Factor: 1
+2018-09-23 20:11:59 [221,H]	Signal Offset: 0
+2018-09-23 20:11:59 [221,I]	Signal min: 0
+2018-09-23 20:11:59 [221,I]	Signal max: 1
+2018-09-23 20:11:59 [222,A]	Signal name: Matched_Radar_ID
+2018-09-23 20:11:59 [222,B]	Message name: Obstacle_Data_H
+2018-09-23 20:11:59 [222,D]	Signal len: 7
+2018-09-23 20:11:59 [222,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [222,G]	Signal Factor: 1
+2018-09-23 20:11:59 [222,H]	Signal Offset: 0
+2018-09-23 20:11:59 [222,I]	Signal min: 0
+2018-09-23 20:11:59 [222,I]	Signal max: 127
+2018-09-23 20:11:59 [223,A]	Signal name: Obstacle_Age
+2018-09-23 20:11:59 [223,B]	Message name: Obstacle_Data_H
+2018-09-23 20:11:59 [223,D]	Signal len: 8
+2018-09-23 20:11:59 [223,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [223,G]	Signal Factor: 1
+2018-09-23 20:11:59 [223,H]	Signal Offset: 0
+2018-09-23 20:11:59 [223,I]	Signal min: 0
+2018-09-23 20:11:59 [223,I]	Signal max: 255
+2018-09-23 20:11:59 [224,A]	Signal name: Obstacle_Lane
+2018-09-23 20:11:59 [224,B]	Message name: Obstacle_Data_H
+2018-09-23 20:11:59 [224,D]	Signal len: 2
+2018-09-23 20:11:59 [224,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [224,G]	Signal Factor: 1
+2018-09-23 20:11:59 [224,H]	Signal Offset: 0
+2018-09-23 20:11:59 [224,I]	Signal min: 0
+2018-09-23 20:11:59 [224,I]	Signal max: 3
+2018-09-23 20:11:59 [225,A]	Signal name: Obstacle_Legnth
+2018-09-23 20:11:59 [225,B]	Message name: Obstacle_Data_H
+2018-09-23 20:11:59 [225,D]	Signal len: 8
+2018-09-23 20:11:59 [225,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [225,G]	Signal Factor: 0.5
+2018-09-23 20:11:59 [225,H]	Signal Offset: 0
+2018-09-23 20:11:59 [225,I]	Signal min: 0
+2018-09-23 20:11:59 [225,I]	Signal max: 31
+2018-09-23 20:11:59 [226,A]	Signal name: Obstacle_Width
+2018-09-23 20:11:59 [226,B]	Message name: Obstacle_Data_H
+2018-09-23 20:11:59 [226,D]	Signal len: 8
+2018-09-23 20:11:59 [226,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [226,G]	Signal Factor: 0.05
+2018-09-23 20:11:59 [226,H]	Signal Offset: 0
+2018-09-23 20:11:59 [226,I]	Signal min: 0
+2018-09-23 20:11:59 [226,I]	Signal max: 12.5
+2018-09-23 20:11:59 [227,A]	Signal name: Radar_Match_Confidence
+2018-09-23 20:11:59 [227,B]	Message name: Obstacle_Data_H
+2018-09-23 20:11:59 [227,D]	Signal len: 3
+2018-09-23 20:11:59 [227,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [227,G]	Signal Factor: 1
+2018-09-23 20:11:59 [227,H]	Signal Offset: 0
+2018-09-23 20:11:59 [227,I]	Signal min: 0.5
+2018-09-23 20:11:59 [227,I]	Signal max: 5
+2018-09-23 20:11:59 [228,A]	Signal name: Radar_Pos_X
+2018-09-23 20:11:59 [228,B]	Message name: Obstacle_Data_H
+2018-09-23 20:11:59 [228,D]	Signal len: 12
+2018-09-23 20:11:59 [228,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [228,G]	Signal Factor: 6.25E-2
+2018-09-23 20:11:59 [228,H]	Signal Offset: 0
+2018-09-23 20:11:59 [228,I]	Signal min: 0
+2018-09-23 20:11:59 [228,I]	Signal max: 250
+2018-09-23 20:11:59 [229,A]	Signal name: Radar_Vel_X
+2018-09-23 20:11:59 [229,B]	Message name: Obstacle_Data_H
+2018-09-23 20:11:59 [229,D]	Signal len: 12
+2018-09-23 20:11:59 [229,F]	Signal Type: Signed
+2018-09-23 20:11:59 [229,G]	Signal Factor: 6.25E-2
+2018-09-23 20:11:59 [229,H]	Signal Offset: 0
+2018-09-23 20:11:59 [229,I]	Signal min: -127.93
+2018-09-23 20:11:59 [229,I]	Signal max: 127.93
+2018-09-23 20:11:59 [230,A]	Signal name: Object_Accel_X
+2018-09-23 20:11:59 [230,B]	Message name: Obstacle_Data_I
+2018-09-23 20:11:59 [230,D]	Signal len: 10
+2018-09-23 20:11:59 [230,F]	Signal Type: Signed
+2018-09-23 20:11:59 [230,G]	Signal Factor: 0.03
+2018-09-23 20:11:59 [230,H]	Signal Offset: 0
+2018-09-23 20:11:59 [230,I]	Signal min: -14.97
+2018-09-23 20:11:59 [230,I]	Signal max: 14.97
+2018-09-23 20:11:59 [231,A]	Signal name: Obstacle_Angle
+2018-09-23 20:11:59 [231,B]	Message name: Obstacle_Data_I
+2018-09-23 20:11:59 [231,D]	Signal len: 16
+2018-09-23 20:11:59 [231,F]	Signal Type: Signed
+2018-09-23 20:11:59 [231,G]	Signal Factor: 0.01
+2018-09-23 20:11:59 [231,H]	Signal Offset: 0
+2018-09-23 20:11:59 [231,I]	Signal min: -327.68
+2018-09-23 20:11:59 [231,I]	Signal max: 327.68
+2018-09-23 20:11:59 [232,A]	Signal name: Obstacle_Angle_Rate
+2018-09-23 20:11:59 [232,B]	Message name: Obstacle_Data_I
+2018-09-23 20:11:59 [232,D]	Signal len: 16
+2018-09-23 20:11:59 [232,F]	Signal Type: Signed
+2018-09-23 20:11:59 [232,G]	Signal Factor: 0.01
+2018-09-23 20:11:59 [232,H]	Signal Offset: 0
+2018-09-23 20:11:59 [232,I]	Signal min: -327.68
+2018-09-23 20:11:59 [232,I]	Signal max: 327.68
+2018-09-23 20:11:59 [233,A]	Signal name: Obstacle_Replaced
+2018-09-23 20:11:59 [233,B]	Message name: Obstacle_Data_I
+2018-09-23 20:11:59 [233,D]	Signal len: 1
+2018-09-23 20:11:59 [233,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [233,G]	Signal Factor: 1
+2018-09-23 20:11:59 [233,H]	Signal Offset: 0
+2018-09-23 20:11:59 [233,I]	Signal min: 0
+2018-09-23 20:11:59 [233,I]	Signal max: 1
+2018-09-23 20:11:59 [234,A]	Signal name: Obstacle_Scale_Change
+2018-09-23 20:11:59 [234,B]	Message name: Obstacle_Data_I
+2018-09-23 20:11:59 [234,D]	Signal len: 16
+2018-09-23 20:11:59 [234,F]	Signal Type: Signed
+2018-09-23 20:11:59 [234,G]	Signal Factor: 2.0000000000000001E-4
+2018-09-23 20:11:59 [234,H]	Signal Offset: 0
+2018-09-23 20:11:59 [234,I]	Signal min: -6.5532000000000004
+2018-09-23 20:11:59 [234,I]	Signal max: 6.5532000000000004
+2018-09-23 20:11:59 [235,A]	Signal name: Blinker_Info
+2018-09-23 20:11:59 [235,B]	Message name: Obstacle_Data_J
+2018-09-23 20:11:59 [235,D]	Signal len: 3
+2018-09-23 20:11:59 [235,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [235,G]	Signal Factor: 1
+2018-09-23 20:11:59 [235,H]	Signal Offset: 0
+2018-09-23 20:11:59 [235,I]	Signal min: 0
+2018-09-23 20:11:59 [235,I]	Signal max: 7
+2018-09-23 20:11:59 [236,A]	Signal name: Cut_in_and_out
+2018-09-23 20:11:59 [236,B]	Message name: Obstacle_Data_J
+2018-09-23 20:11:59 [236,D]	Signal len: 3
+2018-09-23 20:11:59 [236,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [236,G]	Signal Factor: 1
+2018-09-23 20:11:59 [236,H]	Signal Offset: 0
+2018-09-23 20:11:59 [236,I]	Signal min: 0
+2018-09-23 20:11:59 [236,I]	Signal max: 7
+2018-09-23 20:11:59 [237,A]	Signal name: Obstacle_Brake_Light
+2018-09-23 20:11:59 [237,B]	Message name: Obstacle_Data_J
+2018-09-23 20:11:59 [237,D]	Signal len: 1
+2018-09-23 20:11:59 [237,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [237,G]	Signal Factor: 1
+2018-09-23 20:11:59 [237,H]	Signal Offset: 0
+2018-09-23 20:11:59 [237,I]	Signal min: 0
+2018-09-23 20:11:59 [237,I]	Signal max: 1
+2018-09-23 20:11:59 [238,A]	Signal name: Obstacle_ID
+2018-09-23 20:11:59 [238,B]	Message name: Obstacle_Data_J
+2018-09-23 20:11:59 [238,D]	Signal len: 8
+2018-09-23 20:11:59 [238,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [238,G]	Signal Factor: 1
+2018-09-23 20:11:59 [238,H]	Signal Offset: 0
+2018-09-23 20:11:59 [238,I]	Signal min: 0
+2018-09-23 20:11:59 [238,I]	Signal max: 63
+2018-09-23 20:11:59 [239,A]	Signal name: Obstacle_Pos_X
+2018-09-23 20:11:59 [239,B]	Message name: Obstacle_Data_J
+2018-09-23 20:11:59 [239,D]	Signal len: 12
+2018-09-23 20:11:59 [239,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [239,G]	Signal Factor: 6.25E-2
+2018-09-23 20:11:59 [239,H]	Signal Offset: 0
+2018-09-23 20:11:59 [239,I]	Signal min: 0
+2018-09-23 20:11:59 [239,I]	Signal max: 250
+2018-09-23 20:11:59 [240,A]	Signal name: Obstacle_Pos_Y
+2018-09-23 20:11:59 [240,B]	Message name: Obstacle_Data_J
+2018-09-23 20:11:59 [240,D]	Signal len: 10
+2018-09-23 20:11:59 [240,F]	Signal Type: Signed
+2018-09-23 20:11:59 [240,G]	Signal Factor: 6.25E-2
+2018-09-23 20:11:59 [240,H]	Signal Offset: 0
+2018-09-23 20:11:59 [240,I]	Signal min: -31.93
+2018-09-23 20:11:59 [240,I]	Signal max: 31.93
+2018-09-23 20:11:59 [241,A]	Signal name: Obstacle_Rel_Vel_X
+2018-09-23 20:11:59 [241,B]	Message name: Obstacle_Data_J
+2018-09-23 20:11:59 [241,D]	Signal len: 12
+2018-09-23 20:11:59 [241,F]	Signal Type: Signed
+2018-09-23 20:11:59 [241,G]	Signal Factor: 6.25E-2
+2018-09-23 20:11:59 [241,H]	Signal Offset: 0
+2018-09-23 20:11:59 [241,I]	Signal min: -127.93
+2018-09-23 20:11:59 [241,I]	Signal max: 127.93
+2018-09-23 20:11:59 [242,A]	Signal name: Obstacle_Status
+2018-09-23 20:11:59 [242,B]	Message name: Obstacle_Data_J
+2018-09-23 20:11:59 [242,D]	Signal len: 3
+2018-09-23 20:11:59 [242,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [242,G]	Signal Factor: 1
+2018-09-23 20:11:59 [242,H]	Signal Offset: 0
+2018-09-23 20:11:59 [242,I]	Signal min: 0
+2018-09-23 20:11:59 [242,I]	Signal max: 7
+2018-09-23 20:11:59 [243,A]	Signal name: Obstacle_Type
+2018-09-23 20:11:59 [243,B]	Message name: Obstacle_Data_J
+2018-09-23 20:11:59 [243,D]	Signal len: 3
+2018-09-23 20:11:59 [243,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [243,G]	Signal Factor: 1
+2018-09-23 20:11:59 [243,H]	Signal Offset: 0
+2018-09-23 20:11:59 [243,I]	Signal min: 0
+2018-09-23 20:11:59 [243,I]	Signal max: 7
+2018-09-23 20:11:59 [244,A]	Signal name: Obstacle_Valid
+2018-09-23 20:11:59 [244,B]	Message name: Obstacle_Data_J
+2018-09-23 20:11:59 [244,D]	Signal len: 2
+2018-09-23 20:11:59 [244,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [244,G]	Signal Factor: 1
+2018-09-23 20:11:59 [244,H]	Signal Offset: 0
+2018-09-23 20:11:59 [244,I]	Signal min: 0
+2018-09-23 20:11:59 [244,I]	Signal max: 3
+2018-09-23 20:11:59 [245,A]	Signal name: CIPV_Flag
+2018-09-23 20:11:59 [245,B]	Message name: Obstacle_Data_K
+2018-09-23 20:11:59 [245,D]	Signal len: 1
+2018-09-23 20:11:59 [245,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [245,G]	Signal Factor: 1
+2018-09-23 20:11:59 [245,H]	Signal Offset: 0
+2018-09-23 20:11:59 [245,I]	Signal min: 0
+2018-09-23 20:11:59 [245,I]	Signal max: 1
+2018-09-23 20:11:59 [246,A]	Signal name: Matched_Radar_ID
+2018-09-23 20:11:59 [246,B]	Message name: Obstacle_Data_K
+2018-09-23 20:11:59 [246,D]	Signal len: 7
+2018-09-23 20:11:59 [246,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [246,G]	Signal Factor: 1
+2018-09-23 20:11:59 [246,H]	Signal Offset: 0
+2018-09-23 20:11:59 [246,I]	Signal min: 0
+2018-09-23 20:11:59 [246,I]	Signal max: 127
+2018-09-23 20:11:59 [247,A]	Signal name: Obstacle_Age
+2018-09-23 20:11:59 [247,B]	Message name: Obstacle_Data_K
+2018-09-23 20:11:59 [247,D]	Signal len: 8
+2018-09-23 20:11:59 [247,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [247,G]	Signal Factor: 1
+2018-09-23 20:11:59 [247,H]	Signal Offset: 0
+2018-09-23 20:11:59 [247,I]	Signal min: 0
+2018-09-23 20:11:59 [247,I]	Signal max: 255
+2018-09-23 20:11:59 [248,A]	Signal name: Obstacle_Lane
+2018-09-23 20:11:59 [248,B]	Message name: Obstacle_Data_K
+2018-09-23 20:11:59 [248,D]	Signal len: 2
+2018-09-23 20:11:59 [248,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [248,G]	Signal Factor: 1
+2018-09-23 20:11:59 [248,H]	Signal Offset: 0
+2018-09-23 20:11:59 [248,I]	Signal min: 0
+2018-09-23 20:11:59 [248,I]	Signal max: 3
+2018-09-23 20:11:59 [249,A]	Signal name: Obstacle_Legnth
+2018-09-23 20:11:59 [249,B]	Message name: Obstacle_Data_K
+2018-09-23 20:11:59 [249,D]	Signal len: 8
+2018-09-23 20:11:59 [249,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [249,G]	Signal Factor: 0.5
+2018-09-23 20:11:59 [249,H]	Signal Offset: 0
+2018-09-23 20:11:59 [249,I]	Signal min: 0
+2018-09-23 20:11:59 [249,I]	Signal max: 31
+2018-09-23 20:11:59 [250,A]	Signal name: Obstacle_Width
+2018-09-23 20:11:59 [250,B]	Message name: Obstacle_Data_K
+2018-09-23 20:11:59 [250,D]	Signal len: 8
+2018-09-23 20:11:59 [250,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [250,G]	Signal Factor: 0.05
+2018-09-23 20:11:59 [250,H]	Signal Offset: 0
+2018-09-23 20:11:59 [250,I]	Signal min: 0
+2018-09-23 20:11:59 [250,I]	Signal max: 12.5
+2018-09-23 20:11:59 [251,A]	Signal name: Radar_Match_Confidence
+2018-09-23 20:11:59 [251,B]	Message name: Obstacle_Data_K
+2018-09-23 20:11:59 [251,D]	Signal len: 3
+2018-09-23 20:11:59 [251,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [251,G]	Signal Factor: 1
+2018-09-23 20:11:59 [251,H]	Signal Offset: 0
+2018-09-23 20:11:59 [251,I]	Signal min: 0.5
+2018-09-23 20:11:59 [251,I]	Signal max: 5
+2018-09-23 20:11:59 [252,A]	Signal name: Radar_Pos_X
+2018-09-23 20:11:59 [252,B]	Message name: Obstacle_Data_K
+2018-09-23 20:11:59 [252,D]	Signal len: 12
+2018-09-23 20:11:59 [252,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [252,G]	Signal Factor: 6.25E-2
+2018-09-23 20:11:59 [252,H]	Signal Offset: 0
+2018-09-23 20:11:59 [252,I]	Signal min: 0
+2018-09-23 20:11:59 [252,I]	Signal max: 250
+2018-09-23 20:11:59 [253,A]	Signal name: Radar_Vel_X
+2018-09-23 20:11:59 [253,B]	Message name: Obstacle_Data_K
+2018-09-23 20:11:59 [253,D]	Signal len: 12
+2018-09-23 20:11:59 [253,F]	Signal Type: Signed
+2018-09-23 20:11:59 [253,G]	Signal Factor: 6.25E-2
+2018-09-23 20:11:59 [253,H]	Signal Offset: 0
+2018-09-23 20:11:59 [253,I]	Signal min: -127.93
+2018-09-23 20:11:59 [253,I]	Signal max: 127.93
+2018-09-23 20:11:59 [254,A]	Signal name: Object_Accel_X
+2018-09-23 20:11:59 [254,B]	Message name: Obstacle_Data_L
+2018-09-23 20:11:59 [254,D]	Signal len: 10
+2018-09-23 20:11:59 [254,F]	Signal Type: Signed
+2018-09-23 20:11:59 [254,G]	Signal Factor: 0.03
+2018-09-23 20:11:59 [254,H]	Signal Offset: 0
+2018-09-23 20:11:59 [254,I]	Signal min: -14.97
+2018-09-23 20:11:59 [254,I]	Signal max: 14.97
+2018-09-23 20:11:59 [255,A]	Signal name: Obstacle_Angle
+2018-09-23 20:11:59 [255,B]	Message name: Obstacle_Data_L
+2018-09-23 20:11:59 [255,D]	Signal len: 16
+2018-09-23 20:11:59 [255,F]	Signal Type: Signed
+2018-09-23 20:11:59 [255,G]	Signal Factor: 0.01
+2018-09-23 20:11:59 [255,H]	Signal Offset: 0
+2018-09-23 20:11:59 [255,I]	Signal min: -327.68
+2018-09-23 20:11:59 [255,I]	Signal max: 327.68
+2018-09-23 20:11:59 [256,A]	Signal name: Obstacle_Angle_Rate
+2018-09-23 20:11:59 [256,B]	Message name: Obstacle_Data_L
+2018-09-23 20:11:59 [256,D]	Signal len: 16
+2018-09-23 20:11:59 [256,F]	Signal Type: Signed
+2018-09-23 20:11:59 [256,G]	Signal Factor: 0.01
+2018-09-23 20:11:59 [256,H]	Signal Offset: 0
+2018-09-23 20:11:59 [256,I]	Signal min: -327.68
+2018-09-23 20:11:59 [256,I]	Signal max: 327.68
+2018-09-23 20:11:59 [257,A]	Signal name: Obstacle_Replaced
+2018-09-23 20:11:59 [257,B]	Message name: Obstacle_Data_L
+2018-09-23 20:11:59 [257,D]	Signal len: 1
+2018-09-23 20:11:59 [257,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [257,G]	Signal Factor: 1
+2018-09-23 20:11:59 [257,H]	Signal Offset: 0
+2018-09-23 20:11:59 [257,I]	Signal min: 0
+2018-09-23 20:11:59 [257,I]	Signal max: 1
+2018-09-23 20:11:59 [258,A]	Signal name: Obstacle_Scale_Change
+2018-09-23 20:11:59 [258,B]	Message name: Obstacle_Data_L
+2018-09-23 20:11:59 [258,D]	Signal len: 16
+2018-09-23 20:11:59 [258,F]	Signal Type: Signed
+2018-09-23 20:11:59 [258,G]	Signal Factor: 2.0000000000000001E-4
+2018-09-23 20:11:59 [258,H]	Signal Offset: 0
+2018-09-23 20:11:59 [258,I]	Signal min: -6.5532000000000004
+2018-09-23 20:11:59 [258,I]	Signal max: 6.5532000000000004
+2018-09-23 20:11:59 [259,A]	Signal name: Blinker_Info
+2018-09-23 20:11:59 [259,B]	Message name: Obstacle_Data_M
+2018-09-23 20:11:59 [259,D]	Signal len: 3
+2018-09-23 20:11:59 [259,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [259,G]	Signal Factor: 1
+2018-09-23 20:11:59 [259,H]	Signal Offset: 0
+2018-09-23 20:11:59 [259,I]	Signal min: 0
+2018-09-23 20:11:59 [259,I]	Signal max: 7
+2018-09-23 20:11:59 [260,A]	Signal name: Cut_in_and_out
+2018-09-23 20:11:59 [260,B]	Message name: Obstacle_Data_M
+2018-09-23 20:11:59 [260,D]	Signal len: 3
+2018-09-23 20:11:59 [260,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [260,G]	Signal Factor: 1
+2018-09-23 20:11:59 [260,H]	Signal Offset: 0
+2018-09-23 20:11:59 [260,I]	Signal min: 0
+2018-09-23 20:11:59 [260,I]	Signal max: 7
+2018-09-23 20:11:59 [261,A]	Signal name: Obstacle_Brake_Light
+2018-09-23 20:11:59 [261,B]	Message name: Obstacle_Data_M
+2018-09-23 20:11:59 [261,D]	Signal len: 1
+2018-09-23 20:11:59 [261,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [261,G]	Signal Factor: 1
+2018-09-23 20:11:59 [261,H]	Signal Offset: 0
+2018-09-23 20:11:59 [261,I]	Signal min: 0
+2018-09-23 20:11:59 [261,I]	Signal max: 1
+2018-09-23 20:11:59 [262,A]	Signal name: Obstacle_ID
+2018-09-23 20:11:59 [262,B]	Message name: Obstacle_Data_M
+2018-09-23 20:11:59 [262,D]	Signal len: 8
+2018-09-23 20:11:59 [262,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [262,G]	Signal Factor: 1
+2018-09-23 20:11:59 [262,H]	Signal Offset: 0
+2018-09-23 20:11:59 [262,I]	Signal min: 0
+2018-09-23 20:11:59 [262,I]	Signal max: 63
+2018-09-23 20:11:59 [263,A]	Signal name: Obstacle_Pos_X
+2018-09-23 20:11:59 [263,B]	Message name: Obstacle_Data_M
+2018-09-23 20:11:59 [263,D]	Signal len: 12
+2018-09-23 20:11:59 [263,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [263,G]	Signal Factor: 6.25E-2
+2018-09-23 20:11:59 [263,H]	Signal Offset: 0
+2018-09-23 20:11:59 [263,I]	Signal min: 0
+2018-09-23 20:11:59 [263,I]	Signal max: 250
+2018-09-23 20:11:59 [264,A]	Signal name: Obstacle_Pos_Y
+2018-09-23 20:11:59 [264,B]	Message name: Obstacle_Data_M
+2018-09-23 20:11:59 [264,D]	Signal len: 10
+2018-09-23 20:11:59 [264,F]	Signal Type: Signed
+2018-09-23 20:11:59 [264,G]	Signal Factor: 6.25E-2
+2018-09-23 20:11:59 [264,H]	Signal Offset: 0
+2018-09-23 20:11:59 [264,I]	Signal min: -31.93
+2018-09-23 20:11:59 [264,I]	Signal max: 31.93
+2018-09-23 20:11:59 [265,A]	Signal name: Obstacle_Rel_Vel_X
+2018-09-23 20:11:59 [265,B]	Message name: Obstacle_Data_M
+2018-09-23 20:11:59 [265,D]	Signal len: 12
+2018-09-23 20:11:59 [265,F]	Signal Type: Signed
+2018-09-23 20:11:59 [265,G]	Signal Factor: 6.25E-2
+2018-09-23 20:11:59 [265,H]	Signal Offset: 0
+2018-09-23 20:11:59 [265,I]	Signal min: -127.93
+2018-09-23 20:11:59 [265,I]	Signal max: 127.93
+2018-09-23 20:11:59 [266,A]	Signal name: Obstacle_Status
+2018-09-23 20:11:59 [266,B]	Message name: Obstacle_Data_M
+2018-09-23 20:11:59 [266,D]	Signal len: 3
+2018-09-23 20:11:59 [266,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [266,G]	Signal Factor: 1
+2018-09-23 20:11:59 [266,H]	Signal Offset: 0
+2018-09-23 20:11:59 [266,I]	Signal min: 0
+2018-09-23 20:11:59 [266,I]	Signal max: 7
+2018-09-23 20:11:59 [267,A]	Signal name: Obstacle_Type
+2018-09-23 20:11:59 [267,B]	Message name: Obstacle_Data_M
+2018-09-23 20:11:59 [267,D]	Signal len: 3
+2018-09-23 20:11:59 [267,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [267,G]	Signal Factor: 1
+2018-09-23 20:11:59 [267,H]	Signal Offset: 0
+2018-09-23 20:11:59 [267,I]	Signal min: 0
+2018-09-23 20:11:59 [267,I]	Signal max: 7
+2018-09-23 20:11:59 [268,A]	Signal name: Obstacle_Valid
+2018-09-23 20:11:59 [268,B]	Message name: Obstacle_Data_M
+2018-09-23 20:11:59 [268,D]	Signal len: 2
+2018-09-23 20:11:59 [268,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [268,G]	Signal Factor: 1
+2018-09-23 20:11:59 [268,H]	Signal Offset: 0
+2018-09-23 20:11:59 [268,I]	Signal min: 0
+2018-09-23 20:11:59 [268,I]	Signal max: 3
+2018-09-23 20:11:59 [269,A]	Signal name: CIPV_Flag
+2018-09-23 20:11:59 [269,B]	Message name: Obstacle_Data_N
+2018-09-23 20:11:59 [269,D]	Signal len: 1
+2018-09-23 20:11:59 [269,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [269,G]	Signal Factor: 1
+2018-09-23 20:11:59 [269,H]	Signal Offset: 0
+2018-09-23 20:11:59 [269,I]	Signal min: 0
+2018-09-23 20:11:59 [269,I]	Signal max: 1
+2018-09-23 20:11:59 [270,A]	Signal name: Matched_Radar_ID
+2018-09-23 20:11:59 [270,B]	Message name: Obstacle_Data_N
+2018-09-23 20:11:59 [270,D]	Signal len: 7
+2018-09-23 20:11:59 [270,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [270,G]	Signal Factor: 1
+2018-09-23 20:11:59 [270,H]	Signal Offset: 0
+2018-09-23 20:11:59 [270,I]	Signal min: 0
+2018-09-23 20:11:59 [270,I]	Signal max: 127
+2018-09-23 20:11:59 [271,A]	Signal name: Obstacle_Age
+2018-09-23 20:11:59 [271,B]	Message name: Obstacle_Data_N
+2018-09-23 20:11:59 [271,D]	Signal len: 8
+2018-09-23 20:11:59 [271,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [271,G]	Signal Factor: 1
+2018-09-23 20:11:59 [271,H]	Signal Offset: 0
+2018-09-23 20:11:59 [271,I]	Signal min: 0
+2018-09-23 20:11:59 [271,I]	Signal max: 255
+2018-09-23 20:11:59 [272,A]	Signal name: Obstacle_Lane
+2018-09-23 20:11:59 [272,B]	Message name: Obstacle_Data_N
+2018-09-23 20:11:59 [272,D]	Signal len: 2
+2018-09-23 20:11:59 [272,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [272,G]	Signal Factor: 1
+2018-09-23 20:11:59 [272,H]	Signal Offset: 0
+2018-09-23 20:11:59 [272,I]	Signal min: 0
+2018-09-23 20:11:59 [272,I]	Signal max: 3
+2018-09-23 20:11:59 [273,A]	Signal name: Obstacle_Legnth
+2018-09-23 20:11:59 [273,B]	Message name: Obstacle_Data_N
+2018-09-23 20:11:59 [273,D]	Signal len: 8
+2018-09-23 20:11:59 [273,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [273,G]	Signal Factor: 0.5
+2018-09-23 20:11:59 [273,H]	Signal Offset: 0
+2018-09-23 20:11:59 [273,I]	Signal min: 0
+2018-09-23 20:11:59 [273,I]	Signal max: 31
+2018-09-23 20:11:59 [274,A]	Signal name: Obstacle_Width
+2018-09-23 20:11:59 [274,B]	Message name: Obstacle_Data_N
+2018-09-23 20:11:59 [274,D]	Signal len: 8
+2018-09-23 20:11:59 [274,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [274,G]	Signal Factor: 0.05
+2018-09-23 20:11:59 [274,H]	Signal Offset: 0
+2018-09-23 20:11:59 [274,I]	Signal min: 0
+2018-09-23 20:11:59 [274,I]	Signal max: 12.5
+2018-09-23 20:11:59 [275,A]	Signal name: Radar_Match_Confidence
+2018-09-23 20:11:59 [275,B]	Message name: Obstacle_Data_N
+2018-09-23 20:11:59 [275,D]	Signal len: 3
+2018-09-23 20:11:59 [275,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [275,G]	Signal Factor: 1
+2018-09-23 20:11:59 [275,H]	Signal Offset: 0
+2018-09-23 20:11:59 [275,I]	Signal min: 0.5
+2018-09-23 20:11:59 [275,I]	Signal max: 5
+2018-09-23 20:11:59 [276,A]	Signal name: Radar_Pos_X
+2018-09-23 20:11:59 [276,B]	Message name: Obstacle_Data_N
+2018-09-23 20:11:59 [276,D]	Signal len: 12
+2018-09-23 20:11:59 [276,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [276,G]	Signal Factor: 6.25E-2
+2018-09-23 20:11:59 [276,H]	Signal Offset: 0
+2018-09-23 20:11:59 [276,I]	Signal min: 0
+2018-09-23 20:11:59 [276,I]	Signal max: 250
+2018-09-23 20:11:59 [277,A]	Signal name: Radar_Vel_X
+2018-09-23 20:11:59 [277,B]	Message name: Obstacle_Data_N
+2018-09-23 20:11:59 [277,D]	Signal len: 12
+2018-09-23 20:11:59 [277,F]	Signal Type: Signed
+2018-09-23 20:11:59 [277,G]	Signal Factor: 6.25E-2
+2018-09-23 20:11:59 [277,H]	Signal Offset: 0
+2018-09-23 20:11:59 [277,I]	Signal min: -127.93
+2018-09-23 20:11:59 [277,I]	Signal max: 127.93
+2018-09-23 20:11:59 [278,A]	Signal name: Object_Accel_X
+2018-09-23 20:11:59 [278,B]	Message name: Obstacle_Data_O
+2018-09-23 20:11:59 [278,D]	Signal len: 10
+2018-09-23 20:11:59 [278,F]	Signal Type: Signed
+2018-09-23 20:11:59 [278,G]	Signal Factor: 0.03
+2018-09-23 20:11:59 [278,H]	Signal Offset: 0
+2018-09-23 20:11:59 [278,I]	Signal min: -14.97
+2018-09-23 20:11:59 [278,I]	Signal max: 14.97
+2018-09-23 20:11:59 [279,A]	Signal name: Obstacle_Angle
+2018-09-23 20:11:59 [279,B]	Message name: Obstacle_Data_O
+2018-09-23 20:11:59 [279,D]	Signal len: 16
+2018-09-23 20:11:59 [279,F]	Signal Type: Signed
+2018-09-23 20:11:59 [279,G]	Signal Factor: 0.01
+2018-09-23 20:11:59 [279,H]	Signal Offset: 0
+2018-09-23 20:11:59 [279,I]	Signal min: -327.68
+2018-09-23 20:11:59 [279,I]	Signal max: 327.68
+2018-09-23 20:11:59 [280,A]	Signal name: Obstacle_Angle_Rate
+2018-09-23 20:11:59 [280,B]	Message name: Obstacle_Data_O
+2018-09-23 20:11:59 [280,D]	Signal len: 16
+2018-09-23 20:11:59 [280,F]	Signal Type: Signed
+2018-09-23 20:11:59 [280,G]	Signal Factor: 0.01
+2018-09-23 20:11:59 [280,H]	Signal Offset: 0
+2018-09-23 20:11:59 [280,I]	Signal min: -327.68
+2018-09-23 20:11:59 [280,I]	Signal max: 327.68
+2018-09-23 20:11:59 [281,A]	Signal name: Obstacle_Replaced
+2018-09-23 20:11:59 [281,B]	Message name: Obstacle_Data_O
+2018-09-23 20:11:59 [281,D]	Signal len: 1
+2018-09-23 20:11:59 [281,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [281,G]	Signal Factor: 1
+2018-09-23 20:11:59 [281,H]	Signal Offset: 0
+2018-09-23 20:11:59 [281,I]	Signal min: 0
+2018-09-23 20:11:59 [281,I]	Signal max: 1
+2018-09-23 20:11:59 [282,A]	Signal name: Obstacle_Scale_Change
+2018-09-23 20:11:59 [282,B]	Message name: Obstacle_Data_O
+2018-09-23 20:11:59 [282,D]	Signal len: 16
+2018-09-23 20:11:59 [282,F]	Signal Type: Signed
+2018-09-23 20:11:59 [282,G]	Signal Factor: 2.0000000000000001E-4
+2018-09-23 20:11:59 [282,H]	Signal Offset: 0
+2018-09-23 20:11:59 [282,I]	Signal min: -6.5532000000000004
+2018-09-23 20:11:59 [282,I]	Signal max: 6.5532000000000004
+2018-09-23 20:11:59 [283,A]	Signal name: Blinker_Info
+2018-09-23 20:11:59 [283,B]	Message name: Obstacle_Data_P
+2018-09-23 20:11:59 [283,D]	Signal len: 3
+2018-09-23 20:11:59 [283,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [283,G]	Signal Factor: 1
+2018-09-23 20:11:59 [283,H]	Signal Offset: 0
+2018-09-23 20:11:59 [283,I]	Signal min: 0
+2018-09-23 20:11:59 [283,I]	Signal max: 7
+2018-09-23 20:11:59 [284,A]	Signal name: Cut_in_and_out
+2018-09-23 20:11:59 [284,B]	Message name: Obstacle_Data_P
+2018-09-23 20:11:59 [284,D]	Signal len: 3
+2018-09-23 20:11:59 [284,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [284,G]	Signal Factor: 1
+2018-09-23 20:11:59 [284,H]	Signal Offset: 0
+2018-09-23 20:11:59 [284,I]	Signal min: 0
+2018-09-23 20:11:59 [284,I]	Signal max: 7
+2018-09-23 20:11:59 [285,A]	Signal name: Obstacle_Brake_Light
+2018-09-23 20:11:59 [285,B]	Message name: Obstacle_Data_P
+2018-09-23 20:11:59 [285,D]	Signal len: 1
+2018-09-23 20:11:59 [285,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [285,G]	Signal Factor: 1
+2018-09-23 20:11:59 [285,H]	Signal Offset: 0
+2018-09-23 20:11:59 [285,I]	Signal min: 0
+2018-09-23 20:11:59 [285,I]	Signal max: 1
+2018-09-23 20:11:59 [286,A]	Signal name: Obstacle_ID
+2018-09-23 20:11:59 [286,B]	Message name: Obstacle_Data_P
+2018-09-23 20:11:59 [286,D]	Signal len: 8
+2018-09-23 20:11:59 [286,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [286,G]	Signal Factor: 1
+2018-09-23 20:11:59 [286,H]	Signal Offset: 0
+2018-09-23 20:11:59 [286,I]	Signal min: 0
+2018-09-23 20:11:59 [286,I]	Signal max: 63
+2018-09-23 20:11:59 [287,A]	Signal name: Obstacle_Pos_X
+2018-09-23 20:11:59 [287,B]	Message name: Obstacle_Data_P
+2018-09-23 20:11:59 [287,D]	Signal len: 12
+2018-09-23 20:11:59 [287,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [287,G]	Signal Factor: 6.25E-2
+2018-09-23 20:11:59 [287,H]	Signal Offset: 0
+2018-09-23 20:11:59 [287,I]	Signal min: 0
+2018-09-23 20:11:59 [287,I]	Signal max: 250
+2018-09-23 20:11:59 [288,A]	Signal name: Obstacle_Pos_Y
+2018-09-23 20:11:59 [288,B]	Message name: Obstacle_Data_P
+2018-09-23 20:11:59 [288,D]	Signal len: 10
+2018-09-23 20:11:59 [288,F]	Signal Type: Signed
+2018-09-23 20:11:59 [288,G]	Signal Factor: 6.25E-2
+2018-09-23 20:11:59 [288,H]	Signal Offset: 0
+2018-09-23 20:11:59 [288,I]	Signal min: -31.93
+2018-09-23 20:11:59 [288,I]	Signal max: 31.93
+2018-09-23 20:11:59 [289,A]	Signal name: Obstacle_Rel_Vel_X
+2018-09-23 20:11:59 [289,B]	Message name: Obstacle_Data_P
+2018-09-23 20:11:59 [289,D]	Signal len: 12
+2018-09-23 20:11:59 [289,F]	Signal Type: Signed
+2018-09-23 20:11:59 [289,G]	Signal Factor: 6.25E-2
+2018-09-23 20:11:59 [289,H]	Signal Offset: 0
+2018-09-23 20:11:59 [289,I]	Signal min: -127.93
+2018-09-23 20:11:59 [289,I]	Signal max: 127.93
+2018-09-23 20:11:59 [290,A]	Signal name: Obstacle_Status
+2018-09-23 20:11:59 [290,B]	Message name: Obstacle_Data_P
+2018-09-23 20:11:59 [290,D]	Signal len: 3
+2018-09-23 20:11:59 [290,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [290,G]	Signal Factor: 1
+2018-09-23 20:11:59 [290,H]	Signal Offset: 0
+2018-09-23 20:11:59 [290,I]	Signal min: 0
+2018-09-23 20:11:59 [290,I]	Signal max: 7
+2018-09-23 20:11:59 [291,A]	Signal name: Obstacle_Type
+2018-09-23 20:11:59 [291,B]	Message name: Obstacle_Data_P
+2018-09-23 20:11:59 [291,D]	Signal len: 3
+2018-09-23 20:11:59 [291,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [291,G]	Signal Factor: 1
+2018-09-23 20:11:59 [291,H]	Signal Offset: 0
+2018-09-23 20:11:59 [291,I]	Signal min: 0
+2018-09-23 20:11:59 [291,I]	Signal max: 7
+2018-09-23 20:11:59 [292,A]	Signal name: Obstacle_Valid
+2018-09-23 20:11:59 [292,B]	Message name: Obstacle_Data_P
+2018-09-23 20:11:59 [292,D]	Signal len: 2
+2018-09-23 20:11:59 [292,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [292,G]	Signal Factor: 1
+2018-09-23 20:11:59 [292,H]	Signal Offset: 0
+2018-09-23 20:11:59 [292,I]	Signal min: 0
+2018-09-23 20:11:59 [292,I]	Signal max: 3
+2018-09-23 20:11:59 [293,A]	Signal name: CIPV_Flag
+2018-09-23 20:11:59 [293,B]	Message name: Obstacle_Data_Q
+2018-09-23 20:11:59 [293,D]	Signal len: 1
+2018-09-23 20:11:59 [293,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [293,G]	Signal Factor: 1
+2018-09-23 20:11:59 [293,H]	Signal Offset: 0
+2018-09-23 20:11:59 [293,I]	Signal min: 0
+2018-09-23 20:11:59 [293,I]	Signal max: 1
+2018-09-23 20:11:59 [294,A]	Signal name: Matched_Radar_ID
+2018-09-23 20:11:59 [294,B]	Message name: Obstacle_Data_Q
+2018-09-23 20:11:59 [294,D]	Signal len: 7
+2018-09-23 20:11:59 [294,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [294,G]	Signal Factor: 1
+2018-09-23 20:11:59 [294,H]	Signal Offset: 0
+2018-09-23 20:11:59 [294,I]	Signal min: 0
+2018-09-23 20:11:59 [294,I]	Signal max: 127
+2018-09-23 20:11:59 [295,A]	Signal name: Obstacle_Age
+2018-09-23 20:11:59 [295,B]	Message name: Obstacle_Data_Q
+2018-09-23 20:11:59 [295,D]	Signal len: 8
+2018-09-23 20:11:59 [295,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [295,G]	Signal Factor: 1
+2018-09-23 20:11:59 [295,H]	Signal Offset: 0
+2018-09-23 20:11:59 [295,I]	Signal min: 0
+2018-09-23 20:11:59 [295,I]	Signal max: 255
+2018-09-23 20:11:59 [296,A]	Signal name: Obstacle_Lane
+2018-09-23 20:11:59 [296,B]	Message name: Obstacle_Data_Q
+2018-09-23 20:11:59 [296,D]	Signal len: 2
+2018-09-23 20:11:59 [296,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [296,G]	Signal Factor: 1
+2018-09-23 20:11:59 [296,H]	Signal Offset: 0
+2018-09-23 20:11:59 [296,I]	Signal min: 0
+2018-09-23 20:11:59 [296,I]	Signal max: 3
+2018-09-23 20:11:59 [297,A]	Signal name: Obstacle_Legnth
+2018-09-23 20:11:59 [297,B]	Message name: Obstacle_Data_Q
+2018-09-23 20:11:59 [297,D]	Signal len: 8
+2018-09-23 20:11:59 [297,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [297,G]	Signal Factor: 0.5
+2018-09-23 20:11:59 [297,H]	Signal Offset: 0
+2018-09-23 20:11:59 [297,I]	Signal min: 0
+2018-09-23 20:11:59 [297,I]	Signal max: 31
+2018-09-23 20:11:59 [298,A]	Signal name: Obstacle_Width
+2018-09-23 20:11:59 [298,B]	Message name: Obstacle_Data_Q
+2018-09-23 20:11:59 [298,D]	Signal len: 8
+2018-09-23 20:11:59 [298,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [298,G]	Signal Factor: 0.05
+2018-09-23 20:11:59 [298,H]	Signal Offset: 0
+2018-09-23 20:11:59 [298,I]	Signal min: 0
+2018-09-23 20:11:59 [298,I]	Signal max: 12.5
+2018-09-23 20:11:59 [299,A]	Signal name: Radar_Match_Confidence
+2018-09-23 20:11:59 [299,B]	Message name: Obstacle_Data_Q
+2018-09-23 20:11:59 [299,D]	Signal len: 3
+2018-09-23 20:11:59 [299,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [299,G]	Signal Factor: 1
+2018-09-23 20:11:59 [299,H]	Signal Offset: 0
+2018-09-23 20:11:59 [299,I]	Signal min: 0.5
+2018-09-23 20:11:59 [299,I]	Signal max: 5
+2018-09-23 20:11:59 [300,A]	Signal name: Radar_Pos_X
+2018-09-23 20:11:59 [300,B]	Message name: Obstacle_Data_Q
+2018-09-23 20:11:59 [300,D]	Signal len: 12
+2018-09-23 20:11:59 [300,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [300,G]	Signal Factor: 6.25E-2
+2018-09-23 20:11:59 [300,H]	Signal Offset: 0
+2018-09-23 20:11:59 [300,I]	Signal min: 0
+2018-09-23 20:11:59 [300,I]	Signal max: 250
+2018-09-23 20:11:59 [301,A]	Signal name: Radar_Vel_X
+2018-09-23 20:11:59 [301,B]	Message name: Obstacle_Data_Q
+2018-09-23 20:11:59 [301,D]	Signal len: 12
+2018-09-23 20:11:59 [301,F]	Signal Type: Signed
+2018-09-23 20:11:59 [301,G]	Signal Factor: 6.25E-2
+2018-09-23 20:11:59 [301,H]	Signal Offset: 0
+2018-09-23 20:11:59 [301,I]	Signal min: -127.93
+2018-09-23 20:11:59 [301,I]	Signal max: 127.93
+2018-09-23 20:11:59 [302,A]	Signal name: Object_Accel_X
+2018-09-23 20:11:59 [302,B]	Message name: Obstacle_Data_R
+2018-09-23 20:11:59 [302,D]	Signal len: 10
+2018-09-23 20:11:59 [302,F]	Signal Type: Signed
+2018-09-23 20:11:59 [302,G]	Signal Factor: 0.03
+2018-09-23 20:11:59 [302,H]	Signal Offset: 0
+2018-09-23 20:11:59 [302,I]	Signal min: -14.97
+2018-09-23 20:11:59 [302,I]	Signal max: 14.97
+2018-09-23 20:11:59 [303,A]	Signal name: Obstacle_Angle
+2018-09-23 20:11:59 [303,B]	Message name: Obstacle_Data_R
+2018-09-23 20:11:59 [303,D]	Signal len: 16
+2018-09-23 20:11:59 [303,F]	Signal Type: Signed
+2018-09-23 20:11:59 [303,G]	Signal Factor: 0.01
+2018-09-23 20:11:59 [303,H]	Signal Offset: 0
+2018-09-23 20:11:59 [303,I]	Signal min: -327.68
+2018-09-23 20:11:59 [303,I]	Signal max: 327.68
+2018-09-23 20:11:59 [304,A]	Signal name: Obstacle_Angle_Rate
+2018-09-23 20:11:59 [304,B]	Message name: Obstacle_Data_R
+2018-09-23 20:11:59 [304,D]	Signal len: 16
+2018-09-23 20:11:59 [304,F]	Signal Type: Signed
+2018-09-23 20:11:59 [304,G]	Signal Factor: 0.01
+2018-09-23 20:11:59 [304,H]	Signal Offset: 0
+2018-09-23 20:11:59 [304,I]	Signal min: -327.68
+2018-09-23 20:11:59 [304,I]	Signal max: 327.68
+2018-09-23 20:11:59 [305,A]	Signal name: Obstacle_Replaced
+2018-09-23 20:11:59 [305,B]	Message name: Obstacle_Data_R
+2018-09-23 20:11:59 [305,D]	Signal len: 1
+2018-09-23 20:11:59 [305,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [305,G]	Signal Factor: 1
+2018-09-23 20:11:59 [305,H]	Signal Offset: 0
+2018-09-23 20:11:59 [305,I]	Signal min: 0
+2018-09-23 20:11:59 [305,I]	Signal max: 1
+2018-09-23 20:11:59 [306,A]	Signal name: Obstacle_Scale_Change
+2018-09-23 20:11:59 [306,B]	Message name: Obstacle_Data_R
+2018-09-23 20:11:59 [306,D]	Signal len: 16
+2018-09-23 20:11:59 [306,F]	Signal Type: Signed
+2018-09-23 20:11:59 [306,G]	Signal Factor: 2.0000000000000001E-4
+2018-09-23 20:11:59 [306,H]	Signal Offset: 0
+2018-09-23 20:11:59 [306,I]	Signal min: -6.5532000000000004
+2018-09-23 20:11:59 [306,I]	Signal max: 6.5532000000000004
+2018-09-23 20:11:59 [307,A]	Signal name: Blinker_Info
+2018-09-23 20:11:59 [307,B]	Message name: Obstacle_Data_S
+2018-09-23 20:11:59 [307,D]	Signal len: 3
+2018-09-23 20:11:59 [307,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [307,G]	Signal Factor: 1
+2018-09-23 20:11:59 [307,H]	Signal Offset: 0
+2018-09-23 20:11:59 [307,I]	Signal min: 0
+2018-09-23 20:11:59 [307,I]	Signal max: 7
+2018-09-23 20:11:59 [308,A]	Signal name: Cut_in_and_out
+2018-09-23 20:11:59 [308,B]	Message name: Obstacle_Data_S
+2018-09-23 20:11:59 [308,D]	Signal len: 3
+2018-09-23 20:11:59 [308,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [308,G]	Signal Factor: 1
+2018-09-23 20:11:59 [308,H]	Signal Offset: 0
+2018-09-23 20:11:59 [308,I]	Signal min: 0
+2018-09-23 20:11:59 [308,I]	Signal max: 7
+2018-09-23 20:11:59 [309,A]	Signal name: Obstacle_Brake_Light
+2018-09-23 20:11:59 [309,B]	Message name: Obstacle_Data_S
+2018-09-23 20:11:59 [309,D]	Signal len: 1
+2018-09-23 20:11:59 [309,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [309,G]	Signal Factor: 1
+2018-09-23 20:11:59 [309,H]	Signal Offset: 0
+2018-09-23 20:11:59 [309,I]	Signal min: 0
+2018-09-23 20:11:59 [309,I]	Signal max: 1
+2018-09-23 20:11:59 [310,A]	Signal name: Obstacle_ID
+2018-09-23 20:11:59 [310,B]	Message name: Obstacle_Data_S
+2018-09-23 20:11:59 [310,D]	Signal len: 8
+2018-09-23 20:11:59 [310,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [310,G]	Signal Factor: 1
+2018-09-23 20:11:59 [310,H]	Signal Offset: 0
+2018-09-23 20:11:59 [310,I]	Signal min: 0
+2018-09-23 20:11:59 [310,I]	Signal max: 63
+2018-09-23 20:11:59 [311,A]	Signal name: Obstacle_Pos_X
+2018-09-23 20:11:59 [311,B]	Message name: Obstacle_Data_S
+2018-09-23 20:11:59 [311,D]	Signal len: 12
+2018-09-23 20:11:59 [311,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [311,G]	Signal Factor: 6.25E-2
+2018-09-23 20:11:59 [311,H]	Signal Offset: 0
+2018-09-23 20:11:59 [311,I]	Signal min: 0
+2018-09-23 20:11:59 [311,I]	Signal max: 250
+2018-09-23 20:11:59 [312,A]	Signal name: Obstacle_Pos_Y
+2018-09-23 20:11:59 [312,B]	Message name: Obstacle_Data_S
+2018-09-23 20:11:59 [312,D]	Signal len: 10
+2018-09-23 20:11:59 [312,F]	Signal Type: Signed
+2018-09-23 20:11:59 [312,G]	Signal Factor: 6.25E-2
+2018-09-23 20:11:59 [312,H]	Signal Offset: 0
+2018-09-23 20:11:59 [312,I]	Signal min: -31.93
+2018-09-23 20:11:59 [312,I]	Signal max: 31.93
+2018-09-23 20:11:59 [313,A]	Signal name: Obstacle_Rel_Vel_X
+2018-09-23 20:11:59 [313,B]	Message name: Obstacle_Data_S
+2018-09-23 20:11:59 [313,D]	Signal len: 12
+2018-09-23 20:11:59 [313,F]	Signal Type: Signed
+2018-09-23 20:11:59 [313,G]	Signal Factor: 6.25E-2
+2018-09-23 20:11:59 [313,H]	Signal Offset: 0
+2018-09-23 20:11:59 [313,I]	Signal min: -127.93
+2018-09-23 20:11:59 [313,I]	Signal max: 127.93
+2018-09-23 20:11:59 [314,A]	Signal name: Obstacle_Status
+2018-09-23 20:11:59 [314,B]	Message name: Obstacle_Data_S
+2018-09-23 20:11:59 [314,D]	Signal len: 3
+2018-09-23 20:11:59 [314,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [314,G]	Signal Factor: 1
+2018-09-23 20:11:59 [314,H]	Signal Offset: 0
+2018-09-23 20:11:59 [314,I]	Signal min: 0
+2018-09-23 20:11:59 [314,I]	Signal max: 7
+2018-09-23 20:11:59 [315,A]	Signal name: Obstacle_Type
+2018-09-23 20:11:59 [315,B]	Message name: Obstacle_Data_S
+2018-09-23 20:11:59 [315,D]	Signal len: 3
+2018-09-23 20:11:59 [315,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [315,G]	Signal Factor: 1
+2018-09-23 20:11:59 [315,H]	Signal Offset: 0
+2018-09-23 20:11:59 [315,I]	Signal min: 0
+2018-09-23 20:11:59 [315,I]	Signal max: 7
+2018-09-23 20:11:59 [316,A]	Signal name: Obstacle_Valid
+2018-09-23 20:11:59 [316,B]	Message name: Obstacle_Data_S
+2018-09-23 20:11:59 [316,D]	Signal len: 2
+2018-09-23 20:11:59 [316,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [316,G]	Signal Factor: 1
+2018-09-23 20:11:59 [316,H]	Signal Offset: 0
+2018-09-23 20:11:59 [316,I]	Signal min: 0
+2018-09-23 20:11:59 [316,I]	Signal max: 3
+2018-09-23 20:11:59 [317,A]	Signal name: CIPV_Flag
+2018-09-23 20:11:59 [317,B]	Message name: Obstacle_Data_T
+2018-09-23 20:11:59 [317,D]	Signal len: 1
+2018-09-23 20:11:59 [317,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [317,G]	Signal Factor: 1
+2018-09-23 20:11:59 [317,H]	Signal Offset: 0
+2018-09-23 20:11:59 [317,I]	Signal min: 0
+2018-09-23 20:11:59 [317,I]	Signal max: 1
+2018-09-23 20:11:59 [318,A]	Signal name: Matched_Radar_ID
+2018-09-23 20:11:59 [318,B]	Message name: Obstacle_Data_T
+2018-09-23 20:11:59 [318,D]	Signal len: 7
+2018-09-23 20:11:59 [318,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [318,G]	Signal Factor: 1
+2018-09-23 20:11:59 [318,H]	Signal Offset: 0
+2018-09-23 20:11:59 [318,I]	Signal min: 0
+2018-09-23 20:11:59 [318,I]	Signal max: 127
+2018-09-23 20:11:59 [319,A]	Signal name: Obstacle_Age
+2018-09-23 20:11:59 [319,B]	Message name: Obstacle_Data_T
+2018-09-23 20:11:59 [319,D]	Signal len: 8
+2018-09-23 20:11:59 [319,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [319,G]	Signal Factor: 1
+2018-09-23 20:11:59 [319,H]	Signal Offset: 0
+2018-09-23 20:11:59 [319,I]	Signal min: 0
+2018-09-23 20:11:59 [319,I]	Signal max: 255
+2018-09-23 20:11:59 [320,A]	Signal name: Obstacle_Lane
+2018-09-23 20:11:59 [320,B]	Message name: Obstacle_Data_T
+2018-09-23 20:11:59 [320,D]	Signal len: 2
+2018-09-23 20:11:59 [320,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [320,G]	Signal Factor: 1
+2018-09-23 20:11:59 [320,H]	Signal Offset: 0
+2018-09-23 20:11:59 [320,I]	Signal min: 0
+2018-09-23 20:11:59 [320,I]	Signal max: 3
+2018-09-23 20:11:59 [321,A]	Signal name: Obstacle_Legnth
+2018-09-23 20:11:59 [321,B]	Message name: Obstacle_Data_T
+2018-09-23 20:11:59 [321,D]	Signal len: 8
+2018-09-23 20:11:59 [321,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [321,G]	Signal Factor: 0.5
+2018-09-23 20:11:59 [321,H]	Signal Offset: 0
+2018-09-23 20:11:59 [321,I]	Signal min: 0
+2018-09-23 20:11:59 [321,I]	Signal max: 31
+2018-09-23 20:11:59 [322,A]	Signal name: Obstacle_Width
+2018-09-23 20:11:59 [322,B]	Message name: Obstacle_Data_T
+2018-09-23 20:11:59 [322,D]	Signal len: 8
+2018-09-23 20:11:59 [322,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [322,G]	Signal Factor: 0.05
+2018-09-23 20:11:59 [322,H]	Signal Offset: 0
+2018-09-23 20:11:59 [322,I]	Signal min: 0
+2018-09-23 20:11:59 [322,I]	Signal max: 12.5
+2018-09-23 20:11:59 [323,A]	Signal name: Radar_Match_Confidence
+2018-09-23 20:11:59 [323,B]	Message name: Obstacle_Data_T
+2018-09-23 20:11:59 [323,D]	Signal len: 3
+2018-09-23 20:11:59 [323,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [323,G]	Signal Factor: 1
+2018-09-23 20:11:59 [323,H]	Signal Offset: 0
+2018-09-23 20:11:59 [323,I]	Signal min: 0.5
+2018-09-23 20:11:59 [323,I]	Signal max: 5
+2018-09-23 20:11:59 [324,A]	Signal name: Radar_Pos_X
+2018-09-23 20:11:59 [324,B]	Message name: Obstacle_Data_T
+2018-09-23 20:11:59 [324,D]	Signal len: 12
+2018-09-23 20:11:59 [324,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [324,G]	Signal Factor: 6.25E-2
+2018-09-23 20:11:59 [324,H]	Signal Offset: 0
+2018-09-23 20:11:59 [324,I]	Signal min: 0
+2018-09-23 20:11:59 [324,I]	Signal max: 250
+2018-09-23 20:11:59 [325,A]	Signal name: Radar_Vel_X
+2018-09-23 20:11:59 [325,B]	Message name: Obstacle_Data_T
+2018-09-23 20:11:59 [325,D]	Signal len: 12
+2018-09-23 20:11:59 [325,F]	Signal Type: Signed
+2018-09-23 20:11:59 [325,G]	Signal Factor: 6.25E-2
+2018-09-23 20:11:59 [325,H]	Signal Offset: 0
+2018-09-23 20:11:59 [325,I]	Signal min: -127.93
+2018-09-23 20:11:59 [325,I]	Signal max: 127.93
+2018-09-23 20:11:59 [326,A]	Signal name: Object_Accel_X
+2018-09-23 20:11:59 [326,B]	Message name: Obstacle_Data_U
+2018-09-23 20:11:59 [326,D]	Signal len: 10
+2018-09-23 20:11:59 [326,F]	Signal Type: Signed
+2018-09-23 20:11:59 [326,G]	Signal Factor: 0.03
+2018-09-23 20:11:59 [326,H]	Signal Offset: 0
+2018-09-23 20:11:59 [326,I]	Signal min: -14.97
+2018-09-23 20:11:59 [326,I]	Signal max: 14.97
+2018-09-23 20:11:59 [327,A]	Signal name: Obstacle_Angle
+2018-09-23 20:11:59 [327,B]	Message name: Obstacle_Data_U
+2018-09-23 20:11:59 [327,D]	Signal len: 16
+2018-09-23 20:11:59 [327,F]	Signal Type: Signed
+2018-09-23 20:11:59 [327,G]	Signal Factor: 0.01
+2018-09-23 20:11:59 [327,H]	Signal Offset: 0
+2018-09-23 20:11:59 [327,I]	Signal min: -327.68
+2018-09-23 20:11:59 [327,I]	Signal max: 327.68
+2018-09-23 20:11:59 [328,A]	Signal name: Obstacle_Angle_Rate
+2018-09-23 20:11:59 [328,B]	Message name: Obstacle_Data_U
+2018-09-23 20:11:59 [328,D]	Signal len: 16
+2018-09-23 20:11:59 [328,F]	Signal Type: Signed
+2018-09-23 20:11:59 [328,G]	Signal Factor: 0.01
+2018-09-23 20:11:59 [328,H]	Signal Offset: 0
+2018-09-23 20:11:59 [328,I]	Signal min: -327.68
+2018-09-23 20:11:59 [328,I]	Signal max: 327.68
+2018-09-23 20:11:59 [329,A]	Signal name: Obstacle_Replaced
+2018-09-23 20:11:59 [329,B]	Message name: Obstacle_Data_U
+2018-09-23 20:11:59 [329,D]	Signal len: 1
+2018-09-23 20:11:59 [329,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [329,G]	Signal Factor: 1
+2018-09-23 20:11:59 [329,H]	Signal Offset: 0
+2018-09-23 20:11:59 [329,I]	Signal min: 0
+2018-09-23 20:11:59 [329,I]	Signal max: 1
+2018-09-23 20:11:59 [330,A]	Signal name: Obstacle_Scale_Change
+2018-09-23 20:11:59 [330,B]	Message name: Obstacle_Data_U
+2018-09-23 20:11:59 [330,D]	Signal len: 16
+2018-09-23 20:11:59 [330,F]	Signal Type: Signed
+2018-09-23 20:11:59 [330,G]	Signal Factor: 2.0000000000000001E-4
+2018-09-23 20:11:59 [330,H]	Signal Offset: 0
+2018-09-23 20:11:59 [330,I]	Signal min: -6.5532000000000004
+2018-09-23 20:11:59 [330,I]	Signal max: 6.5532000000000004
+2018-09-23 20:11:59 [331,A]	Signal name: Blinker_Info
+2018-09-23 20:11:59 [331,B]	Message name: Obstacle_Data_V
+2018-09-23 20:11:59 [331,D]	Signal len: 3
+2018-09-23 20:11:59 [331,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [331,G]	Signal Factor: 1
+2018-09-23 20:11:59 [331,H]	Signal Offset: 0
+2018-09-23 20:11:59 [331,I]	Signal min: 0
+2018-09-23 20:11:59 [331,I]	Signal max: 7
+2018-09-23 20:11:59 [332,A]	Signal name: Cut_in_and_out
+2018-09-23 20:11:59 [332,B]	Message name: Obstacle_Data_V
+2018-09-23 20:11:59 [332,D]	Signal len: 3
+2018-09-23 20:11:59 [332,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [332,G]	Signal Factor: 1
+2018-09-23 20:11:59 [332,H]	Signal Offset: 0
+2018-09-23 20:11:59 [332,I]	Signal min: 0
+2018-09-23 20:11:59 [332,I]	Signal max: 7
+2018-09-23 20:11:59 [333,A]	Signal name: Obstacle_Brake_Light
+2018-09-23 20:11:59 [333,B]	Message name: Obstacle_Data_V
+2018-09-23 20:11:59 [333,D]	Signal len: 1
+2018-09-23 20:11:59 [333,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [333,G]	Signal Factor: 1
+2018-09-23 20:11:59 [333,H]	Signal Offset: 0
+2018-09-23 20:11:59 [333,I]	Signal min: 0
+2018-09-23 20:11:59 [333,I]	Signal max: 1
+2018-09-23 20:11:59 [334,A]	Signal name: Obstacle_ID
+2018-09-23 20:11:59 [334,B]	Message name: Obstacle_Data_V
+2018-09-23 20:11:59 [334,D]	Signal len: 8
+2018-09-23 20:11:59 [334,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [334,G]	Signal Factor: 1
+2018-09-23 20:11:59 [334,H]	Signal Offset: 0
+2018-09-23 20:11:59 [334,I]	Signal min: 0
+2018-09-23 20:11:59 [334,I]	Signal max: 63
+2018-09-23 20:11:59 [335,A]	Signal name: Obstacle_Pos_X
+2018-09-23 20:11:59 [335,B]	Message name: Obstacle_Data_V
+2018-09-23 20:11:59 [335,D]	Signal len: 12
+2018-09-23 20:11:59 [335,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [335,G]	Signal Factor: 6.25E-2
+2018-09-23 20:11:59 [335,H]	Signal Offset: 0
+2018-09-23 20:11:59 [335,I]	Signal min: 0
+2018-09-23 20:11:59 [335,I]	Signal max: 250
+2018-09-23 20:11:59 [336,A]	Signal name: Obstacle_Pos_Y
+2018-09-23 20:11:59 [336,B]	Message name: Obstacle_Data_V
+2018-09-23 20:11:59 [336,D]	Signal len: 10
+2018-09-23 20:11:59 [336,F]	Signal Type: Signed
+2018-09-23 20:11:59 [336,G]	Signal Factor: 6.25E-2
+2018-09-23 20:11:59 [336,H]	Signal Offset: 0
+2018-09-23 20:11:59 [336,I]	Signal min: -31.93
+2018-09-23 20:11:59 [336,I]	Signal max: 31.93
+2018-09-23 20:11:59 [337,A]	Signal name: Obstacle_Rel_Vel_X
+2018-09-23 20:11:59 [337,B]	Message name: Obstacle_Data_V
+2018-09-23 20:11:59 [337,D]	Signal len: 12
+2018-09-23 20:11:59 [337,F]	Signal Type: Signed
+2018-09-23 20:11:59 [337,G]	Signal Factor: 6.25E-2
+2018-09-23 20:11:59 [337,H]	Signal Offset: 0
+2018-09-23 20:11:59 [337,I]	Signal min: -127.93
+2018-09-23 20:11:59 [337,I]	Signal max: 127.93
+2018-09-23 20:11:59 [338,A]	Signal name: Obstacle_Status
+2018-09-23 20:11:59 [338,B]	Message name: Obstacle_Data_V
+2018-09-23 20:11:59 [338,D]	Signal len: 3
+2018-09-23 20:11:59 [338,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [338,G]	Signal Factor: 1
+2018-09-23 20:11:59 [338,H]	Signal Offset: 0
+2018-09-23 20:11:59 [338,I]	Signal min: 0
+2018-09-23 20:11:59 [338,I]	Signal max: 7
+2018-09-23 20:11:59 [339,A]	Signal name: Obstacle_Type
+2018-09-23 20:11:59 [339,B]	Message name: Obstacle_Data_V
+2018-09-23 20:11:59 [339,D]	Signal len: 3
+2018-09-23 20:11:59 [339,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [339,G]	Signal Factor: 1
+2018-09-23 20:11:59 [339,H]	Signal Offset: 0
+2018-09-23 20:11:59 [339,I]	Signal min: 0
+2018-09-23 20:11:59 [339,I]	Signal max: 7
+2018-09-23 20:11:59 [340,A]	Signal name: Obstacle_Valid
+2018-09-23 20:11:59 [340,B]	Message name: Obstacle_Data_V
+2018-09-23 20:11:59 [340,D]	Signal len: 2
+2018-09-23 20:11:59 [340,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [340,G]	Signal Factor: 1
+2018-09-23 20:11:59 [340,H]	Signal Offset: 0
+2018-09-23 20:11:59 [340,I]	Signal min: 0
+2018-09-23 20:11:59 [340,I]	Signal max: 3
+2018-09-23 20:11:59 [341,A]	Signal name: CIPV_Flag
+2018-09-23 20:11:59 [341,B]	Message name: Obstacle_Data_W
+2018-09-23 20:11:59 [341,D]	Signal len: 1
+2018-09-23 20:11:59 [341,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [341,G]	Signal Factor: 1
+2018-09-23 20:11:59 [341,H]	Signal Offset: 0
+2018-09-23 20:11:59 [341,I]	Signal min: 0
+2018-09-23 20:11:59 [341,I]	Signal max: 1
+2018-09-23 20:11:59 [342,A]	Signal name: Matched_Radar_ID
+2018-09-23 20:11:59 [342,B]	Message name: Obstacle_Data_W
+2018-09-23 20:11:59 [342,D]	Signal len: 7
+2018-09-23 20:11:59 [342,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [342,G]	Signal Factor: 1
+2018-09-23 20:11:59 [342,H]	Signal Offset: 0
+2018-09-23 20:11:59 [342,I]	Signal min: 0
+2018-09-23 20:11:59 [342,I]	Signal max: 127
+2018-09-23 20:11:59 [343,A]	Signal name: Obstacle_Age
+2018-09-23 20:11:59 [343,B]	Message name: Obstacle_Data_W
+2018-09-23 20:11:59 [343,D]	Signal len: 8
+2018-09-23 20:11:59 [343,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [343,G]	Signal Factor: 1
+2018-09-23 20:11:59 [343,H]	Signal Offset: 0
+2018-09-23 20:11:59 [343,I]	Signal min: 0
+2018-09-23 20:11:59 [343,I]	Signal max: 255
+2018-09-23 20:11:59 [344,A]	Signal name: Obstacle_Lane
+2018-09-23 20:11:59 [344,B]	Message name: Obstacle_Data_W
+2018-09-23 20:11:59 [344,D]	Signal len: 2
+2018-09-23 20:11:59 [344,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [344,G]	Signal Factor: 1
+2018-09-23 20:11:59 [344,H]	Signal Offset: 0
+2018-09-23 20:11:59 [344,I]	Signal min: 0
+2018-09-23 20:11:59 [344,I]	Signal max: 3
+2018-09-23 20:11:59 [345,A]	Signal name: Obstacle_Legnth
+2018-09-23 20:11:59 [345,B]	Message name: Obstacle_Data_W
+2018-09-23 20:11:59 [345,D]	Signal len: 8
+2018-09-23 20:11:59 [345,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [345,G]	Signal Factor: 0.5
+2018-09-23 20:11:59 [345,H]	Signal Offset: 0
+2018-09-23 20:11:59 [345,I]	Signal min: 0
+2018-09-23 20:11:59 [345,I]	Signal max: 31
+2018-09-23 20:11:59 [346,A]	Signal name: Obstacle_Width
+2018-09-23 20:11:59 [346,B]	Message name: Obstacle_Data_W
+2018-09-23 20:11:59 [346,D]	Signal len: 8
+2018-09-23 20:11:59 [346,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [346,G]	Signal Factor: 0.05
+2018-09-23 20:11:59 [346,H]	Signal Offset: 0
+2018-09-23 20:11:59 [346,I]	Signal min: 0
+2018-09-23 20:11:59 [346,I]	Signal max: 12.5
+2018-09-23 20:11:59 [347,A]	Signal name: Radar_Match_Confidence
+2018-09-23 20:11:59 [347,B]	Message name: Obstacle_Data_W
+2018-09-23 20:11:59 [347,D]	Signal len: 3
+2018-09-23 20:11:59 [347,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [347,G]	Signal Factor: 1
+2018-09-23 20:11:59 [347,H]	Signal Offset: 0
+2018-09-23 20:11:59 [347,I]	Signal min: 0.5
+2018-09-23 20:11:59 [347,I]	Signal max: 5
+2018-09-23 20:11:59 [348,A]	Signal name: Radar_Pos_X
+2018-09-23 20:11:59 [348,B]	Message name: Obstacle_Data_W
+2018-09-23 20:11:59 [348,D]	Signal len: 12
+2018-09-23 20:11:59 [348,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [348,G]	Signal Factor: 6.25E-2
+2018-09-23 20:11:59 [348,H]	Signal Offset: 0
+2018-09-23 20:11:59 [348,I]	Signal min: 0
+2018-09-23 20:11:59 [348,I]	Signal max: 250
+2018-09-23 20:11:59 [349,A]	Signal name: Radar_Vel_X
+2018-09-23 20:11:59 [349,B]	Message name: Obstacle_Data_W
+2018-09-23 20:11:59 [349,D]	Signal len: 12
+2018-09-23 20:11:59 [349,F]	Signal Type: Signed
+2018-09-23 20:11:59 [349,G]	Signal Factor: 6.25E-2
+2018-09-23 20:11:59 [349,H]	Signal Offset: 0
+2018-09-23 20:11:59 [349,I]	Signal min: -127.93
+2018-09-23 20:11:59 [349,I]	Signal max: 127.93
+2018-09-23 20:11:59 [350,A]	Signal name: Object_Accel_X
+2018-09-23 20:11:59 [350,B]	Message name: Obstacle_Data_X
+2018-09-23 20:11:59 [350,D]	Signal len: 10
+2018-09-23 20:11:59 [350,F]	Signal Type: Signed
+2018-09-23 20:11:59 [350,G]	Signal Factor: 0.03
+2018-09-23 20:11:59 [350,H]	Signal Offset: 0
+2018-09-23 20:11:59 [350,I]	Signal min: -14.97
+2018-09-23 20:11:59 [350,I]	Signal max: 14.97
+2018-09-23 20:11:59 [351,A]	Signal name: Obstacle_Angle
+2018-09-23 20:11:59 [351,B]	Message name: Obstacle_Data_X
+2018-09-23 20:11:59 [351,D]	Signal len: 16
+2018-09-23 20:11:59 [351,F]	Signal Type: Signed
+2018-09-23 20:11:59 [351,G]	Signal Factor: 0.01
+2018-09-23 20:11:59 [351,H]	Signal Offset: 0
+2018-09-23 20:11:59 [351,I]	Signal min: -327.68
+2018-09-23 20:11:59 [351,I]	Signal max: 327.68
+2018-09-23 20:11:59 [352,A]	Signal name: Obstacle_Angle_Rate
+2018-09-23 20:11:59 [352,B]	Message name: Obstacle_Data_X
+2018-09-23 20:11:59 [352,D]	Signal len: 16
+2018-09-23 20:11:59 [352,F]	Signal Type: Signed
+2018-09-23 20:11:59 [352,G]	Signal Factor: 0.01
+2018-09-23 20:11:59 [352,H]	Signal Offset: 0
+2018-09-23 20:11:59 [352,I]	Signal min: -327.68
+2018-09-23 20:11:59 [352,I]	Signal max: 327.68
+2018-09-23 20:11:59 [353,A]	Signal name: Obstacle_Replaced
+2018-09-23 20:11:59 [353,B]	Message name: Obstacle_Data_X
+2018-09-23 20:11:59 [353,D]	Signal len: 1
+2018-09-23 20:11:59 [353,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [353,G]	Signal Factor: 1
+2018-09-23 20:11:59 [353,H]	Signal Offset: 0
+2018-09-23 20:11:59 [353,I]	Signal min: 0
+2018-09-23 20:11:59 [353,I]	Signal max: 1
+2018-09-23 20:11:59 [354,A]	Signal name: Obstacle_Scale_Change
+2018-09-23 20:11:59 [354,B]	Message name: Obstacle_Data_X
+2018-09-23 20:11:59 [354,D]	Signal len: 16
+2018-09-23 20:11:59 [354,F]	Signal Type: Signed
+2018-09-23 20:11:59 [354,G]	Signal Factor: 2.0000000000000001E-4
+2018-09-23 20:11:59 [354,H]	Signal Offset: 0
+2018-09-23 20:11:59 [354,I]	Signal min: -6.5532000000000004
+2018-09-23 20:11:59 [354,I]	Signal max: 6.5532000000000004
+2018-09-23 20:11:59 [355,A]	Signal name: Active_Version_Number_Section
+2018-09-23 20:11:59 [355,B]	Message name: Obstacle_Status
+2018-09-23 20:11:59 [355,D]	Signal len: 2
+2018-09-23 20:11:59 [355,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [355,G]	Signal Factor: 1
+2018-09-23 20:11:59 [355,H]	Signal Offset: 0
+2018-09-23 20:11:59 [355,I]	Signal min: 0
+2018-09-23 20:11:59 [355,I]	Signal max: 3
+2018-09-23 20:11:59 [356,A]	Signal name: Application_Version
+2018-09-23 20:11:59 [356,B]	Message name: Obstacle_Status
+2018-09-23 20:11:59 [356,D]	Signal len: 8
+2018-09-23 20:11:59 [356,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [356,G]	Signal Factor: 1
+2018-09-23 20:11:59 [356,H]	Signal Offset: 0
+2018-09-23 20:11:59 [356,I]	Signal min: 0
+2018-09-23 20:11:59 [356,I]	Signal max: 255
+2018-09-23 20:11:59 [357,A]	Signal name: Close_Car
+2018-09-23 20:11:59 [357,B]	Message name: Obstacle_Status
+2018-09-23 20:11:59 [357,D]	Signal len: 1
+2018-09-23 20:11:59 [357,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [357,G]	Signal Factor: 1
+2018-09-23 20:11:59 [357,H]	Signal Offset: 0
+2018-09-23 20:11:59 [357,I]	Signal min: 0
+2018-09-23 20:11:59 [357,I]	Signal max: 1
+2018-09-23 20:11:59 [358,A]	Signal name: Failsafe
+2018-09-23 20:11:59 [358,B]	Message name: Obstacle_Status
+2018-09-23 20:11:59 [358,D]	Signal len: 4
+2018-09-23 20:11:59 [358,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [358,G]	Signal Factor: 1
+2018-09-23 20:11:59 [358,H]	Signal Offset: 0
+2018-09-23 20:11:59 [358,I]	Signal min: 0
+2018-09-23 20:11:59 [358,I]	Signal max: 7
+2018-09-23 20:11:59 [359,A]	Signal name: Go
+2018-09-23 20:11:59 [359,B]	Message name: Obstacle_Status
+2018-09-23 20:11:59 [359,D]	Signal len: 4
+2018-09-23 20:11:59 [359,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [359,G]	Signal Factor: 1
+2018-09-23 20:11:59 [359,H]	Signal Offset: 0
+2018-09-23 20:11:59 [359,I]	Signal min: 0
+2018-09-23 20:11:59 [359,I]	Signal max: 15
+2018-09-23 20:11:59 [360,A]	Signal name: Left_close_rang_cut_in
+2018-09-23 20:11:59 [360,B]	Message name: Obstacle_Status
+2018-09-23 20:11:59 [360,D]	Signal len: 1
+2018-09-23 20:11:59 [360,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [360,G]	Signal Factor: 1
+2018-09-23 20:11:59 [360,H]	Signal Offset: 0
+2018-09-23 20:11:59 [360,I]	Signal min: 0
+2018-09-23 20:11:59 [360,I]	Signal max: 1
+2018-09-23 20:11:59 [361,A]	Signal name: Num_Obstacles
+2018-09-23 20:11:59 [361,B]	Message name: Obstacle_Status
+2018-09-23 20:11:59 [361,D]	Signal len: 8
+2018-09-23 20:11:59 [361,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [361,G]	Signal Factor: 1
+2018-09-23 20:11:59 [361,H]	Signal Offset: 0
+2018-09-23 20:11:59 [361,I]	Signal min: 0
+2018-09-23 20:11:59 [361,I]	Signal max: 255
+2018-09-23 20:11:59 [362,A]	Signal name: Protocol_Version
+2018-09-23 20:11:59 [362,B]	Message name: Obstacle_Status
+2018-09-23 20:11:59 [362,D]	Signal len: 8
+2018-09-23 20:11:59 [362,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [362,G]	Signal Factor: 1
+2018-09-23 20:11:59 [362,H]	Signal Offset: 0
+2018-09-23 20:11:59 [362,I]	Signal min: 0
+2018-09-23 20:11:59 [362,I]	Signal max: 255
+2018-09-23 20:11:59 [363,A]	Signal name: Right_close_rang_cut_in
+2018-09-23 20:11:59 [363,B]	Message name: Obstacle_Status
+2018-09-23 20:11:59 [363,D]	Signal len: 1
+2018-09-23 20:11:59 [363,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [363,G]	Signal Factor: 1
+2018-09-23 20:11:59 [363,H]	Signal Offset: 0
+2018-09-23 20:11:59 [363,I]	Signal min: 0
+2018-09-23 20:11:59 [363,I]	Signal max: 1
+2018-09-23 20:11:59 [364,A]	Signal name: Timestamp
+2018-09-23 20:11:59 [364,B]	Message name: Obstacle_Status
+2018-09-23 20:11:59 [364,D]	Signal len: 8
+2018-09-23 20:11:59 [364,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [364,G]	Signal Factor: 1
+2018-09-23 20:11:59 [364,H]	Signal Offset: 0
+2018-09-23 20:11:59 [364,I]	Signal min: 0
+2018-09-23 20:11:59 [364,I]	Signal max: 255
+2018-09-23 20:11:59 [365,A]	Signal name: Ref_point_1_Distance
+2018-09-23 20:11:59 [365,B]	Message name: Reference_points
+2018-09-23 20:11:59 [365,D]	Signal len: 15
+2018-09-23 20:11:59 [365,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [365,G]	Signal Factor: 3.90625E-3
+2018-09-23 20:11:59 [365,H]	Signal Offset: 0
+2018-09-23 20:11:59 [365,I]	Signal min: 0
+2018-09-23 20:11:59 [365,I]	Signal max: 127.996
+2018-09-23 20:11:59 [366,A]	Signal name: Ref_point_1_Position
+2018-09-23 20:11:59 [366,B]	Message name: Reference_points
+2018-09-23 20:11:59 [366,D]	Signal len: 16
+2018-09-23 20:11:59 [366,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [366,G]	Signal Factor: 3.90625E-3
+2018-09-23 20:11:59 [366,H]	Signal Offset: -127.996
+2018-09-23 20:11:59 [366,I]	Signal min: -127.996
+2018-09-23 20:11:59 [366,I]	Signal max: 127.996
+2018-09-23 20:11:59 [367,A]	Signal name: Ref_point_1_validity
+2018-09-23 20:11:59 [367,B]	Message name: Reference_points
+2018-09-23 20:11:59 [367,D]	Signal len: 1
+2018-09-23 20:11:59 [367,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [367,G]	Signal Factor: 1
+2018-09-23 20:11:59 [367,H]	Signal Offset: 0
+2018-09-23 20:11:59 [367,I]	Signal min: 0
+2018-09-23 20:11:59 [367,I]	Signal max: 1
+2018-09-23 20:11:59 [368,A]	Signal name: Ref_point_2_Distance
+2018-09-23 20:11:59 [368,B]	Message name: Reference_points
+2018-09-23 20:11:59 [368,D]	Signal len: 15
+2018-09-23 20:11:59 [368,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [368,G]	Signal Factor: 3.90625E-3
+2018-09-23 20:11:59 [368,H]	Signal Offset: 0
+2018-09-23 20:11:59 [368,I]	Signal min: 0
+2018-09-23 20:11:59 [368,I]	Signal max: 127.996
+2018-09-23 20:11:59 [369,A]	Signal name: Ref_point_2_Position
+2018-09-23 20:11:59 [369,B]	Message name: Reference_points
+2018-09-23 20:11:59 [369,D]	Signal len: 16
+2018-09-23 20:11:59 [369,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [369,G]	Signal Factor: 3.90625E-3
+2018-09-23 20:11:59 [369,H]	Signal Offset: -127.996
+2018-09-23 20:11:59 [369,I]	Signal min: -127.996
+2018-09-23 20:11:59 [369,I]	Signal max: 127.996
+2018-09-23 20:11:59 [370,A]	Signal name: Ref_point_2_validity
+2018-09-23 20:11:59 [370,B]	Message name: Reference_points
+2018-09-23 20:11:59 [370,D]	Signal len: 1
+2018-09-23 20:11:59 [370,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [370,G]	Signal Factor: 1
+2018-09-23 20:11:59 [370,H]	Signal Offset: 0
+2018-09-23 20:11:59 [370,I]	Signal min: 0
+2018-09-23 20:11:59 [370,I]	Signal max: 1
+2018-09-23 20:11:59 [371,A]	Signal name: Supplementary_Sign_Type_Display1
+2018-09-23 20:11:59 [371,B]	Message name: Sign_Type
+2018-09-23 20:11:59 [371,D]	Signal len: 8
+2018-09-23 20:11:59 [371,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [371,G]	Signal Factor: 1
+2018-09-23 20:11:59 [371,H]	Signal Offset: 0
+2018-09-23 20:11:59 [371,I]	Signal min: 0
+2018-09-23 20:11:59 [371,I]	Signal max: 255
+2018-09-23 20:11:59 [372,A]	Signal name: Supplementary_Sign_Type_Display2
+2018-09-23 20:11:59 [372,B]	Message name: Sign_Type
+2018-09-23 20:11:59 [372,D]	Signal len: 8
+2018-09-23 20:11:59 [372,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [372,G]	Signal Factor: 1
+2018-09-23 20:11:59 [372,H]	Signal Offset: 0
+2018-09-23 20:11:59 [372,I]	Signal min: 0
+2018-09-23 20:11:59 [372,I]	Signal max: 255
+2018-09-23 20:11:59 [373,A]	Signal name: Supplementary_Sign_Type_Display3
+2018-09-23 20:11:59 [373,B]	Message name: Sign_Type
+2018-09-23 20:11:59 [373,D]	Signal len: 8
+2018-09-23 20:11:59 [373,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [373,G]	Signal Factor: 1
+2018-09-23 20:11:59 [373,H]	Signal Offset: 0
+2018-09-23 20:11:59 [373,I]	Signal min: 0
+2018-09-23 20:11:59 [373,I]	Signal max: 255
+2018-09-23 20:11:59 [374,A]	Signal name: Supplementary_Sign_Type_Display4
+2018-09-23 20:11:59 [374,B]	Message name: Sign_Type
+2018-09-23 20:11:59 [374,D]	Signal len: 8
+2018-09-23 20:11:59 [374,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [374,G]	Signal Factor: 1
+2018-09-23 20:11:59 [374,H]	Signal Offset: 0
+2018-09-23 20:11:59 [374,I]	Signal min: 0
+2018-09-23 20:11:59 [374,I]	Signal max: 255
+2018-09-23 20:11:59 [375,A]	Signal name: Vision_only_Sign_Type_Display1
+2018-09-23 20:11:59 [375,B]	Message name: Sign_Type
+2018-09-23 20:11:59 [375,D]	Signal len: 8
+2018-09-23 20:11:59 [375,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [375,G]	Signal Factor: 1
+2018-09-23 20:11:59 [375,H]	Signal Offset: 0
+2018-09-23 20:11:59 [375,I]	Signal min: 0
+2018-09-23 20:11:59 [375,I]	Signal max: 255
+2018-09-23 20:11:59 [376,A]	Signal name: Vision_only_Sign_Type_Display2
+2018-09-23 20:11:59 [376,B]	Message name: Sign_Type
+2018-09-23 20:11:59 [376,D]	Signal len: 8
+2018-09-23 20:11:59 [376,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [376,G]	Signal Factor: 1
+2018-09-23 20:11:59 [376,H]	Signal Offset: 0
+2018-09-23 20:11:59 [376,I]	Signal min: 0
+2018-09-23 20:11:59 [376,I]	Signal max: 255
+2018-09-23 20:11:59 [377,A]	Signal name: Vision_only_Sign_Type_Display3
+2018-09-23 20:11:59 [377,B]	Message name: Sign_Type
+2018-09-23 20:11:59 [377,D]	Signal len: 8
+2018-09-23 20:11:59 [377,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [377,G]	Signal Factor: 1
+2018-09-23 20:11:59 [377,H]	Signal Offset: 0
+2018-09-23 20:11:59 [377,I]	Signal min: 0
+2018-09-23 20:11:59 [377,I]	Signal max: 255
+2018-09-23 20:11:59 [378,A]	Signal name: Vision_only_Sign_Type_Display4
+2018-09-23 20:11:59 [378,B]	Message name: Sign_Type
+2018-09-23 20:11:59 [378,D]	Signal len: 8
+2018-09-23 20:11:59 [378,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [378,G]	Signal Factor: 1
+2018-09-23 20:11:59 [378,H]	Signal Offset: 0
+2018-09-23 20:11:59 [378,I]	Signal min: 0
+2018-09-23 20:11:59 [378,I]	Signal max: 255
+2018-09-23 20:11:59 [379,A]	Signal name: Filter_Type
+2018-09-23 20:11:59 [379,B]	Message name: TSR_message_A
+2018-09-23 20:11:59 [379,D]	Signal len: 8
+2018-09-23 20:11:59 [379,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [379,G]	Signal Factor: 1
+2018-09-23 20:11:59 [379,H]	Signal Offset: 0
+2018-09-23 20:11:59 [379,I]	Signal min: 0
+2018-09-23 20:11:59 [379,I]	Signal max: 255
+2018-09-23 20:11:59 [380,A]	Signal name: Sign_Position_X
+2018-09-23 20:11:59 [380,B]	Message name: TSR_message_A
+2018-09-23 20:11:59 [380,D]	Signal len: 8
+2018-09-23 20:11:59 [380,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [380,G]	Signal Factor: 0.5
+2018-09-23 20:11:59 [380,H]	Signal Offset: 0
+2018-09-23 20:11:59 [380,I]	Signal min: 0
+2018-09-23 20:11:59 [380,I]	Signal max: 122
+2018-09-23 20:11:59 [381,A]	Signal name: Sign_Position_Y
+2018-09-23 20:11:59 [381,B]	Message name: TSR_message_A
+2018-09-23 20:11:59 [381,D]	Signal len: 8
+2018-09-23 20:11:59 [381,F]	Signal Type: Signed
+2018-09-23 20:11:59 [381,G]	Signal Factor: 0.5
+2018-09-23 20:11:59 [381,H]	Signal Offset: 0
+2018-09-23 20:11:59 [381,I]	Signal min: -32
+2018-09-23 20:11:59 [381,I]	Signal max: 31
+2018-09-23 20:11:59 [382,A]	Signal name: Sign_Position_Z
+2018-09-23 20:11:59 [382,B]	Message name: TSR_message_A
+2018-09-23 20:11:59 [382,D]	Signal len: 8
+2018-09-23 20:11:59 [382,F]	Signal Type: Signed
+2018-09-23 20:11:59 [382,G]	Signal Factor: 0.5
+2018-09-23 20:11:59 [382,H]	Signal Offset: 0
+2018-09-23 20:11:59 [382,I]	Signal min: -16
+2018-09-23 20:11:59 [382,I]	Signal max: 16
+2018-09-23 20:11:59 [383,A]	Signal name: Supplementary_Sign_Type
+2018-09-23 20:11:59 [383,B]	Message name: TSR_message_A
+2018-09-23 20:11:59 [383,D]	Signal len: 8
+2018-09-23 20:11:59 [383,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [383,G]	Signal Factor: 1
+2018-09-23 20:11:59 [383,H]	Signal Offset: 0
+2018-09-23 20:11:59 [383,I]	Signal min: 0
+2018-09-23 20:11:59 [383,I]	Signal max: 255
+2018-09-23 20:11:59 [384,A]	Signal name: Vision_only_Sign_Type
+2018-09-23 20:11:59 [384,B]	Message name: TSR_message_A
+2018-09-23 20:11:59 [384,D]	Signal len: 8
+2018-09-23 20:11:59 [384,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [384,G]	Signal Factor: 1
+2018-09-23 20:11:59 [384,H]	Signal Offset: 0
+2018-09-23 20:11:59 [384,I]	Signal min: 0
+2018-09-23 20:11:59 [384,I]	Signal max: 255
+2018-09-23 20:11:59 [385,A]	Signal name: Filter_Type
+2018-09-23 20:11:59 [385,B]	Message name: TSR_message_B
+2018-09-23 20:11:59 [385,D]	Signal len: 8
+2018-09-23 20:11:59 [385,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [385,G]	Signal Factor: 1
+2018-09-23 20:11:59 [385,H]	Signal Offset: 0
+2018-09-23 20:11:59 [385,I]	Signal min: 0
+2018-09-23 20:11:59 [385,I]	Signal max: 255
+2018-09-23 20:11:59 [386,A]	Signal name: Sign_Position_X
+2018-09-23 20:11:59 [386,B]	Message name: TSR_message_B
+2018-09-23 20:11:59 [386,D]	Signal len: 8
+2018-09-23 20:11:59 [386,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [386,G]	Signal Factor: 0.5
+2018-09-23 20:11:59 [386,H]	Signal Offset: 0
+2018-09-23 20:11:59 [386,I]	Signal min: 0
+2018-09-23 20:11:59 [386,I]	Signal max: 122
+2018-09-23 20:11:59 [387,A]	Signal name: Sign_Position_Y
+2018-09-23 20:11:59 [387,B]	Message name: TSR_message_B
+2018-09-23 20:11:59 [387,D]	Signal len: 8
+2018-09-23 20:11:59 [387,F]	Signal Type: Signed
+2018-09-23 20:11:59 [387,G]	Signal Factor: 0.5
+2018-09-23 20:11:59 [387,H]	Signal Offset: 0
+2018-09-23 20:11:59 [387,I]	Signal min: -32
+2018-09-23 20:11:59 [387,I]	Signal max: 31
+2018-09-23 20:11:59 [388,A]	Signal name: Sign_Position_Z
+2018-09-23 20:11:59 [388,B]	Message name: TSR_message_B
+2018-09-23 20:11:59 [388,D]	Signal len: 8
+2018-09-23 20:11:59 [388,F]	Signal Type: Signed
+2018-09-23 20:11:59 [388,G]	Signal Factor: 0.5
+2018-09-23 20:11:59 [388,H]	Signal Offset: 0
+2018-09-23 20:11:59 [388,I]	Signal min: -16
+2018-09-23 20:11:59 [388,I]	Signal max: 16
+2018-09-23 20:11:59 [389,A]	Signal name: Supplementary_Sign_Type
+2018-09-23 20:11:59 [389,B]	Message name: TSR_message_B
+2018-09-23 20:11:59 [389,D]	Signal len: 8
+2018-09-23 20:11:59 [389,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [389,G]	Signal Factor: 1
+2018-09-23 20:11:59 [389,H]	Signal Offset: 0
+2018-09-23 20:11:59 [389,I]	Signal min: 0
+2018-09-23 20:11:59 [389,I]	Signal max: 255
+2018-09-23 20:11:59 [390,A]	Signal name: Vision_only_Sign_Type
+2018-09-23 20:11:59 [390,B]	Message name: TSR_message_B
+2018-09-23 20:11:59 [390,D]	Signal len: 8
+2018-09-23 20:11:59 [390,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [390,G]	Signal Factor: 1
+2018-09-23 20:11:59 [390,H]	Signal Offset: 0
+2018-09-23 20:11:59 [390,I]	Signal min: 0
+2018-09-23 20:11:59 [390,I]	Signal max: 255
+2018-09-23 20:11:59 [391,A]	Signal name: Filter_Type
+2018-09-23 20:11:59 [391,B]	Message name: TSR_message_C
+2018-09-23 20:11:59 [391,D]	Signal len: 8
+2018-09-23 20:11:59 [391,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [391,G]	Signal Factor: 1
+2018-09-23 20:11:59 [391,H]	Signal Offset: 0
+2018-09-23 20:11:59 [391,I]	Signal min: 0
+2018-09-23 20:11:59 [391,I]	Signal max: 255
+2018-09-23 20:11:59 [392,A]	Signal name: Sign_Position_X
+2018-09-23 20:11:59 [392,B]	Message name: TSR_message_C
+2018-09-23 20:11:59 [392,D]	Signal len: 8
+2018-09-23 20:11:59 [392,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [392,G]	Signal Factor: 0.5
+2018-09-23 20:11:59 [392,H]	Signal Offset: 0
+2018-09-23 20:11:59 [392,I]	Signal min: 0
+2018-09-23 20:11:59 [392,I]	Signal max: 122
+2018-09-23 20:11:59 [393,A]	Signal name: Sign_Position_Y
+2018-09-23 20:11:59 [393,B]	Message name: TSR_message_C
+2018-09-23 20:11:59 [393,D]	Signal len: 8
+2018-09-23 20:11:59 [393,F]	Signal Type: Signed
+2018-09-23 20:11:59 [393,G]	Signal Factor: 0.5
+2018-09-23 20:11:59 [393,H]	Signal Offset: 0
+2018-09-23 20:11:59 [393,I]	Signal min: -32
+2018-09-23 20:11:59 [393,I]	Signal max: 31
+2018-09-23 20:11:59 [394,A]	Signal name: Sign_Position_Z
+2018-09-23 20:11:59 [394,B]	Message name: TSR_message_C
+2018-09-23 20:11:59 [394,D]	Signal len: 8
+2018-09-23 20:11:59 [394,F]	Signal Type: Signed
+2018-09-23 20:11:59 [394,G]	Signal Factor: 0.5
+2018-09-23 20:11:59 [394,H]	Signal Offset: 0
+2018-09-23 20:11:59 [394,I]	Signal min: -16
+2018-09-23 20:11:59 [394,I]	Signal max: 16
+2018-09-23 20:11:59 [395,A]	Signal name: Supplementary_Sign_Type
+2018-09-23 20:11:59 [395,B]	Message name: TSR_message_C
+2018-09-23 20:11:59 [395,D]	Signal len: 8
+2018-09-23 20:11:59 [395,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [395,G]	Signal Factor: 1
+2018-09-23 20:11:59 [395,H]	Signal Offset: 0
+2018-09-23 20:11:59 [395,I]	Signal min: 0
+2018-09-23 20:11:59 [395,I]	Signal max: 255
+2018-09-23 20:11:59 [396,A]	Signal name: Vision_only_Sign_Type
+2018-09-23 20:11:59 [396,B]	Message name: TSR_message_C
+2018-09-23 20:11:59 [396,D]	Signal len: 8
+2018-09-23 20:11:59 [396,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [396,G]	Signal Factor: 1
+2018-09-23 20:11:59 [396,H]	Signal Offset: 0
+2018-09-23 20:11:59 [396,I]	Signal min: 0
+2018-09-23 20:11:59 [396,I]	Signal max: 255
+2018-09-23 20:11:59 [397,A]	Signal name: Filter_Type
+2018-09-23 20:11:59 [397,B]	Message name: TSR_message_D
+2018-09-23 20:11:59 [397,D]	Signal len: 8
+2018-09-23 20:11:59 [397,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [397,G]	Signal Factor: 1
+2018-09-23 20:11:59 [397,H]	Signal Offset: 0
+2018-09-23 20:11:59 [397,I]	Signal min: 0
+2018-09-23 20:11:59 [397,I]	Signal max: 255
+2018-09-23 20:11:59 [398,A]	Signal name: Sign_Position_X
+2018-09-23 20:11:59 [398,B]	Message name: TSR_message_D
+2018-09-23 20:11:59 [398,D]	Signal len: 8
+2018-09-23 20:11:59 [398,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [398,G]	Signal Factor: 0.5
+2018-09-23 20:11:59 [398,H]	Signal Offset: 0
+2018-09-23 20:11:59 [398,I]	Signal min: 0
+2018-09-23 20:11:59 [398,I]	Signal max: 122
+2018-09-23 20:11:59 [399,A]	Signal name: Sign_Position_Y
+2018-09-23 20:11:59 [399,B]	Message name: TSR_message_D
+2018-09-23 20:11:59 [399,D]	Signal len: 8
+2018-09-23 20:11:59 [399,F]	Signal Type: Signed
+2018-09-23 20:11:59 [399,G]	Signal Factor: 0.5
+2018-09-23 20:11:59 [399,H]	Signal Offset: 0
+2018-09-23 20:11:59 [399,I]	Signal min: -32
+2018-09-23 20:11:59 [399,I]	Signal max: 31
+2018-09-23 20:11:59 [400,A]	Signal name: Sign_Position_Z
+2018-09-23 20:11:59 [400,B]	Message name: TSR_message_D
+2018-09-23 20:11:59 [400,D]	Signal len: 8
+2018-09-23 20:11:59 [400,F]	Signal Type: Signed
+2018-09-23 20:11:59 [400,G]	Signal Factor: 0.5
+2018-09-23 20:11:59 [400,H]	Signal Offset: 0
+2018-09-23 20:11:59 [400,I]	Signal min: -16
+2018-09-23 20:11:59 [400,I]	Signal max: 16
+2018-09-23 20:11:59 [401,A]	Signal name: Supplementary_Sign_Type
+2018-09-23 20:11:59 [401,B]	Message name: TSR_message_D
+2018-09-23 20:11:59 [401,D]	Signal len: 8
+2018-09-23 20:11:59 [401,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [401,G]	Signal Factor: 1
+2018-09-23 20:11:59 [401,H]	Signal Offset: 0
+2018-09-23 20:11:59 [401,I]	Signal min: 0
+2018-09-23 20:11:59 [401,I]	Signal max: 255
+2018-09-23 20:11:59 [402,A]	Signal name: Vision_only_Sign_Type
+2018-09-23 20:11:59 [402,B]	Message name: TSR_message_D
+2018-09-23 20:11:59 [402,D]	Signal len: 8
+2018-09-23 20:11:59 [402,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [402,G]	Signal Factor: 1
+2018-09-23 20:11:59 [402,H]	Signal Offset: 0
+2018-09-23 20:11:59 [402,I]	Signal min: 0
+2018-09-23 20:11:59 [402,I]	Signal max: 255
+2018-09-23 20:11:59 [403,A]	Signal name: Filter_Type
+2018-09-23 20:11:59 [403,B]	Message name: TSR_message_E
+2018-09-23 20:11:59 [403,D]	Signal len: 8
+2018-09-23 20:11:59 [403,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [403,G]	Signal Factor: 1
+2018-09-23 20:11:59 [403,H]	Signal Offset: 0
+2018-09-23 20:11:59 [403,I]	Signal min: 0
+2018-09-23 20:11:59 [403,I]	Signal max: 255
+2018-09-23 20:11:59 [404,A]	Signal name: Sign_Position_X
+2018-09-23 20:11:59 [404,B]	Message name: TSR_message_E
+2018-09-23 20:11:59 [404,D]	Signal len: 8
+2018-09-23 20:11:59 [404,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [404,G]	Signal Factor: 0.5
+2018-09-23 20:11:59 [404,H]	Signal Offset: 0
+2018-09-23 20:11:59 [404,I]	Signal min: 0
+2018-09-23 20:11:59 [404,I]	Signal max: 122
+2018-09-23 20:11:59 [405,A]	Signal name: Sign_Position_Y
+2018-09-23 20:11:59 [405,B]	Message name: TSR_message_E
+2018-09-23 20:11:59 [405,D]	Signal len: 8
+2018-09-23 20:11:59 [405,F]	Signal Type: Signed
+2018-09-23 20:11:59 [405,G]	Signal Factor: 0.5
+2018-09-23 20:11:59 [405,H]	Signal Offset: 0
+2018-09-23 20:11:59 [405,I]	Signal min: -32
+2018-09-23 20:11:59 [405,I]	Signal max: 31
+2018-09-23 20:11:59 [406,A]	Signal name: Sign_Position_Z
+2018-09-23 20:11:59 [406,B]	Message name: TSR_message_E
+2018-09-23 20:11:59 [406,D]	Signal len: 8
+2018-09-23 20:11:59 [406,F]	Signal Type: Signed
+2018-09-23 20:11:59 [406,G]	Signal Factor: 0.5
+2018-09-23 20:11:59 [406,H]	Signal Offset: 0
+2018-09-23 20:11:59 [406,I]	Signal min: -16
+2018-09-23 20:11:59 [406,I]	Signal max: 16
+2018-09-23 20:11:59 [407,A]	Signal name: Supplementary_Sign_Type
+2018-09-23 20:11:59 [407,B]	Message name: TSR_message_E
+2018-09-23 20:11:59 [407,D]	Signal len: 8
+2018-09-23 20:11:59 [407,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [407,G]	Signal Factor: 1
+2018-09-23 20:11:59 [407,H]	Signal Offset: 0
+2018-09-23 20:11:59 [407,I]	Signal min: 0
+2018-09-23 20:11:59 [407,I]	Signal max: 255
+2018-09-23 20:11:59 [408,A]	Signal name: Vision_only_Sign_Type
+2018-09-23 20:11:59 [408,B]	Message name: TSR_message_E
+2018-09-23 20:11:59 [408,D]	Signal len: 8
+2018-09-23 20:11:59 [408,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [408,G]	Signal Factor: 1
+2018-09-23 20:11:59 [408,H]	Signal Offset: 0
+2018-09-23 20:11:59 [408,I]	Signal min: 0
+2018-09-23 20:11:59 [408,I]	Signal max: 255
+2018-09-23 20:11:59 [409,A]	Signal name: Filter_Type
+2018-09-23 20:11:59 [409,B]	Message name: TSR_message_F
+2018-09-23 20:11:59 [409,D]	Signal len: 8
+2018-09-23 20:11:59 [409,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [409,G]	Signal Factor: 1
+2018-09-23 20:11:59 [409,H]	Signal Offset: 0
+2018-09-23 20:11:59 [409,I]	Signal min: 0
+2018-09-23 20:11:59 [409,I]	Signal max: 255
+2018-09-23 20:11:59 [410,A]	Signal name: Sign_Position_X
+2018-09-23 20:11:59 [410,B]	Message name: TSR_message_F
+2018-09-23 20:11:59 [410,D]	Signal len: 8
+2018-09-23 20:11:59 [410,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [410,G]	Signal Factor: 0.5
+2018-09-23 20:11:59 [410,H]	Signal Offset: 0
+2018-09-23 20:11:59 [410,I]	Signal min: 0
+2018-09-23 20:11:59 [410,I]	Signal max: 122
+2018-09-23 20:11:59 [411,A]	Signal name: Sign_Position_Y
+2018-09-23 20:11:59 [411,B]	Message name: TSR_message_F
+2018-09-23 20:11:59 [411,D]	Signal len: 8
+2018-09-23 20:11:59 [411,F]	Signal Type: Signed
+2018-09-23 20:11:59 [411,G]	Signal Factor: 0.5
+2018-09-23 20:11:59 [411,H]	Signal Offset: 0
+2018-09-23 20:11:59 [411,I]	Signal min: -32
+2018-09-23 20:11:59 [411,I]	Signal max: 31
+2018-09-23 20:11:59 [412,A]	Signal name: Sign_Position_Z
+2018-09-23 20:11:59 [412,B]	Message name: TSR_message_F
+2018-09-23 20:11:59 [412,D]	Signal len: 8
+2018-09-23 20:11:59 [412,F]	Signal Type: Signed
+2018-09-23 20:11:59 [412,G]	Signal Factor: 0.5
+2018-09-23 20:11:59 [412,H]	Signal Offset: 0
+2018-09-23 20:11:59 [412,I]	Signal min: -16
+2018-09-23 20:11:59 [412,I]	Signal max: 16
+2018-09-23 20:11:59 [413,A]	Signal name: Supplementary_Sign_Type
+2018-09-23 20:11:59 [413,B]	Message name: TSR_message_F
+2018-09-23 20:11:59 [413,D]	Signal len: 8
+2018-09-23 20:11:59 [413,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [413,G]	Signal Factor: 1
+2018-09-23 20:11:59 [413,H]	Signal Offset: 0
+2018-09-23 20:11:59 [413,I]	Signal min: 0
+2018-09-23 20:11:59 [413,I]	Signal max: 255
+2018-09-23 20:11:59 [414,A]	Signal name: Vision_only_Sign_Type
+2018-09-23 20:11:59 [414,B]	Message name: TSR_message_F
+2018-09-23 20:11:59 [414,D]	Signal len: 8
+2018-09-23 20:11:59 [414,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [414,G]	Signal Factor: 1
+2018-09-23 20:11:59 [414,H]	Signal Offset: 0
+2018-09-23 20:11:59 [414,I]	Signal min: 0
+2018-09-23 20:11:59 [414,I]	Signal max: 255
+2018-09-23 20:11:59 [415,A]	Signal name: Filter_Type
+2018-09-23 20:11:59 [415,B]	Message name: TSR_message_G
+2018-09-23 20:11:59 [415,D]	Signal len: 8
+2018-09-23 20:11:59 [415,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [415,G]	Signal Factor: 1
+2018-09-23 20:11:59 [415,H]	Signal Offset: 0
+2018-09-23 20:11:59 [415,I]	Signal min: 0
+2018-09-23 20:11:59 [415,I]	Signal max: 255
+2018-09-23 20:11:59 [416,A]	Signal name: Sign_Position_X
+2018-09-23 20:11:59 [416,B]	Message name: TSR_message_G
+2018-09-23 20:11:59 [416,D]	Signal len: 8
+2018-09-23 20:11:59 [416,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [416,G]	Signal Factor: 0.5
+2018-09-23 20:11:59 [416,H]	Signal Offset: 0
+2018-09-23 20:11:59 [416,I]	Signal min: 0
+2018-09-23 20:11:59 [416,I]	Signal max: 122
+2018-09-23 20:11:59 [417,A]	Signal name: Sign_Position_Y
+2018-09-23 20:11:59 [417,B]	Message name: TSR_message_G
+2018-09-23 20:11:59 [417,D]	Signal len: 8
+2018-09-23 20:11:59 [417,F]	Signal Type: Signed
+2018-09-23 20:11:59 [417,G]	Signal Factor: 0.5
+2018-09-23 20:11:59 [417,H]	Signal Offset: 0
+2018-09-23 20:11:59 [417,I]	Signal min: -32
+2018-09-23 20:11:59 [417,I]	Signal max: 31
+2018-09-23 20:11:59 [418,A]	Signal name: Sign_Position_Z
+2018-09-23 20:11:59 [418,B]	Message name: TSR_message_G
+2018-09-23 20:11:59 [418,D]	Signal len: 8
+2018-09-23 20:11:59 [418,F]	Signal Type: Signed
+2018-09-23 20:11:59 [418,G]	Signal Factor: 0.5
+2018-09-23 20:11:59 [418,H]	Signal Offset: 0
+2018-09-23 20:11:59 [418,I]	Signal min: -16
+2018-09-23 20:11:59 [418,I]	Signal max: 16
+2018-09-23 20:11:59 [419,A]	Signal name: Supplementary_Sign_Type
+2018-09-23 20:11:59 [419,B]	Message name: TSR_message_G
+2018-09-23 20:11:59 [419,D]	Signal len: 8
+2018-09-23 20:11:59 [419,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [419,G]	Signal Factor: 1
+2018-09-23 20:11:59 [419,H]	Signal Offset: 0
+2018-09-23 20:11:59 [419,I]	Signal min: 0
+2018-09-23 20:11:59 [419,I]	Signal max: 255
+2018-09-23 20:11:59 [420,A]	Signal name: Vision_only_Sign_Type
+2018-09-23 20:11:59 [420,B]	Message name: TSR_message_G
+2018-09-23 20:11:59 [420,D]	Signal len: 8
+2018-09-23 20:11:59 [420,F]	Signal Type: Unsigned
+2018-09-23 20:11:59 [420,G]	Signal Factor: 1
+2018-09-23 20:11:59 [420,H]	Signal Offset: 0
+2018-09-23 20:11:59 [420,I]	Signal min: 0
+2018-09-23 20:11:59 [420,I]	Signal max: 255
+2018-09-23 20:11:59 [  1,A]	Message name: AHBC_Gradual
+2018-09-23 20:11:59 [  1,B]	Message id: 0x729
+2018-09-23 20:11:59 [  2,A]	Message name: AHBC_high_low_beam
+2018-09-23 20:11:59 [  2,B]	Message id: 0x728
+2018-09-23 20:11:59 [  3,A]	Message name: C2_Display_and_warning
+2018-09-23 20:11:59 [  3,B]	Message id: 0x700
+2018-09-23 20:11:59 [  4,A]	Message name: Car_Info
+2018-09-23 20:11:59 [  4,B]	Message id: 0x760
+2018-09-23 20:11:59 [  5,A]	Message name: Detils_Lane
+2018-09-23 20:11:59 [  5,B]	Message id: 0x669
+2018-09-23 20:11:59 [  6,A]	Message name: Fixed_FOE
+2018-09-23 20:11:59 [  6,B]	Message id: 0x650
+2018-09-23 20:11:59 [  7,A]	Message name: Lane
+2018-09-23 20:11:59 [  7,B]	Message id: 0x737
+2018-09-23 20:11:59 [  8,A]	Message name: LKA_left_lane_A
+2018-09-23 20:11:59 [  8,B]	Message id: 0x766
+2018-09-23 20:11:59 [  9,A]	Message name: LKA_left_lane_B
+2018-09-23 20:11:59 [  9,B]	Message id: 0x767
+2018-09-23 20:11:59 [ 10,A]	Message name: LKA_right_lane_A
+2018-09-23 20:11:59 [ 10,B]	Message id: 0x768
+2018-09-23 20:11:59 [ 11,A]	Message name: LKA_right_lane_B
+2018-09-23 20:11:59 [ 11,B]	Message id: 0x769
+2018-09-23 20:11:59 [ 12,A]	Message name: Next_lane_Left_A
+2018-09-23 20:11:59 [ 12,B]	Message id: 0x76C
+2018-09-23 20:11:59 [ 13,A]	Message name: Next_lane_Left_B
+2018-09-23 20:11:59 [ 13,B]	Message id: 0x76D
+2018-09-23 20:11:59 [ 14,A]	Message name: Next_lane_Left_E
+2018-09-23 20:11:59 [ 14,B]	Message id: 0x770
+2018-09-23 20:11:59 [ 15,A]	Message name: Next_lane_Left_F
+2018-09-23 20:11:59 [ 15,B]	Message id: 0x771
+2018-09-23 20:11:59 [ 16,A]	Message name: Next_lane_Left_I
+2018-09-23 20:11:59 [ 16,B]	Message id: 0x774
+2018-09-23 20:11:59 [ 17,A]	Message name: Next_lane_Left_J
+2018-09-23 20:11:59 [ 17,B]	Message id: 0x775
+2018-09-23 20:11:59 [ 18,A]	Message name: Next_lane_Left_M
+2018-09-23 20:11:59 [ 18,B]	Message id: 0x778
+2018-09-23 20:11:59 [ 19,A]	Message name: Next_lane_Left_N
+2018-09-23 20:11:59 [ 19,B]	Message id: 0x779
+2018-09-23 20:11:59 [ 20,A]	Message name: Next_lane_Right_C
+2018-09-23 20:11:59 [ 20,B]	Message id: 0x76E
+2018-09-23 20:11:59 [ 21,A]	Message name: Next_lane_Right_D
+2018-09-23 20:11:59 [ 21,B]	Message id: 0x76F
+2018-09-23 20:11:59 [ 22,A]	Message name: Next_lane_Right_G
+2018-09-23 20:11:59 [ 22,B]	Message id: 0x772
+2018-09-23 20:11:59 [ 23,A]	Message name: Next_lane_Right_H
+2018-09-23 20:11:59 [ 23,B]	Message id: 0x773
+2018-09-23 20:11:59 [ 24,A]	Message name: Next_lane_Right_K
+2018-09-23 20:11:59 [ 24,B]	Message id: 0x776
+2018-09-23 20:11:59 [ 25,A]	Message name: Next_lane_Right_L
+2018-09-23 20:11:59 [ 25,B]	Message id: 0x777
+2018-09-23 20:11:59 [ 26,A]	Message name: Next_lane_Right_O
+2018-09-23 20:11:59 [ 26,B]	Message id: 0x77A
+2018-09-23 20:11:59 [ 27,A]	Message name: Next_lane_Right_P
+2018-09-23 20:11:59 [ 27,B]	Message id: 0x77B
+2018-09-23 20:11:59 [ 28,A]	Message name: Numebr_of_next_lane
+2018-09-23 20:11:59 [ 28,B]	Message id: 0x76B
+2018-09-23 20:11:59 [ 29,A]	Message name: Obstacle_Data_A
+2018-09-23 20:11:59 [ 29,B]	Message id: 0x739
+2018-09-23 20:11:59 [ 30,A]	Message name: Obstacle_Data_B
+2018-09-23 20:11:59 [ 30,B]	Message id: 0x73A
+2018-09-23 20:11:59 [ 31,A]	Message name: Obstacle_Data_C
+2018-09-23 20:11:59 [ 31,B]	Message id: 0x73B
+2018-09-23 20:11:59 [ 32,A]	Message name: Obstacle_Data_D
+2018-09-23 20:11:59 [ 32,B]	Message id: 0x73C
+2018-09-23 20:11:59 [ 33,A]	Message name: Obstacle_Data_E
+2018-09-23 20:11:59 [ 33,B]	Message id: 0x73D
+2018-09-23 20:11:59 [ 34,A]	Message name: Obstacle_Data_F
+2018-09-23 20:11:59 [ 34,B]	Message id: 0x73E
+2018-09-23 20:11:59 [ 35,A]	Message name: Obstacle_Data_G
+2018-09-23 20:11:59 [ 35,B]	Message id: 0x73F
+2018-09-23 20:11:59 [ 36,A]	Message name: Obstacle_Data_H
+2018-09-23 20:11:59 [ 36,B]	Message id: 0x740
+2018-09-23 20:11:59 [ 37,A]	Message name: Obstacle_Data_I
+2018-09-23 20:11:59 [ 37,B]	Message id: 0x741
+2018-09-23 20:11:59 [ 38,A]	Message name: Obstacle_Data_J
+2018-09-23 20:11:59 [ 38,B]	Message id: 0x742
+2018-09-23 20:11:59 [ 39,A]	Message name: Obstacle_Data_K
+2018-09-23 20:11:59 [ 39,B]	Message id: 0x743
+2018-09-23 20:11:59 [ 40,A]	Message name: Obstacle_Data_L
+2018-09-23 20:11:59 [ 40,B]	Message id: 0x744
+2018-09-23 20:11:59 [ 41,A]	Message name: Obstacle_Data_M
+2018-09-23 20:11:59 [ 41,B]	Message id: 0x745
+2018-09-23 20:11:59 [ 42,A]	Message name: Obstacle_Data_N
+2018-09-23 20:11:59 [ 42,B]	Message id: 0x746
+2018-09-23 20:11:59 [ 43,A]	Message name: Obstacle_Data_O
+2018-09-23 20:11:59 [ 43,B]	Message id: 0x747
+2018-09-23 20:11:59 [ 44,A]	Message name: Obstacle_Data_P
+2018-09-23 20:11:59 [ 44,B]	Message id: 0x748
+2018-09-23 20:11:59 [ 45,A]	Message name: Obstacle_Data_Q
+2018-09-23 20:11:59 [ 45,B]	Message id: 0x749
+2018-09-23 20:11:59 [ 46,A]	Message name: Obstacle_Data_R
+2018-09-23 20:11:59 [ 46,B]	Message id: 0x74A
+2018-09-23 20:11:59 [ 47,A]	Message name: Obstacle_Data_S
+2018-09-23 20:11:59 [ 47,B]	Message id: 0x74B
+2018-09-23 20:11:59 [ 48,A]	Message name: Obstacle_Data_T
+2018-09-23 20:11:59 [ 48,B]	Message id: 0x74C
+2018-09-23 20:11:59 [ 49,A]	Message name: Obstacle_Data_U
+2018-09-23 20:11:59 [ 49,B]	Message id: 0x74D
+2018-09-23 20:11:59 [ 50,A]	Message name: Obstacle_Data_V
+2018-09-23 20:11:59 [ 50,B]	Message id: 0x74E
+2018-09-23 20:11:59 [ 51,A]	Message name: Obstacle_Data_W
+2018-09-23 20:11:59 [ 51,B]	Message id: 0x74F
+2018-09-23 20:11:59 [ 52,A]	Message name: Obstacle_Data_X
+2018-09-23 20:11:59 [ 52,B]	Message id: 0x750
+2018-09-23 20:11:59 [ 53,A]	Message name: Obstacle_Status
+2018-09-23 20:11:59 [ 53,B]	Message id: 0x738
+2018-09-23 20:11:59 [ 54,A]	Message name: Reference_points
+2018-09-23 20:11:59 [ 54,B]	Message id: 0x76A
+2018-09-23 20:11:59 [ 55,A]	Message name: Sign_Type
+2018-09-23 20:11:59 [ 55,B]	Message id: 0x727
+2018-09-23 20:11:59 [ 56,A]	Message name: TSR_message_A
+2018-09-23 20:11:59 [ 56,B]	Message id: 0x720
+2018-09-23 20:11:59 [ 57,A]	Message name: TSR_message_B
+2018-09-23 20:11:59 [ 57,B]	Message id: 0x721
+2018-09-23 20:11:59 [ 58,A]	Message name: TSR_message_C
+2018-09-23 20:11:59 [ 58,B]	Message id: 0x722
+2018-09-23 20:11:59 [ 59,A]	Message name: TSR_message_D
+2018-09-23 20:11:59 [ 59,B]	Message id: 0x723
+2018-09-23 20:11:59 [ 60,A]	Message name: TSR_message_E
+2018-09-23 20:11:59 [ 60,B]	Message id: 0x724
+2018-09-23 20:11:59 [ 61,A]	Message name: TSR_message_F
+2018-09-23 20:11:59 [ 61,B]	Message id: 0x725
+2018-09-23 20:11:59 [ 62,A]	Message name: TSR_message_G
+2018-09-23 20:11:59 [ 62,B]	Message id: 0x726
