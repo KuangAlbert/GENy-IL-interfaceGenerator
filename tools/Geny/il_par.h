@@ -20,7 +20,7 @@
                        Derivates:    Tms320_TDA2X
                
                Channel "Channel0":
-                       Databasefile: D:\code\SocCode\linux\gen\AF01A_DCAN.dbc
+                       Databasefile: D:\code\McuCode\GENy-IL-interfaceGenerator\tools\AF01A_DCAN.dbc
                        Bussystem:    CAN
                        Manufacturer: GAC
                        Node:         AF01A
@@ -219,7 +219,7 @@ typedef vuint8 IltTxRepetitionCounter;
 #define IlRxSigHndCAN_TX_SIDESLIP_ANGLE      IlRxMsgHndESR_Status9
 #define IlRxSigHndCAN_TX_SERIAL_NUM_3RD_BYTE IlRxMsgHndESR_Status9
 #define IlRxSigHndCAN_TX_FILTERED_XOHP_ACC_CIPV IlRxMsgHndESR_Status9
-#define IlRxSigHndCAN_TX_WATEG_SPRAY_TARGET_ID IlRxMsgHndESR_Status9
+#define IlRxSigHndCAN_TX_WATER_SPRAY_TARGET_ID IlRxMsgHndESR_Status9
 #define IlRxSigHndCAN_TX_PATH_ID_ACC_2       IlRxMsgHndESR_Status9
 #define IlRxSigHndCAN_TX_PATH_ID_ACC_3       IlRxMsgHndESR_Status9
 #define IlRxSigHndCAN_TX_HISTORY_FAULT_0     IlRxMsgHndESR_Status8
@@ -759,7 +759,7 @@ typedef vuint8 IltTxRepetitionCounter;
 #define IlRxSigHndCAN_TX_TRACK_RANGE_23      IlRxMsgHndESR_Track23
 #define IlRxSigHndCAN_TX_TRACK_RANGE_ACCEL_23 IlRxMsgHndESR_Track23
 #define IlRxSigHndCAN_TX_TRACK_WIDTH_23      IlRxMsgHndESR_Track23
-#define IlRxSigHndCAN_TX_TRACK_ROLLING_COUNT IlRxMsgHndESR_Track23
+#define IlRxSigHndCAN_TX_TRACK_ROLLING_COUNT_23 IlRxMsgHndESR_Track23
 #define IlRxSigHndCAN_TX_TRACK_BRIDGE_OBJECT_23 IlRxMsgHndESR_Track23
 #define IlRxSigHndCAN_TX_TRACK_RANGE_RATE_23 IlRxMsgHndESR_Track23
 #define IlRxSigHndCAN_TX_TRACK_MED_RANGE_MODE_23 IlRxMsgHndESR_Track23
@@ -1030,7 +1030,7 @@ typedef vuint8 IltTxRepetitionCounter;
 #define IlRxSigHndCAN_TX_ROLLING_COUNT_3     IlRxMsgHndESR_Status4
 #define IlRxSigHndCAN_TX_MR_LR_MODE          IlRxMsgHndESR_Status4
 #define IlRxSigHndCAN_TX_PARTIAL_BLOCKAGE    IlRxMsgHndESR_Status4
-#define IlRxSigHndCAN_TX_SIDELIBE_BLOCKAGE   IlRxMsgHndESR_Status4
+#define IlRxSigHndCAN_TX_SIDELOBE_BLOCKAGE   IlRxMsgHndESR_Status4
 #define IlRxSigHndCAN_TX_LR_ONLY_GRATING_LOBE_DET IlRxMsgHndESR_Status4
 #define IlRxSigHndCAN_TX_TRUCK_TARGET_DET    IlRxMsgHndESR_Status4
 #define IlRxSigHndCAN_TX_PATH_ID_ACC         IlRxMsgHndESR_Status4
@@ -1038,7 +1038,7 @@ typedef vuint8 IltTxRepetitionCounter;
 #define IlRxSigHndCAN_TX_PATH_ID_CMBB_STAT   IlRxMsgHndESR_Status4
 #define IlRxSigHndCAN_TX_PATH_ID_FCW_MOVE    IlRxMsgHndESR_Status4
 #define IlRxSigHndCAN_TX_PATH_ID_FCW_STAT    IlRxMsgHndESR_Status4
-#define IlRxSigHndCAN_TX_AUTO_ALIGE_ANGLE    IlRxMsgHndESR_Status4
+#define IlRxSigHndCAN_TX_AUTO_ALIGN_ANGLE    IlRxMsgHndESR_Status4
 #define IlRxSigHndCAN_TX_PATH_ID_ACC_STAT    IlRxMsgHndESR_Status4
 #define IlRxSigHndCAN_TX_HW_VERSION          IlRxMsgHndESR_Status3
 #define IlRxSigHndCAN_TX_INTERFACE_VERSION   IlRxMsgHndESR_Status3
@@ -1151,7 +1151,7 @@ typedef vuint8 IltTxRepetitionCounter;
 #define IlTxSigHndCurvature_Parameter_C2_0x76C IlTxMsgHndNext_lane_Left_A
 #define IlTxSigHndCurvature_derivative_C3_0x76C IlTxMsgHndNext_lane_Left_A
 #define IlTxSigHndLane_mark_width_0x76C      IlTxMsgHndNext_lane_Left_A
-#define IlTxSigHndNumber_lane_markers_reported0x76B IlTxMsgHndNumebr_of_next_lane
+#define IlTxSigHndNumber_lane_markers_reported_0x76B IlTxMsgHndNumebr_of_next_lane
 #define IlTxSigHndRef_point_1_Position_0x76A IlTxMsgHndReference_points
 #define IlTxSigHndRef_point_1_Distance_0x76A IlTxMsgHndReference_points
 #define IlTxSigHndRef_point_1_validity_0x76A IlTxMsgHndReference_points
@@ -1663,8 +1663,8 @@ typedef vuint8 IltTxRepetitionCounter;
 #define IlLeaveCriticalCurvature_derivative_C3_0x76C() CanGlobalInterruptRestore()
 #define IlEnterCriticalLane_mark_width_0x76C() CanGlobalInterruptDisable()
 #define IlLeaveCriticalLane_mark_width_0x76C() CanGlobalInterruptRestore()
-#define IlEnterCriticalNumber_lane_markers_reported0x76B() CanGlobalInterruptDisable()
-#define IlLeaveCriticalNumber_lane_markers_reported0x76B() CanGlobalInterruptRestore()
+#define IlEnterCriticalNumber_lane_markers_reported_0x76B() CanGlobalInterruptDisable()
+#define IlLeaveCriticalNumber_lane_markers_reported_0x76B() CanGlobalInterruptRestore()
 #define IlEnterCriticalRef_point_1_Position_0x76A() CanGlobalInterruptDisable()
 #define IlLeaveCriticalRef_point_1_Position_0x76A() CanGlobalInterruptRestore()
 #define IlEnterCriticalRef_point_1_Distance_0x76A() CanGlobalInterruptDisable()
@@ -2339,8 +2339,8 @@ typedef vuint8 IltTxRepetitionCounter;
 #define IlLeaveCriticalCAN_TX_SERIAL_NUM_3RD_BYTE() CanGlobalInterruptRestore()
 #define IlEnterCriticalCAN_TX_FILTERED_XOHP_ACC_CIPV() CanGlobalInterruptDisable()
 #define IlLeaveCriticalCAN_TX_FILTERED_XOHP_ACC_CIPV() CanGlobalInterruptRestore()
-#define IlEnterCriticalCAN_TX_WATEG_SPRAY_TARGET_ID() CanGlobalInterruptDisable()
-#define IlLeaveCriticalCAN_TX_WATEG_SPRAY_TARGET_ID() CanGlobalInterruptRestore()
+#define IlEnterCriticalCAN_TX_WATER_SPRAY_TARGET_ID() CanGlobalInterruptDisable()
+#define IlLeaveCriticalCAN_TX_WATER_SPRAY_TARGET_ID() CanGlobalInterruptRestore()
 #define IlEnterCriticalCAN_TX_PATH_ID_ACC_2() CanGlobalInterruptDisable()
 #define IlLeaveCriticalCAN_TX_PATH_ID_ACC_2() CanGlobalInterruptRestore()
 #define IlEnterCriticalCAN_TX_PATH_ID_ACC_3() CanGlobalInterruptDisable()
@@ -3419,8 +3419,8 @@ typedef vuint8 IltTxRepetitionCounter;
 #define IlLeaveCriticalCAN_TX_TRACK_RANGE_ACCEL_23() CanGlobalInterruptRestore()
 #define IlEnterCriticalCAN_TX_TRACK_WIDTH_23() CanGlobalInterruptDisable()
 #define IlLeaveCriticalCAN_TX_TRACK_WIDTH_23() CanGlobalInterruptRestore()
-#define IlEnterCriticalCAN_TX_TRACK_ROLLING_COUNT() CanGlobalInterruptDisable()
-#define IlLeaveCriticalCAN_TX_TRACK_ROLLING_COUNT() CanGlobalInterruptRestore()
+#define IlEnterCriticalCAN_TX_TRACK_ROLLING_COUNT_23() CanGlobalInterruptDisable()
+#define IlLeaveCriticalCAN_TX_TRACK_ROLLING_COUNT_23() CanGlobalInterruptRestore()
 #define IlEnterCriticalCAN_TX_TRACK_BRIDGE_OBJECT_23() CanGlobalInterruptDisable()
 #define IlLeaveCriticalCAN_TX_TRACK_BRIDGE_OBJECT_23() CanGlobalInterruptRestore()
 #define IlEnterCriticalCAN_TX_TRACK_RANGE_RATE_23() CanGlobalInterruptDisable()
@@ -3961,8 +3961,8 @@ typedef vuint8 IltTxRepetitionCounter;
 #define IlLeaveCriticalCAN_TX_MR_LR_MODE()   CanGlobalInterruptRestore()
 #define IlEnterCriticalCAN_TX_PARTIAL_BLOCKAGE() CanGlobalInterruptDisable()
 #define IlLeaveCriticalCAN_TX_PARTIAL_BLOCKAGE() CanGlobalInterruptRestore()
-#define IlEnterCriticalCAN_TX_SIDELIBE_BLOCKAGE() CanGlobalInterruptDisable()
-#define IlLeaveCriticalCAN_TX_SIDELIBE_BLOCKAGE() CanGlobalInterruptRestore()
+#define IlEnterCriticalCAN_TX_SIDELOBE_BLOCKAGE() CanGlobalInterruptDisable()
+#define IlLeaveCriticalCAN_TX_SIDELOBE_BLOCKAGE() CanGlobalInterruptRestore()
 #define IlEnterCriticalCAN_TX_LR_ONLY_GRATING_LOBE_DET() CanGlobalInterruptDisable()
 #define IlLeaveCriticalCAN_TX_LR_ONLY_GRATING_LOBE_DET() CanGlobalInterruptRestore()
 #define IlEnterCriticalCAN_TX_TRUCK_TARGET_DET() CanGlobalInterruptDisable()
@@ -3977,8 +3977,8 @@ typedef vuint8 IltTxRepetitionCounter;
 #define IlLeaveCriticalCAN_TX_PATH_ID_FCW_MOVE() CanGlobalInterruptRestore()
 #define IlEnterCriticalCAN_TX_PATH_ID_FCW_STAT() CanGlobalInterruptDisable()
 #define IlLeaveCriticalCAN_TX_PATH_ID_FCW_STAT() CanGlobalInterruptRestore()
-#define IlEnterCriticalCAN_TX_AUTO_ALIGE_ANGLE() CanGlobalInterruptDisable()
-#define IlLeaveCriticalCAN_TX_AUTO_ALIGE_ANGLE() CanGlobalInterruptRestore()
+#define IlEnterCriticalCAN_TX_AUTO_ALIGN_ANGLE() CanGlobalInterruptDisable()
+#define IlLeaveCriticalCAN_TX_AUTO_ALIGN_ANGLE() CanGlobalInterruptRestore()
 #define IlEnterCriticalCAN_TX_PATH_ID_ACC_STAT() CanGlobalInterruptDisable()
 #define IlLeaveCriticalCAN_TX_PATH_ID_ACC_STAT() CanGlobalInterruptRestore()
 #define IlEnterCriticalCAN_TX_HW_VERSION()   CanGlobalInterruptDisable()
@@ -4065,9 +4065,9 @@ typedef vuint8 IltTxRepetitionCounter;
 #define IlGetRxCAN_TX_SERIAL_NUM_3RD_BYTE()  (ESR_Status9.ESR_Status9.CAN_TX_SERIAL_NUM_3RD_BYTE)
 #endif
 
-/* Handle:    4,Name:   CAN_TX_WATEG_SPRAY_TARGET_ID,Size:  7,UsedBytes:  1,SingleSignal */
+/* Handle:    4,Name:   CAN_TX_WATER_SPRAY_TARGET_ID,Size:  7,UsedBytes:  1,SingleSignal */
 #ifdef IL_ENABLE_RX
-#define IlGetRxCAN_TX_WATEG_SPRAY_TARGET_ID() (ESR_Status9.ESR_Status9.CAN_TX_WATEG_SPRAY_TARGET_ID)
+#define IlGetRxCAN_TX_WATER_SPRAY_TARGET_ID() (ESR_Status9.ESR_Status9.CAN_TX_WATER_SPRAY_TARGET_ID)
 #endif
 
 /* Handle:    5,Name:           CAN_TX_PATH_ID_ACC_2,Size:  8,UsedBytes:  1,SingleSignal */
@@ -5930,9 +5930,9 @@ typedef vuint8 IltTxRepetitionCounter;
 #define IlGetRxCAN_TX_TRACK_WIDTH_23()       (ESR_Track23.ESR_Track23.CAN_TX_TRACK_WIDTH_23)
 #endif
 
-/* Handle:  544,Name:     CAN_TX_TRACK_ROLLING_COUNT,Size:  1,UsedBytes:  1,SingleSignal */
+/* Handle:  544,Name:  CAN_TX_TRACK_ROLLING_COUNT_23,Size:  1,UsedBytes:  1,SingleSignal */
 #ifdef IL_ENABLE_RX
-#define IlGetRxCAN_TX_TRACK_ROLLING_COUNT()  (ESR_Track23.ESR_Track23.CAN_TX_TRACK_ROLLING_COUNT)
+#define IlGetRxCAN_TX_TRACK_ROLLING_COUNT_23() (ESR_Track23.ESR_Track23.CAN_TX_TRACK_ROLLING_COUNT_23)
 #endif
 
 /* Handle:  545,Name:  CAN_TX_TRACK_BRIDGE_OBJECT_23,Size:  1,UsedBytes:  1,SingleSignal */
@@ -6840,9 +6840,9 @@ typedef vuint8 IltTxRepetitionCounter;
 #define IlGetRxCAN_TX_PARTIAL_BLOCKAGE()     (ESR_Status4.ESR_Status4.CAN_TX_PARTIAL_BLOCKAGE)
 #endif
 
-/* Handle:  815,Name:       CAN_TX_SIDELIBE_BLOCKAGE,Size:  1,UsedBytes:  1,SingleSignal */
+/* Handle:  815,Name:       CAN_TX_SIDELOBE_BLOCKAGE,Size:  1,UsedBytes:  1,SingleSignal */
 #ifdef IL_ENABLE_RX
-#define IlGetRxCAN_TX_SIDELIBE_BLOCKAGE()    (ESR_Status4.ESR_Status4.CAN_TX_SIDELIBE_BLOCKAGE)
+#define IlGetRxCAN_TX_SIDELOBE_BLOCKAGE()    (ESR_Status4.ESR_Status4.CAN_TX_SIDELOBE_BLOCKAGE)
 #endif
 
 /* Handle:  816,Name: CAN_TX_LR_ONLY_GRATING_LOBE_DET,Size:  1,UsedBytes:  1,SingleSignal */
@@ -6880,9 +6880,9 @@ typedef vuint8 IltTxRepetitionCounter;
 #define IlGetRxCAN_TX_PATH_ID_FCW_STAT()     (ESR_Status4.ESR_Status4.CAN_TX_PATH_ID_FCW_STAT)
 #endif
 
-/* Handle:  823,Name:        CAN_TX_AUTO_ALIGE_ANGLE,Size:  8,UsedBytes:  1,SingleSignal */
+/* Handle:  823,Name:        CAN_TX_AUTO_ALIGN_ANGLE,Size:  8,UsedBytes:  1,SingleSignal */
 #ifdef IL_ENABLE_RX
-#define IlGetRxCAN_TX_AUTO_ALIGE_ANGLE()     (ESR_Status4.ESR_Status4.CAN_TX_AUTO_ALIGE_ANGLE)
+#define IlGetRxCAN_TX_AUTO_ALIGN_ANGLE()     (ESR_Status4.ESR_Status4.CAN_TX_AUTO_ALIGN_ANGLE)
 #endif
 
 /* Handle:  824,Name:        CAN_TX_PATH_ID_ACC_STAT,Size:  8,UsedBytes:  1,SingleSignal */
@@ -8782,13 +8782,13 @@ extern vuint16 IlGetRxCAN_TX_VEHICLE_SPEED_CALC(void);
 }
 #endif
 
-/* Handle:   86,Name: Number_lane_markers_reported0x76B,Size:  8,UsedBytes:  1,SingleSignal */
+/* Handle:   86,Name: Number_lane_markers_reported_0x76B,Size:  8,UsedBytes:  1,SingleSignal */
 #ifdef IL_ENABLE_TX
-#define IlPutTxNumber_lane_markers_reported0x76B(c) \
+#define IlPutTxNumber_lane_markers_reported_0x76B(c) \
 { \
-  IlEnterCriticalNumber_lane_markers_reported0x76B(); \
-  Numebr_of_next_lane.Numebr_of_next_lane.Number_lane_markers_reported0x76B = (c); \
-  IlLeaveCriticalNumber_lane_markers_reported0x76B(); \
+  IlEnterCriticalNumber_lane_markers_reported_0x76B(); \
+  Numebr_of_next_lane.Numebr_of_next_lane.Number_lane_markers_reported_0x76B = (c); \
+  IlLeaveCriticalNumber_lane_markers_reported_0x76B(); \
 }
 #endif
 
@@ -11759,11 +11759,11 @@ extern void IlPutTxFixed_Horizon_0x650(vuint32 sigData);
 /* begin Fileversion check */
 #ifndef SKIP_MAGIC_NUMBER
 #ifdef MAGIC_NUMBER
-  #if MAGIC_NUMBER != 297263386
+  #if MAGIC_NUMBER != 297367898
       #error "The magic number of the generated file <D:\code\McuCode\GENy-IL-interfaceGenerator\tools\Geny\il_par.h> is different. Please check time and date of generated files!"
   #endif
 #else
-  #define MAGIC_NUMBER 297263386
+  #define MAGIC_NUMBER 297367898
 #endif  /* MAGIC_NUMBER */
 #endif  /* SKIP_MAGIC_NUMBER */
 

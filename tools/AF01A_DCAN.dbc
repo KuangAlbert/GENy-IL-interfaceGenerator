@@ -255,7 +255,7 @@ BO_ 1512 ESR_Status9: 8 Vector__XXX
  SG_ CAN_TX_PATH_ID_ACC_3 : 63|8@0+ (1,0) [0|64] ""  AF01A
  SG_ CAN_TX_PATH_ID_ACC_2 : 55|8@0+ (1,0) [0|64] ""  AF01A
  SG_ CAN_TX_FILTERED_XOHP_ACC_CIPV : 32|9@0- (0.03125,0) [0|7.96875] ""  AF01A
- SG_ CAN_TX_WATEG_SPRAY_TARGET_ID : 39|7@0+ (1,0) [0|64] ""  AF01A
+ SG_ CAN_TX_WATER_SPRAY_TARGET_ID : 39|7@0+ (1,0) [0|64] ""  AF01A
  SG_ CAN_TX_AVG_PWR_CWBLKG : 7|12@0+ (1,0) [0|0] ""  AF01A
 
 BO_ 1511 ESR_Status8: 8 Vector__XXX
@@ -1201,7 +1201,7 @@ BO_ 1280 ESR_Track01: 8 Vector__XXX
 
 BO_ 1251 ESR_Status4: 8 Vector__XXX
  SG_ CAN_TX_TRUCK_TARGET_DET : 7|1@0+ (1,0) [0|0] ""  AF01A
- SG_ CAN_TX_SIDELIBE_BLOCKAGE : 5|1@0+ (1,0) [0|0] ""  AF01A
+ SG_ CAN_TX_SIDELOBE_BLOCKAGE : 5|1@0+ (1,0) [0|0] ""  AF01A
  SG_ CAN_TX_ROLLING_COUNT_3 : 1|2@0+ (1,0) [0|0] ""  AF01A
  SG_ CAN_TX_PATH_ID_FCW_STAT : 47|8@0+ (1,0) [0|0] ""  AF01A
  SG_ CAN_TX_PATH_ID_FCW_MOVE : 39|8@0+ (1,0) [0|0] ""  AF01A
@@ -1212,7 +1212,7 @@ BO_ 1251 ESR_Status4: 8 Vector__XXX
  SG_ CAN_TX_PARTIAL_BLOCKAGE : 4|1@0+ (1,0) [0|0] ""  AF01A
  SG_ CAN_TX_MR_LR_MODE : 3|2@0+ (1,0) [0|3] ""  AF01A
  SG_ CAN_TX_LR_ONLY_GRATING_LOBE_DET : 6|1@0+ (1,0) [0|0] ""  AF01A
- SG_ CAN_TX_AUTO_ALIGE_ANGLE : 55|8@0- (0.0625,0) [-8|7.9375] ""  AF01A
+ SG_ CAN_TX_AUTO_ALIGN_ANGLE : 55|8@0- (0.0625,0) [-8|7.9375] ""  AF01A
 
 BO_ 1250 ESR_Status3: 8 Vector__XXX
  SG_ CAN_TX_SW_VERSION_PLD : 63|8@0+ (1,0) [0|0] ""  AF01A
@@ -1274,7 +1274,7 @@ BO_ 1641 Detils_Lane: 8 AF01A
 BO_ 1915 Next_lane_Right_P: 4 AF01A
  SG_ View_range_availability : 31|1@1+ (1,0) [0|1] "" Vector__XXX
  SG_ View_range : 16|15@1+ (0.0030625,0) [0|127.996] "meter" Vector__XXX
- SG_ Heading_angle_Parameter_C1 : 0|16@1+ (0.0009765625,-31.999) [-0.357|0.357] "radians" Vector__XXX
+ SG_ Heading_angle_Parameter_C1 : 0|16@1+ (0.000976563,-31.999) [-31.999|32.000056205] "radians" Vector__XXX
 
 BO_ 1914 Next_lane_Right_O: 8 AF01A
  SG_ Curvature_derivative_C3 : 40|16@1+ (3.72E-009,-0.00012206658) [-0.00012|0.00012] "n/a" Vector__XXX
@@ -1288,7 +1288,7 @@ BO_ 1914 Next_lane_Right_O: 8 AF01A
 BO_ 1913 Next_lane_Left_N: 4 AF01A
  SG_ View_range_availability : 31|1@1+ (1,0) [0|1] "" Vector__XXX
  SG_ View_range : 16|15@1+ (0.0030625,0) [0|127.996] "meter" Vector__XXX
- SG_ Heading_angle_Parameter_C1 : 0|16@1+ (0.0009765625,-31.999) [-0.357|0.357] "radians" Vector__XXX
+ SG_ Heading_angle_Parameter_C1 : 0|16@1+ (0.000976563,-31.999) [-31.999|32.000056205] "radians" Vector__XXX
 
 BO_ 1912 Next_lane_Left_M: 8 AF01A
  SG_ Curvature_derivative_C3 : 40|16@1+ (3.72E-009,-0.00012206658) [-0.00012|0.00012] "n/a" Vector__XXX
@@ -1302,7 +1302,7 @@ BO_ 1912 Next_lane_Left_M: 8 AF01A
 BO_ 1909 Next_lane_Left_J: 4 AF01A
  SG_ View_range_availability : 31|1@1+ (1,0) [0|1] "" Vector__XXX
  SG_ View_range : 16|15@1+ (0.0030625,0) [0|127.996] "meter" Vector__XXX
- SG_ Heading_angle_Parameter_C1 : 0|16@1+ (0.0009765625,-31.999) [-0.357|0.357] "radians" Vector__XXX
+ SG_ Heading_angle_Parameter_C1 : 0|16@1+ (0.000976563,-31.999) [-31.999|32.000056205] "radians" Vector__XXX
 
 BO_ 1908 Next_lane_Left_I: 8 AF01A
  SG_ Curvature_derivative_C3 : 40|16@1+ (3.72E-009,-0.00012206658) [-0.00012|0.00012] "n/a" Vector__XXX
@@ -1316,7 +1316,7 @@ BO_ 1908 Next_lane_Left_I: 8 AF01A
 BO_ 1911 Next_lane_Right_L: 4 AF01A
  SG_ View_range_availability : 31|1@1+ (1,0) [0|1] "" Vector__XXX
  SG_ View_range : 16|15@1+ (0.0030625,0) [0|127.996] "meter" Vector__XXX
- SG_ Heading_angle_Parameter_C1 : 0|16@1+ (0.0009765625,-31.999) [-0.357|0.357] "radians" Vector__XXX
+ SG_ Heading_angle_Parameter_C1 : 0|16@1+ (0.000976563,-31.999) [-31.999|32.000056205] "radians" Vector__XXX
 
 BO_ 1910 Next_lane_Right_K: 8 AF01A
  SG_ Curvature_derivative_C3 : 40|16@1+ (3.72E-009,-0.00012206658) [-0.00012|0.00012] "n/a" Vector__XXX
@@ -1330,7 +1330,7 @@ BO_ 1910 Next_lane_Right_K: 8 AF01A
 BO_ 1907 Next_lane_Right_H: 4 AF01A
  SG_ View_range_availability : 31|1@1+ (1,0) [0|1] "" Vector__XXX
  SG_ View_range : 16|15@1+ (0.0030625,0) [0|127.996] "meter" Vector__XXX
- SG_ Heading_angle_Parameter_C1 : 0|16@1+ (0.0009765625,-31.999) [-0.357|0.357] "radians" Vector__XXX
+ SG_ Heading_angle_Parameter_C1 : 0|16@1+ (0.000976563,-31.999) [-31.999|32.000056205] "radians" Vector__XXX
 
 BO_ 1906 Next_lane_Right_G: 8 AF01A
  SG_ Curvature_derivative_C3 : 40|16@1+ (3.72E-009,-0.00012206658) [-0.00012|0.00012] "n/a" Vector__XXX
@@ -1344,7 +1344,7 @@ BO_ 1906 Next_lane_Right_G: 8 AF01A
 BO_ 1905 Next_lane_Left_F: 4 AF01A
  SG_ View_range_availability : 31|1@1+ (1,0) [0|1] "" Vector__XXX
  SG_ View_range : 16|15@1+ (0.0030625,0) [0|127.996] "meter" Vector__XXX
- SG_ Heading_angle_Parameter_C1 : 0|16@1+ (0.0009765625,-31.999) [-0.357|0.357] "radians" Vector__XXX
+ SG_ Heading_angle_Parameter_C1 : 0|16@1+ (0.000976563,-31.999) [-31.999|32.000056205] "radians" Vector__XXX
 
 BO_ 1904 Next_lane_Left_E: 8 AF01A
  SG_ Curvature_derivative_C3 : 40|16@1+ (3.72E-009,-0.00012206658) [-0.00012|0.00012] "n/a" Vector__XXX
@@ -1358,7 +1358,7 @@ BO_ 1904 Next_lane_Left_E: 8 AF01A
 BO_ 1903 Next_lane_Right_D: 4 AF01A
  SG_ View_range_availability : 31|1@1+ (1,0) [0|1] "" Vector__XXX
  SG_ View_range : 16|15@1+ (0.0030625,0) [0|127.996] "meter" Vector__XXX
- SG_ Heading_angle_Parameter_C1 : 0|16@1+ (0.0009765625,-31.999) [-0.357|0.357] "radians" Vector__XXX
+ SG_ Heading_angle_Parameter_C1 : 0|16@1+ (0.000976563,-31.999) [-31.999|32.000056205] "radians" Vector__XXX
 
 BO_ 1902 Next_lane_Right_C: 8 AF01A
  SG_ Curvature_derivative_C3 : 40|16@1+ (3.72E-009,-0.00012206658) [-0.00012|0.00012] "n/a" Vector__XXX
@@ -1641,7 +1641,7 @@ BO_ 1899 Numebr_of_next_lane: 1 AF01A
 BO_ 1901 Next_lane_Left_B: 4 AF01A
  SG_ View_range_availability : 31|1@1+ (1,0) [0|1] "" Vector__XXX
  SG_ View_range : 16|15@1+ (0.0030625,0) [0|127.996] "meter" Vector__XXX
- SG_ Heading_angle_Parameter_C1 : 0|16@1+ (0.0009765625,-31.999) [-0.357|0.357] "radians" Vector__XXX
+ SG_ Heading_angle_Parameter_C1 : 0|16@1+ (0.000976563,-31.999) [-31.999|32.000056205] "radians" Vector__XXX
 
 BO_ 1900 Next_lane_Left_A: 8 AF01A
  SG_ Curvature_derivative_C3 : 40|16@1+ (3.72E-009,-0.00012206658) [-0.00012|0.00012] "n/a" Vector__XXX
@@ -1655,7 +1655,7 @@ BO_ 1900 Next_lane_Left_A: 8 AF01A
 BO_ 1897 LKA_right_lane_B: 4 AF01A
  SG_ View_range_availability : 31|1@1+ (1,0) [0|1] "" Vector__XXX
  SG_ View_range : 16|15@1+ (0.0030625,0) [0|127.996] "meter" Vector__XXX
- SG_ Heading_angle_Parameter_C1 : 0|16@1+ (0.0009765625,-31.999) [-0.357|0.357] "radians" Vector__XXX
+ SG_ Heading_angle_Parameter_C1 : 0|16@1+ (0.000976563,-31.999) [-31.999|32.000056205] "radians" Vector__XXX
 
 BO_ 1896 LKA_right_lane_A: 8 AF01A
  SG_ Curvature_derivative_C3 : 40|16@1+ (3.72E-009,-0.00012206658) [-0.00012|0.00012] "n/a" Vector__XXX
@@ -1667,7 +1667,7 @@ BO_ 1896 LKA_right_lane_A: 8 AF01A
  SG_ Width_right_marking : 56|8@1+ (0.01,0) [0|2.5] "m" Vector__XXX
 
 BO_ 1895 LKA_left_lane_B: 4 AF01A
- SG_ Heading_angle_Parameter_C1 : 0|16@1+ (0.0009765625,-31.999) [-0.357|0.357] "radians" Vector__XXX
+ SG_ Heading_angle_Parameter_C1 : 0|16@1+ (0.000976563,-31.999) [-31.999|32.000056205] "radians" Vector__XXX
  SG_ View_range_availability : 31|1@1+ (1,0) [0|1] "" Vector__XXX
  SG_ View_range : 16|15@1+ (0.0030625,0) [0|127.996] "meter" Vector__XXX
 
@@ -2326,7 +2326,7 @@ VAL_ 1280 CAN_TX_TRACK_MED_RANGE_MODE 3 "Both_MR_LR_Update" 2 "LR_Update_Only" 1
 VAL_ 1280 CAN_TX_TRACK_GROUPING_CHANGED 1 "GroupingChanged" 0 "GroupingUnchanged" ;
 VAL_ 1280 CAN_TX_TRACK_BRIDGE_OBJECT 1 "Bridge" 0 "Not_Bridge" ;
 VAL_ 1251 CAN_TX_TRUCK_TARGET_DET 1 "Detected" 0 "Not_Detected" ;
-VAL_ 1251 CAN_TX_SIDELIBE_BLOCKAGE 1 "On" 0 "Off" ;
+VAL_ 1251 CAN_TX_SIDELOBE_BLOCKAGE 1 "On" 0 "Off" ;
 VAL_ 1251 CAN_TX_PARTIAL_BLOCKAGE 1 "Blocked" 0 "Not Blocked" ;
 VAL_ 1251 CAN_TX_MR_LR_MODE 3 "Output all medium-range and long" 2 "Output only long-range tracks" 1 "Output only medium-range tracks" 0 "Reserved" ;
 VAL_ 1251 CAN_TX_LR_ONLY_GRATING_LOBE_DET 1 "On" 0 "Off" ;

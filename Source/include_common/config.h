@@ -27,8 +27,9 @@ typedef unsigned short int U16;
 typedef unsigned int S32;
 typedef unsigned int U32;
 
-#define R(a) (a-1)
-#define L(b) (b-65)
+
+/* 配置代码工具的版本号 */
+#define VERSION "V1.1"
 
 /* 信号表格扫面的结束行数，第一个sheet */
 #define ROW_SIG_STA		R(2)
@@ -37,6 +38,5 @@ typedef unsigned int U32;
 /* 消息表格扫面的行数，第二个sheet */
 #define ROW_MSG_STA R(2)
 #define ROW_MSG_END R(63)
-
 
 #endif // __CONFIG_

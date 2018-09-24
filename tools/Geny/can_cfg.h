@@ -20,7 +20,7 @@
                        Derivates:    Tms320_TDA2X
                
                Channel "Channel0":
-                       Databasefile: D:\code\SocCode\linux\gen\AF01A_DCAN.dbc
+                       Databasefile: D:\code\McuCode\GENy-IL-interfaceGenerator\tools\AF01A_DCAN.dbc
                        Bussystem:    CAN
                        Manufacturer: GAC
                        Node:         AF01A
@@ -177,8 +177,8 @@
 #define C_DISABLE_CAN_TX_CONF_MSG_ACCESS
 #define C_DISABLE_CAN_TX_CONF_FCT
 
-#define C_DISABLE_TX_POLLING
-#define C_DISABLE_RX_BASICCAN_POLLING
+#define C_ENABLE_TX_POLLING
+#define C_ENABLE_RX_BASICCAN_POLLING
 #define C_DISABLE_RX_FULLCAN_POLLING
 #define C_DISABLE_ERROR_POLLING
 #define C_DISABLE_WAKEUP_POLLING
@@ -240,11 +240,11 @@
 /* begin Fileversion check */
 #ifndef SKIP_MAGIC_NUMBER
 #ifdef MAGIC_NUMBER
-  #if MAGIC_NUMBER != 297263386
+  #if MAGIC_NUMBER != 297367898
       #error "The magic number of the generated file <D:\code\McuCode\GENy-IL-interfaceGenerator\tools\Geny\can_cfg.h> is different. Please check time and date of generated files!"
   #endif
 #else
-  #define MAGIC_NUMBER 297263386
+  #define MAGIC_NUMBER 297367898
 #endif  /* MAGIC_NUMBER */
 #endif  /* SKIP_MAGIC_NUMBER */
 

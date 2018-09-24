@@ -22,6 +22,9 @@
 #include "config.h"
 #include "libxl.h"
 
+#define R(a) (a-1)
+#define L(b) (b-65)
+
 typedef struct __message
 {
 	char name[50];
@@ -49,4 +52,7 @@ extern void CloseExcel(BookHandle book);
 extern void ProcessExcel(BookHandle book);
 extern void ProcessExcelSheet1(BookHandle book);
 extern void ProcessExcelSheet2(BookHandle book);
+extern int GenCode_dcanTx_gen_c(void);
+extern int GenCode_dcanTx_gen_h(void);
+
 #endif /* PROCESS_EXCEL */

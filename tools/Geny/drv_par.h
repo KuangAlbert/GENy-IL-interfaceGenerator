@@ -20,7 +20,7 @@
                        Derivates:    Tms320_TDA2X
                
                Channel "Channel0":
-                       Databasefile: D:\code\SocCode\linux\gen\AF01A_DCAN.dbc
+                       Databasefile: D:\code\McuCode\GENy-IL-interfaceGenerator\tools\AF01A_DCAN.dbc
                        Bussystem:    CAN
                        Manufacturer: GAC
                        Node:         AF01A
@@ -671,7 +671,7 @@ typedef struct _c_Reference_points_msgTypeTag
 } _c_Reference_points_msgType;
 typedef struct _c_Numebr_of_next_lane_msgTypeTag
 {
-  vbittype Number_lane_markers_reported0x76B : 8;
+  vbittype Number_lane_markers_reported_0x76B : 8;
 } _c_Numebr_of_next_lane_msgType;
 typedef struct _c_Next_lane_Left_B_msgTypeTag
 {
@@ -908,7 +908,7 @@ typedef struct _c_ESR_Status9_msgTypeTag
   vbittype CAN_TX_SIDESLIP_ANGLE_0 : 8;
   vbittype CAN_TX_SERIAL_NUM_3RD_BYTE : 8;
   vbittype CAN_TX_FILTERED_XOHP_ACC_CIPV_1 : 1;
-  vbittype CAN_TX_WATEG_SPRAY_TARGET_ID : 7;
+  vbittype CAN_TX_WATER_SPRAY_TARGET_ID : 7;
   vbittype CAN_TX_FILTERED_XOHP_ACC_CIPV_0 : 8;
   vbittype CAN_TX_PATH_ID_ACC_2 : 8;
   vbittype CAN_TX_PATH_ID_ACC_3 : 8;
@@ -1753,7 +1753,7 @@ typedef struct _c_ESR_Track23_msgTypeTag
   vbittype CAN_TX_TRACK_RANGE_23_0 : 8;
   vbittype CAN_TX_TRACK_RANGE_ACCEL_23_1 : 2;
   vbittype CAN_TX_TRACK_WIDTH_23 : 4;
-  vbittype CAN_TX_TRACK_ROLLING_COUNT : 1;
+  vbittype CAN_TX_TRACK_ROLLING_COUNT_23 : 1;
   vbittype CAN_TX_TRACK_BRIDGE_OBJECT_23 : 1;
   vbittype CAN_TX_TRACK_RANGE_ACCEL_23_0 : 8;
   vbittype CAN_TX_TRACK_RANGE_RATE_23_1 : 6;
@@ -2183,7 +2183,7 @@ typedef struct _c_ESR_Status4_msgTypeTag
   vbittype CAN_TX_ROLLING_COUNT_3 : 2;
   vbittype CAN_TX_MR_LR_MODE : 2;
   vbittype CAN_TX_PARTIAL_BLOCKAGE : 1;
-  vbittype CAN_TX_SIDELIBE_BLOCKAGE : 1;
+  vbittype CAN_TX_SIDELOBE_BLOCKAGE : 1;
   vbittype CAN_TX_LR_ONLY_GRATING_LOBE_DET : 1;
   vbittype CAN_TX_TRUCK_TARGET_DET : 1;
   vbittype CAN_TX_PATH_ID_ACC : 8;
@@ -2191,7 +2191,7 @@ typedef struct _c_ESR_Status4_msgTypeTag
   vbittype CAN_TX_PATH_ID_CMBB_STAT : 8;
   vbittype CAN_TX_PATH_ID_FCW_MOVE : 8;
   vbittype CAN_TX_PATH_ID_FCW_STAT : 8;
-  vbittype CAN_TX_AUTO_ALIGE_ANGLE : 8;
+  vbittype CAN_TX_AUTO_ALIGN_ANGLE : 8;
   vbittype CAN_TX_PATH_ID_ACC_STAT : 8;
 } _c_ESR_Status4_msgType;
 typedef struct _c_ESR_Status3_msgTypeTag
@@ -3465,11 +3465,11 @@ V_MEMRAM0 extern  V_MEMRAM1 _c_ESR_Status2_buf V_MEMRAM2 ESR_Status2;
 /* begin Fileversion check */
 #ifndef SKIP_MAGIC_NUMBER
 #ifdef MAGIC_NUMBER
-  #if MAGIC_NUMBER != 297263386
+  #if MAGIC_NUMBER != 297367898
       #error "The magic number of the generated file <D:\code\McuCode\GENy-IL-interfaceGenerator\tools\Geny\drv_par.h> is different. Please check time and date of generated files!"
   #endif
 #else
-  #define MAGIC_NUMBER 297263386
+  #define MAGIC_NUMBER 297367898
 #endif  /* MAGIC_NUMBER */
 #endif  /* SKIP_MAGIC_NUMBER */
 

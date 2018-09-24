@@ -26,7 +26,7 @@
 
 
 /* 为了让生成的EXE运行时不显示黑框 */
-//#pragma comment( linker, "/subsystem:windows /entry:mainCRTStartup" )
+#pragma comment( linker, "/subsystem:windows /entry:mainCRTStartup" )
 
 int main(void)
 {
@@ -48,12 +48,15 @@ int main(void)
 	ProcessExcelSheet2(book);
 	CloseExcel(book);
 
+	GenCode_dcanTx_gen_c();
+	GenCode_dcanTx_gen_h();
+
 	fclose(logFile);/* 关闭文件 */
 
 	ret = 0;
 
-	printf("\nPress any key to exit...");
-	_getch();
+	//printf("\nPress any key to exit...");
+	//_getch();
 
 	return ret;
 }
